@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="style/style.css">
   </head>
   <body>
+    <!-- nav section start -->
     <nav class="navbar navbar-expand-lg">
       <div class="container">
         <div class="logo me-2">
@@ -83,7 +84,9 @@
         </div>
       </div>
     </nav>
+    <!-- nav section end -->
 
+    <!-- hero section end -->
     <section class="hero">
       <div class="container">
         <div class="row d-flex align-items-center">
@@ -97,34 +100,38 @@
             </div>
             <div class="row g-2">
               <div class="col-6 col-md-4">
-                <div class="form-select select_iteam">
-                    <option value="">বিভাগ</option>
-                </div>
+                <select class="form-select select_iteam">
+                    <option>বিভাগ</option>
+                    <option>বিভাগ</option>
+                    <option>বিভাগ</option>
+                    <option>বিভাগ</option>
+                </select>
+            </div>
+              <div class="col-6 col-md-4">
+                  <select name="" id="" class="form-select select_iteam">
+                    <option value="">জেলা</option>
+                  </select>
               </div>
               <div class="col-6 col-md-4">
-                <div class="form-select select_iteam">
-                  <option value="">জেলা</option>
-                </div>
+                  <select name="" id="" class="form-select select_iteam">
+                    <option value="">থানা</option>
+                  </select>
               </div>
               <div class="col-6 col-md-4">
-                <div class="form-select select_iteam">
-                  <option value="">থানা</option>
-                </div>
-              </div>
-              <div class="col-6 col-md-4">
-                <div class="form-select select_iteam">
+                <select name="" id="" class="form-select select_iteam">
                   <option value="">ইউনিয়ন</option>
-                </div>
+                </select>
+                 
               </div>
               <div class="col-6 col-md-4">
-                <div class="form-select select_iteam">
-                  <option value="">গ্রাম</option>
-                </div>
+                  <select name="" id="" class="form-select select_iteam">
+                    <option value="">গ্রাম</option>
+                  </select>
               </div>
               <div class="col-6 col-md-4">
-                <div class="form-select select_iteam">
-                  <option value="">গাড়ি</option>
-                </div>
+                  <select name="" id="" class="form-select select_iteam">
+                    <option value="">গাড়ি</option>
+                  </select>
               </div>
                 <div class="submit">
                   <button class="btn btn-danger mt-3 w-100">এখানে সার্চ করুন</button>
@@ -140,7 +147,54 @@
         
       </div>
     </section>
+    <!-- hero section end -->
 
+    <!-- vehicles_list section start -->
+    <section class="vehicles_list">
+      <div class="container">
+        <div class="row">
+          <div class="d-flex align-items-center justify-content-between">
+            <div class="card p-3">
+              <div class="deatils">
+                <img src="images/Group (6).svg" alt="">
+                <p>সি এন জি</p>
+              </div>
+            </div>
+            <div class="card p-3">
+              <div class="deatils">
+                <img src="images/Group (7).svg" alt="">
+                <p>হায়েস</p>
+              </div>
+            </div>
+            <div class="card p-3">
+              <div class="deatils">
+                <img src="images/Group (2).svg" alt="">
+                <p>কার</p>
+              </div>
+            </div>
+            <div class="card p-3">
+              <div class="deatils">
+                <img src="images/Group (3).svg" alt="">
+                <p>মাইক্রো</p>
+              </div>
+            </div>
+            <div class="card p-3">
+              <div class="deatils">
+                <img src="images/Group (4).svg" alt="">
+                <p>বাইক</p>
+              </div>
+            </div>
+            <div class="card p-3">
+              <div class="deatils">
+                <img src="images/Group (5).svg" alt="">
+                <p>পার্সেল</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- vehicles_list section end -->
      <!-- Footer Part start -->
 
      <footer class="bg-dark text-light pt-5 pb-4">
@@ -157,7 +211,6 @@
                       <a href="#" class="mr-3"><img src="images/image 31.png" alt="apple_img"></a>
                   </div>
               </div>
-
               <!-- Useful Links -->
               <div class="col-md-2 mb-4">
                   <h6 class="text-uppercase">Useful Links</h6>
@@ -168,7 +221,6 @@
                       <li><a href="#" class="text-light text-decoration-none">Team</a></li>
                   </ul>
               </div>
-
               <!-- Help & Support -->
               <div class="col-md-2 mb-4">
                   <h6 class="text-uppercase">Help & Support</h6>
@@ -179,7 +231,6 @@
                       <li><a href="#" class="text-light text-decoration-none">Support</a></li>
                   </ul>
               </div>
-
               <!-- Resources -->
               <div class="col-md-2 mb-4">
                   <h6 class="text-uppercase">Resources</h6>
@@ -191,9 +242,7 @@
                   </ul>
               </div>
           </div>
-
             <!-- Social Links -->
-
           <div class="d-flex justify-content-between align-items-center mt-4">
             <p class="mb-0">© All Right Reserved</p>
             <div class="d-flex gap-3">

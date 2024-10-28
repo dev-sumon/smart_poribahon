@@ -1,3 +1,5 @@
+/* home page css start */
+/* nav section css start */
 .navbar .menu_bar .menu{
     color: #051E38;
     font-family: "Hind Siliguri";
@@ -29,9 +31,8 @@
     color: #FFFFFF;
     background: linear-gradient(94.75deg, #FF2121 0.75%, #FF6060 106.31%);
 }
-/* .hero .custom-gap{
-    gap: 20px;
-} */
+/* nav section css end */
+/* hero section css start */
 .hero .title h3{
     color: #141F39;
     font-family: "Hind Siliguri";
@@ -68,9 +69,9 @@
 }
 .hero .select_iteam{
     border: 1px solid #FF2727;
+    font-family: 'Hind Siliguri';
 }
 .hero .select_iteam option{
-    font-family: 'Hind Siliguri';
     font-style: normal;
     font-size: 16px;
     font-weight: 500;
@@ -79,13 +80,44 @@
 }
 .hero .submit{
     color: #FFFFFF;
-    font-family: 'Hind Siliguri';
     font-style: normal;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
 }
+/* hero section css end */
+/* vehicles_list section css start */
+.vehicles_list{
+    margin-bottom: 100px;
+}
+.vehicles_list .card{
+    width: 174px;
+    height: 145px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.vehicles_list .deatils img{
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+}
 
+.vehicles_list .deatils p{
+   color: #000000;
+   font-family: 'Hind Siliguri';
+   font-size: 18px;
+   line-height: 32px;
+   font-weight: 500;
+}
+
+
+/* Group 2506 */
+
+/* vehicles_list section css end */
+/* home page css start */
 
 /* Footer start */
 
