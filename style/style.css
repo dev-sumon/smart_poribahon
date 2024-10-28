@@ -84,6 +84,40 @@
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
-    
-
 }
+
+
+/* Footer start */
+
+footer {
+    background-color: #051E38;
+}
+
+footer .btn-outline-light {
+    border-color: #B4B6C4;
+    color: #B4B6C4;
+}
+
+footer .btn-outline-light:hover {
+    background-color: #B4B6C4;
+    color: #0a1a2f;
+}
+
+footer h6 {
+    font-weight: bold;
+}
+
+footer h6, p {
+   font-family: "Chivo", serif;
+}
+
+footer p, footer ul li {
+    font-size: 14px;
+}
+
+footer ul li a:hover {
+    color: #B4B6C4;
+    text-decoration: underline;
+}
+
+/* Footer end */
