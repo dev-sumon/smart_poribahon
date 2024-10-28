@@ -15,6 +15,7 @@
     line-height: 16px;
 }
 .login_register button{
+    padding: 16px 20px;
     color: #051E38;
     font-family: "Hind Siliguri";
     font-size: 16px;
@@ -27,4 +28,62 @@
 .login_register button:hover{
     color: #FFFFFF;
     background: linear-gradient(94.75deg, #FF2121 0.75%, #FF6060 106.31%);
+}
+/* .hero .custom-gap{
+    gap: 20px;
+} */
+.hero .title h3{
+    color: #141F39;
+    font-family: "Hind Siliguri";
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 46px;
+    letter-spacing: 0.2px;
+}
+.hero .title h2{
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 68px;
+    line-height: 70px;
+    letter-spacing: 0.2px;
+    padding-top: 11px;
+
+    background: linear-gradient(90.56deg, #FF2626 0.49%, #FF5858 99.81%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.hero .title p{
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #141F39;
+    opacity: 0.7;
+    padding-right: 20px;
+
+}
+.hero .select_iteam{
+    border: 1px solid #FF2727;
+}
+.hero .select_iteam option{
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #061E38;
+}
+.hero .submit{
+    color: #FFFFFF;
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    
+
 }
