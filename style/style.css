@@ -1,0 +1,30 @@
+.navbar .menu_bar .menu{
+    color: #051E38;
+    font-family: "Hind Siliguri";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+}
+.navbar .language .menu{
+    color: #051E38;
+    font-family: "Hind Siliguri";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+}
+.login_register button{
+    color: #051E38;
+    font-family: "Hind Siliguri";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    border: 1px solid #FF2727;
+    transition:  0.5s;
+}
+.login_register button:hover{
+    color: #FFFFFF;
+    background: linear-gradient(94.75deg, #FF2121 0.75%, #FF6060 106.31%);
+}
