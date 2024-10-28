@@ -112,11 +112,16 @@
    line-height: 32px;
    font-weight: 500;
 }
-
-
-/* Group 2506 */
-
 /* vehicles_list section css end */
+/* search_section css start  */
+    .search_section .container{
+        background-color: #FFE5E5;
+        border-radius: 3px;
+    }
+    .search_section{
+        margin-bottom: 50px;
+    }
+/* search_section css end */
 /* home page css start */
 
 /* Footer start */
