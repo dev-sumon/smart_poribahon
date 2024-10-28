@@ -85,6 +85,54 @@
     font-weight: 500;
     line-height: 24px;
 }
+/* hero section End! */
+
+/* Connected with us section start */
+
+.custom-card {
+    border: none;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+.icon-container {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    background-color: #fce4ec;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.card-text {
+    font-size: 16px;
+    font-weight: 500;
+}
+.price {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.connected_us .container .section-title {
+    font-family: 'Hind Siliguri', sans-serif; 
+    font-weight: 600;
+    font-size: 48px; 
+    line-height: 56px;
+    letter-spacing: 0.2px; 
+    text-align: center;
+}
+.connected_us .container .card-text {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+}
+
+
+/* Connected with us section End! */
 
 
 /* Footer start */
