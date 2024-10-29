@@ -90,21 +90,41 @@
 /* Connected with us section start */
 
 .custom-card {
+    width: 256px;
+    height: 280px;
+    padding-top: 20% !important;
     border: none;
     border-radius: 10px;
     background-color: #FFFFFF;
     text-align: center;
 }
 .icon-container {
-    width: 70px;
-    height: 70px;
+    width: 90px;
+    height: 90px;
     margin: 0 auto;
-    background-color: #fce4ec;
     border-radius: 50%;
+    border: 1px solid #FF4040;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
+    padding: 15px;
+}
+.icon-container .train{
+    width: 58px; 
+    height: 57.14px;
+}
+.icon-container .car{
+    width: 50px; 
+    height: 50px;
+}
+.icon-container .man{
+    width: 65px; 
+    height: 65px;
+}
+.icon-container .driver{
+    width: 67px; 
+    height: 67px;
 }
 .card-text {
     font-size: 16px;
@@ -114,10 +134,9 @@
     font-size: 18px;
     font-weight: bold;
 }
-
 .connected_us .container .section-title {
     font-family: 'Hind Siliguri', sans-serif; 
-    font-weight: 600;
+    font-weight: 600; /* Semibold weight */
     font-size: 48px; 
     line-height: 56px;
     letter-spacing: 0.2px; 
@@ -125,9 +144,16 @@
 }
 .connected_us .container .card-text {
     font-family: 'Hind Siliguri', sans-serif;
-    font-weight: 500;
+    font-weight: 500; /* medium font */
     font-size: 20px;
     line-height: 28px;
+    letter-spacing: 0.2px;
+}
+.connected_us .container .price {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 600; /* Semibold weight */
+    font-size: 28px;
+    line-height: 38px;
     letter-spacing: 0.2px;
 }
 
