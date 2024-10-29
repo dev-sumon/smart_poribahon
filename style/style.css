@@ -1,3 +1,12 @@
+/*  global css start */
+body{
+    font-family: "Hind Siliguri";
+}
+/*  global css end */
+
+
+
+
 /* home page css start */
 /* nav section css start */
 .navbar .menu_bar .menu{
@@ -114,19 +123,228 @@
 }
 /* vehicles_list section css end */
 /* search_section css start  */
-    .search_section .container{
-        background-color: #FFE5E5;
-        border-radius: 3px;
-    }
-    .search_section{
-        margin-bottom: 50px;
-    }
+.search_section .container{
+    background-color: #FFE5E5;
+    border-radius: 5px;
+}
+.search_section{
+    margin-bottom: 50px;
+}
+.search_section .text{
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    color: #051E38;
+    padding-top: 1rem;
+    padding-left: 43px;
+}
+.search_section .btn{
+    color: #FFFFFF;
+    font-family: 'Hind Siliguri';
+    padding: 15px 30px;
+    font-weight: 500;
+    background: linear-gradient(91.25deg, #FF2727 -4.4%, #FF5454 101.68%);
+    border: none;
+}
+.search_section .search{
+    font-family: 'Hind Siliguri';
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+}
+.search_section .search:focus{
+    outline: #FF2727;
+    box-shadow: none;
+    border: 1px solid #FF2727;
+}
 /* search_section css end */
+/* help_us section css start */
+
+.help_us .help_us_headr{
+    padding-bottom: 65px;
+}
+.help_us .help_us_headr .title h2{
+    color: #141F39;
+    /* font-family: 'Hind Siliguri'; */
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0.2px;
+}
+.help_us .help_us_headr .desc{
+    /* width: 366px; */
+}
+.help_us .help_us_headr .desc p{
+    color: #141F39;
+    font-family: 'Hind Siliguri';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+}
+.icon-circle {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    color: #FF4040;
+    border-radius: 50%;
+    font-weight: bold;
+    font-family: "Manrope", sans-serif;
+    position: relative;
+    overflow: hidden;
+    font-size: 25.24px;
+    font-weight: 800;
+    border: 4px solid #FF4040;
+    padding: 20px;
+}
+.feature-box {
+    color: #000000;
+    background: white;
+    font-family: 'Hind Siliguri';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: auto;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(31, 29, 29, 0.1);
+    width: 366px;
+    position: absolute;
+}
+.feature-text {
+    color: #000000;
+    background: white;
+    font-family: 'Hind Siliguri';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: auto;
+}
+.car-container {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+    padding-bottom: 200px;
+}
+.car-image {
+    width: 100%;
+}
+.feature-box-1 { top: -18%; left: -50%; }
+.feature-box-2 { top: -18%; right: -50%; }
+.feature-box-3 { bottom: 28%; left: -53%; }
+.feature-box-4 { bottom: 34%; right: -62%; }
+.feature-box-5 { bottom: 7%; left: 60%; transform: translateX(-50%); }
+/* help_us section css end */
+/* FAQ section css start */
+/* .faq .faq-item {
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    margin-bottom: 10px;
+}
+.faq .faq-item-header {
+    cursor: pointer;
+}
+.faq h2{
+font-family: 'Hind Siliguri';
+font-style: normal;
+font-weight: 700;
+font-size: 52px;
+line-height: 60px;
+letter-spacing: 0.2px;
+background: linear-gradient(90.56deg, #FF2626 0.49%, #FF5858 99.81%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+} */
+
+
+
+.faq-section {
+    width: 100%;
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.faq-title {
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 60px;
+    letter-spacing: 0.2px;
+    background: linear-gradient(90.56deg, #FF2626 0.49%, #FF5858 99.81%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+}
+
+.faq-item {
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 10px;
+}
+
+.faq-question {
+    font-family: 'Hind Siliguri';
+    font-size: 24px;
+    font-weight: 500;
+    background-color: #FFE5E5;
+    color: #051E38;
+    line-height: 34px;
+    padding: 15px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    position: relative;
+    font-weight: bold;
+}
+
+.faq-question::after {
+    content: "+";
+    font-size: 30px;
+    font-weight: 500;
+    position: absolute;
+    right: 20px;
+    color: #FF2929;
+    transition: transform 0.3s;
+}
+
+.faq-item.open .faq-question::after {
+    content: "-";
+    font-size: 30px;
+    font-weight: 500;
+    color: #FF2929;
+}
+
+.faq-answer {
+    font-family: 'Hind Siliguri';
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    display: none;
+    background-color: #fff;
+    padding: 15px 20px;
+    color: #051E38;
+    border: 1px solid #EA1827;
+}
+
+.faq-item.open .faq-answer {
+    display: block;
+}
+/* FAQ section css end */
+
 /* home page css start */
 
 /* Footer start */
 
 footer {
+    padding-top: 100px;
     background-color: #051E38;
 }
 

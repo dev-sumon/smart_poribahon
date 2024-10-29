@@ -10,15 +10,18 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
     <!-- Google Fonts - Hind Siliguri -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+      />
        <!-- font-family: "Chivo", serif; -->
        <link rel="preconnect" href="https://fonts.googleapis.com">
        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
        <link href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
- 
+        <!-- font-family: "Manrope", serif; -->
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet"> 
     <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
@@ -204,26 +207,164 @@
       <div class="container">
        
         <div class="row d-flex align-items-center">
-          <div class="col-2 d-flex align-items-center">
+          <div class="col-4 d-flex align-items-center">
             <div class="text">
-              <p>সরাসরি গাড়ি অথবা ড্রাইভার কে খুঁজুন </p>
+              <p>সরাসরি গাড়ি অথবা ড্রাইভার কে খুঁজুন</p>
             </div>
           </div>
-          <div class="col-8">
+          <div class="col-6">
             <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <input class="form-control me-2 search" type="search" placeholder="গাড়ির অথবা ড্রাইভার নাম্বার" aria-label="Search">
             </form>
           </div>
           <div class="col-2">
             <form class="d-flex" role="search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
+              <button class="btn btn-outline-success" type="submit">ক্লিক করুন</button>
             </form>
           </div>
         </div>
       </div>
     </section>
-
     <!-- search driver section end  -->
+
+    <!-- help_us section start  -->
+    <section class="help_us">
+      <div class="container">
+        <div class="help_us_headr text-center">
+          <div class="title">
+            <h2>আমরা কিভাবে আপনাকে সহয়ায়তা করি</h2>
+          </div>
+          <div class="desc">
+            <p>
+              যেকোনো যাত্রী প্রয়োজনের সময় তার নিকটবর্তী স্টেশনে গাড়ির জন্য সিগন্যাল পাঠাতে <br>
+              পারবেন।ফলে কাউকে ঘণ্টার পর ঘণ্টা গাড়ির জন্য অপেক্ষা করতে হবে না। 
+            </p>
+          </div>
+        </div>
+        <div class="car-container">
+            <!-- Car Image -->
+            <img src="images/Group 2.png" alt="Car and Phone" class="car-image">
+    
+            <!-- Feature Boxes with Absolute Positioning -->
+            <div class="feature-box feature-box-1">
+                <div class="icon-circle">1</div>
+                <p class="feature-text">আপনার চেনা কিছু গাড়িতে হারিয়ে গেলে আপনার এটা খুব সহজে খুঁজে বের করতে পারবেন।</p>
+            </div>
+    
+            <div class="feature-box feature-box-2">
+                <div class="icon-circle">2</div>
+                <p class="feature-text">গাড়ীটি রিয়েলটাইম স্মার্ট ফিচারের মাধ্যমে চালাতে পারবেন।</p>
+            </div>
+    
+            <div class="feature-box feature-box-3">
+                <div class="icon-circle">3</div>
+                <p class="feature-text">ঘরে বসেই চার্জ দেওয়া সম্ভব, ইন্টারনেটের মাধ্যমে লোকেশন দেখার জন্য গাড়ীর নিরাপত্তা বাড়াতে সাহায্য করে।</p>
+            </div>
+    
+            <div class="feature-box feature-box-4">
+                <div class="icon-circle">4</div>
+                <p class="feature-text">গাড়ীর স্ট্যাটাস দেখতে যেকোন স্মার্ট ডিভাইস দিয়ে QR কোড ব্যবহার করে দেখতে পারবেন।</p>
+            </div>
+    
+            <div class="feature-box feature-box-5">
+                <div class="icon-circle">5</div>
+                <p class="feature-text">প্রতিটি গাড়ির জন্য QR কোডের মাধ্যমে ডিজিটাল রেজিস্ট্রেশন করা থাকে।</p>
+            </div>
+        </div>
+    </div>
+  </section>
+    <!-- help_us section end  -->
+    <!-- FAQ section start  -->
+    <section class="faq">
+      <!-- <div class="container mt-5">
+          <h2 class="text-center">সচরাচর আপনার প্রশ্ন সমূহ</h2>
+          <div class="accordion" id="faqAccordion">
+              <div class="faq-item">
+                  <div class="faq-item-header bg-light p-3 d-flex justify-content-between align-items-center" id="headingOne" onclick="toggleAnswer('answerOne', this)">
+                      <h5 class="mb-0">
+                          <button class="btn btn-link text-decoration-none" type="button">
+                              স্মার্ট বাংলাদেশ গাড়ির প্রধান সুবিধা কী?
+                          </button>
+                      </h5>
+                      <span class="toggle-icon">+</span>
+                  </div>
+                  <div id="answerOne" class="collapse">
+                      <div class="">
+                          Our return policy allows returns within 30 days of purchase. Items must be unused and in original packaging.
+                      </div>
+                  </div>
+              </div>
+              <div class="faq-item">
+                  <div class="faq-item-header bg-light p-3 d-flex justify-content-between align-items-center" id="headingTwo" onclick="toggleAnswer('answerTwo', this)">
+                      <h5 class="mb-0">
+                          <button class="btn btn-link text-decoration-none" type="button">
+                              How long does shipping take?
+                          </button>
+                      </h5>
+                      <span class="toggle-icon">+</span>
+                  </div>
+                  <div id="answerTwo" class="collapse">
+                      <div class="card-body">
+                          Shipping usually takes between 5-7 business days, depending on your location.
+                      </div>
+                  </div>
+              </div>
+              <div class="faq-item">
+                  <div class="faq-item-header bg-light p-3 d-flex justify-content-between align-items-center" id="headingThree" onclick="toggleAnswer('answerThree', this)">
+                      <h5 class="mb-0">
+                          <button class="btn btn-link text-decoration-none" type="button">
+                              Can I change my order?
+                          </button>
+                      </h5>
+                      <span class="toggle-icon">+</span>
+                  </div>
+                  <div id="answerThree" class="collapse">
+                      <div class="card-body">
+                          Yes, you can change your order within 24 hours of placing it. Please contact customer service for assistance.
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div> -->
+      <div class="container d-flex justify-content-center">
+        <div class="faq-section">
+          <div class="faq-title  py-5 pb-5">সচরাচর আপনার প্রশ্ন সমূহ</div>
+      
+          <div class="faq-item">
+              <div class="faq-question">স্মার্ট বাংলাদেশ গাড়ির প্রধান সুবিধা কী?</div>
+              <div class="faq-answer">স্মার্ট বাংলাদেশ গাড়ি বিশেষত পরিবহন নিরাপত্তা, সেবা মান বৃদ্ধি এবং দ্রুততর যাতায়াত ব্যবস্থার জন্য ডিজাইন করা হয়েছে।</div>
+          </div>
+      
+          <div class="faq-item">
+              <div class="faq-question">স্মার্ট বাংলাদেশ গাড়ির চালকরা কি প্রশিক্ষিত?</div>
+              <div class="faq-answer">হ্যাঁ, আমাদের সব চালককে প্রশিক্ষণ দেওয়া হয়ছে এবং তারা পরিবহন নীতিমালা সম্পর্কে সচেতন। নিরাপত্তা এবং সেবা মান বজায় রাখতে আমাদের চালকদের সর্বদা প্রশিক্ষকদ্বারা নজরে রাখা হয়।</div>
+          </div>
+      
+          <div class="faq-item">
+              <div class="faq-question">আমি কি যাত্রার সময় কিছু হারিয়ে গেলে খুঁজে পাব?</div>
+              <div class="faq-answer">যাত্রার সময় কিছু হারালে দয়া করে আমাদের সাপোর্ট টিমের সাথে যোগাযোগ করুন।</div>
+          </div>
+      
+          <div class="faq-item">
+              <div class="faq-question">স্মার্ট বাংলাদেশ গাড়ির মানেটি কী?</div>
+              <div class="faq-answer">স্মার্ট বাংলাদেশ গাড়ি মানে উন্নত প্রযুক্তি এবং পরিষেবা যা যাত্রা আরও সহজ করে।</div>
+          </div>
+      
+          <div class="faq-item">
+              <div class="faq-question">বাংলাদেশ স্মার্ট পরিবহন কি কাজে করে?</div>
+              <div class="faq-answer">বাংলাদেশ স্মার্ট পরিবহন একটি নিরাপদ ও উন্নত যাতায়াত ব্যবস্থা প্রদান করে।</div>
+          </div>
+      
+          <div class="faq-item">
+              <div class="faq-question">বাংলাদেশ স্মার্ট পরিবহন কেন প্রয়োজন?</div>
+              <div class="faq-answer">প্রযুক্তিগত উন্নতি ও যাতায়াত ব্যবস্থার মান উন্নয়নের জন্য বাংলাদেশ স্মার্ট পরিবহন অপরিহার্য।</div>
+          </div>
+      </div>
+      </div>
+  </section>
+  
+  
+    <!-- EAQ section end  -->
      <!-- Footer Part start -->
      <footer class="bg-dark text-light pt-5 pb-4">
       <div class="container">
@@ -285,7 +426,20 @@
 
           <!-- Footer part End! -->
 
-
+          <script>
+            // JavaScript for toggling the FAQ answers
+            document.querySelectorAll('.faq-question').forEach(question => {
+                question.addEventListener('click', () => {
+                    const faqItem = question.parentElement;
+                    faqItem.classList.toggle('open');
+                });
+            });
+        </script>
+        
+        
+    <!-- FAQ JS start -->
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <!-- Bootstrap JS (with Popper) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   </body>
