@@ -99,6 +99,14 @@ body{
 .vehicles_list{
     margin-bottom: 100px;
 }
+.vehicles_list a{
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Hind Siliguri';
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 500;
+}
 .vehicles_list .card{
     width: 174px;
     height: 145px;
@@ -338,8 +346,60 @@ background-clip: text;
     display: block;
 }
 /* FAQ section css end */
-
 /* home page css start */
+
+/* CNG Page design start */
+/* noptice section design start */
+.notice .title{
+    color: #000000;
+    font-family: 'Hind Siliguri';
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    font-weight: 500;
+}
+.notice .notice_list{
+    display: flex;
+    align-items: center !important;
+}
+.notice .notice_list i{
+    font-size: 24px;
+    color: #FFFFFF;
+    width: 24px;
+    height: 24px;
+    background: linear-gradient(270deg, #FF2424 0%, #FF5656 100%);
+}
+
+.icon-button {
+    width: 25px;
+    height: 25px;
+    background-color: #FF3B3B;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.icon-button .arrow {
+    font-size: 24px;
+    color: white;
+}
+.notice .notice_list p{
+    color: #000000;
+    font-family: 'Hind Siliguri';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: auto;
+    margin-top: 1rem;
+}
+/* .notice .all_notice .btn-outline-custom{
+    border: 1px linear-gradient(270deg, #FF2424 0%, #FF5656 100%) ;
+} */
+ 
+/* notice section design end */
+/* CNG Page design end */
 
 /* Footer start */
 
