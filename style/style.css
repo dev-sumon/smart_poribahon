@@ -1,3 +1,10 @@
+    /* global css start */
+body{
+    /* font-family: 'Hind Siliguri', sans-serif;  
+    font-family: "Chivo", serif;   */
+}
+    /* global css End! */
+
 .navbar .menu_bar .menu{
     color: #051E38;
     font-family: "Hind Siliguri";
@@ -87,8 +94,8 @@
 }
 /* hero section End! */
 
-/* Connected with us section start */
 
+/* Connected with us section start */
 .custom-card {
     width: 256px;
     height: 280px;
@@ -156,9 +163,87 @@
     line-height: 38px;
     letter-spacing: 0.2px;
 }
-
-
 /* Connected with us section End! */
+
+
+/* BD Smart vehicles Blog section Start */
+.bd_smart_vehicle_part {
+    color: #000000;
+}
+.post_card .post_content {
+    color: #000000;
+    padding-left: 15px;
+}
+.bd_smart_vehicle_part .post_card .post_title{
+    font-weight: 600;      
+    font-size: 20px;         
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #000000;
+}
+.bd_smart_vehicle_part .post_card .post_date{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    width: 330px;
+    line-height: 150%;
+    color: #000000;
+}
+.bd_smart_vehicle_part .post_card .post_description{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    width: 330px;
+    height: 69px;
+    line-height: 150%;
+    color: #000000;
+}
+.bd_smart_vehicle_part .heading_section {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 600; /* Semibold weight */
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 0.2px;
+    color: #141F39;
+    width: 613px; height: 56px;
+  }
+.sub_text {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 400; /* rebular weight */
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #141F39;
+  }
+.post_card {
+    width: 370px;
+    height: 440px;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    transition: transform 0.3s;
+  }
+  .post_card:hover {
+    transform: translateY(-5px);
+  }
+  .post_image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    background-color: #fef5f5;
+  }
+  .btn_section {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 500; /* rebular weight */
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    color: #141F39;
+    text-align: right;
+    margin-top: -30px;
+    margin-right: -20px;
+  }
+
+/* BD Smart vehicles Blog section End! */
 
 
 /* Footer start */
@@ -166,16 +251,27 @@
 footer {
     background-color: #051E38;
 }
-
-footer .btn-outline-light {
-    border-color: #B4B6C4;
+footer div h6{
+    color: #FFFFFF;
+}
+footer div img .logo{
+    width: 279px;
+    height: 67.49px;
+}
+footer p{
     color: #B4B6C4;
 }
 
-footer .btn-outline-light:hover {
+
+/* footer .btn-outline-light {
+    border-color: #B4B6C4;
+    color: #B4B6C4;
+} */
+
+/* footer .btn-outline-light:hover {
     background-color: #B4B6C4;
     color: #0a1a2f;
-}
+} */
 
 footer h6 {
     font-weight: bold;
@@ -193,5 +289,8 @@ footer ul li a:hover {
     color: #B4B6C4;
     text-decoration: underline;
 }
-
+footer .container p a{
+    text-decoration: none;
+    color: #B4B6C4;
+}
 /* Footer end */
