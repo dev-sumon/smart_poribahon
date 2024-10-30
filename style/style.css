@@ -1,3 +1,5 @@
+/* home page css start */
+/* nav section css start */
 .navbar .menu_bar .menu{
     color: #051E38;
     font-family: "Hind Siliguri";
@@ -29,9 +31,10 @@
     color: #FFFFFF;
     background: linear-gradient(94.75deg, #FF2121 0.75%, #FF6060 106.31%);
 }
-/* .hero .custom-gap{
-    gap: 20px;
-} */
+
+/* nav section css end */
+/* hero section css start */
+
 .hero .title h3{
     color: #141F39;
     font-family: "Hind Siliguri";
@@ -64,13 +67,12 @@
     color: #141F39;
     opacity: 0.7;
     padding-right: 20px;
-
 }
 .hero .select_iteam{
     border: 1px solid #FF2727;
+    font-family: 'Hind Siliguri';
 }
 .hero .select_iteam option{
-    font-family: 'Hind Siliguri';
     font-style: normal;
     font-size: 16px;
     font-weight: 500;
@@ -79,45 +81,625 @@
 }
 .hero .submit{
     color: #FFFFFF;
-    font-family: 'Hind Siliguri';
     font-style: normal;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
 }
 
+/* hero section css end */
+/* vehicles_list section css start */
 
-/* Footer start */
-
-footer {
-    background-color: #051E38;
+.vehicles_list{
+    margin-bottom: 100px;
+}
+.vehicles_list a{
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Hind Siliguri';
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 500;
+}
+.vehicles_list .card{
+    width: 174px;
+    height: 145px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.vehicles_list .deatils img{
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+}
+.vehicles_list .deatils p{
+   color: #000000;
+   font-family: 'Hind Siliguri';
+   font-size: 18px;
+   line-height: 32px;
+   font-weight: 500;
 }
 
-footer .btn-outline-light {
-    border-color: #B4B6C4;
-    color: #B4B6C4;
-}
+/* vehicles_list section css end */
 
-footer .btn-outline-light:hover {
-    background-color: #B4B6C4;
-    color: #0a1a2f;
+/* Connected with us section start */
+.custom-card {
+    width: 256px;
+    height: 280px;
+    padding-top: 20% !important;
+    border: none;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    text-align: center;
 }
-
-footer h6 {
+.icon-container {
+    width: 90px;
+    height: 90px;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 1px solid #FF4040;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+    padding: 15px;
+}
+.icon-container .train{
+    width: 58px; 
+    height: 57.14px;
+}
+.icon-container .car{
+    width: 50px; 
+    height: 50px;
+}
+.icon-container .man{
+    width: 65px; 
+    height: 65px;
+}
+.icon-container .driver{
+    width: 67px; 
+    height: 67px;
+}
+.card-text {
+    font-size: 16px;
+    font-weight: 500;
+}
+.price {
+    font-size: 18px;
     font-weight: bold;
 }
+.connected_us .container .section-title {
+    font-family: 'Hind Siliguri', sans-serif; 
+    font-weight: 600; /* Semibold weight */
+    font-size: 48px; 
+    line-height: 56px;
+    letter-spacing: 0.2px; 
+    text-align: center;
+}
+.connected_us .container .card-text {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 500; /* medium font */
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+}
+.connected_us .container .price {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 600; /* Semibold weight */
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+}
+/* Connected with us section End! */
 
-footer h6, p {
-   font-family: "Chivo", serif;
+/* search_section css start  */
+
+.search_section .container{
+    background-color: #FFE5E5;
+    border-radius: 5px;
+}
+.search_section{
+    margin-bottom: 50px;
+}
+.search_section .text{
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    color: #051E38;
+    padding-top: 1rem;
+    padding-left: 43px;
+}
+.search_section .btn{
+    color: #FFFFFF;
+    font-family: 'Hind Siliguri';
+    padding: 15px 30px;
+    font-weight: 500;
+    background: linear-gradient(91.25deg, #FF2727 -4.4%, #FF5454 101.68%);
+    border: none;
+}
+.search_section .search{
+    font-family: 'Hind Siliguri';
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+}
+.search_section .search:focus{
+    outline: #FF2727;
+    box-shadow: none;
+    border: 1px solid #FF2727;
 }
 
-footer p, footer ul li {
-    font-size: 14px;
+/* search_section css end */
+/* help_us section css start */
+
+.help_us .help_us_headr{
+    padding-bottom: 65px;
+}
+.help_us .help_us_headr .title h2{
+    color: #141F39;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0.2px;
+}
+.help_us .help_us_headr .desc p{
+    color: #141F39;
+    font-family: 'Hind Siliguri';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+}
+.icon-circle {
+    position: relative;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    color: #FF4040;
+    border-radius: 50%;
+    font-weight: bold;
+    font-family: "Manrope", sans-serif;
+    font-size: 25.24px;
+    font-weight: 800;
+    border: 4px solid #FF4040;
+    padding: 20px;
+    overflow: visible;
+    margin-left: -20px;
+    margin-bottom: 10px;
+}
+.icon-circle::before {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 9px;
+    top: 10px;
+    left: 80%;
+    transform: skewX(-54deg);
+    background-color: #FFF;
+}
+.icon-circle::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 7px;
+    top: 9px;
+    left: -15%;
+    transform: skewY(170deg);
+    background-color: #fff;
+}
+.feature-box {
+    color: #000000;
+    background: white;
+    font-family: 'Hind Siliguri';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: auto;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(31, 29, 29, 0.1);
+    width: 366px;
+    position: absolute;
+}
+.feature-text {
+    color: #000000;
+    background: white;
+    font-family: 'Hind Siliguri';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: auto;
+}
+.car-container {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+    padding-bottom: 200px;
+}
+.car-image {
+    width: 100%;
+}
+.feature-box-1 { 
+    top: -18%;
+    left: -50%;
+    }
+.feature-box-2 { 
+    top: -18%; 
+    right: -50%; 
+}
+.feature-box-3 { 
+    bottom: 28%; 
+    left: -53%; 
+}
+.feature-box-4 { 
+    bottom: 34%; 
+    right: -62%; 
+}
+.feature-box-5 { 
+    bottom: 7%; 
+    left: 60%; 
+    transform: translateX(-50%); 
+}
+.feature-box {
+    color: #000000;
+    background: white;
+    font-family: 'Hind Siliguri';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: auto;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    width: 366px;
+    position: absolute;
+}
+/* help_us section css end */
+
+/* BD Smart vehicles Blog section Start */
+.bd_smart_vehicle_part {
+    color: #000000;
+}
+.post_card .post_content {
+    color: #000000;
+    padding-left: 15px;
+}
+.bd_smart_vehicle_part .post_card .post_title{
+    font-weight: 600;      
+    font-size: 20px;         
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #000000;
+}
+.bd_smart_vehicle_part .post_card .post_date{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    width: 330px;
+    line-height: 150%;
+    color: #000000;
+}
+.bd_smart_vehicle_part .post_card .post_description{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    width: 330px;
+    height: 69px;
+    line-height: 150%;
+    color: #000000;
+}
+.bd_smart_vehicle_part .heading_section {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 600; /* Semibold weight */
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 0.2px;
+    color: #141F39;
+    width: 613px; height: 56px;
+  }
+.sub_text {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 400; /* rebular weight */
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #141F39;
+  }
+.post_card {
+    width: 370px;
+    height: 440px;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    transition: transform 0.3s;
+}
+.post_card:hover {
+    transform: translateY(-5px);
+}
+.post_image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    background-color: #fef5f5;
+}
+.btn_section {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    color: #141F39;
+    text-align: right;
+    margin-top: -30px;
+    margin-right: -20px;
 }
 
-footer ul li a:hover {
+/* BD Smart vehicles Blog section End! */
+
+/* FAQ section css start */
+.faq-section {
+    width: 100%;
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.faq-title {
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 60px;
+    letter-spacing: 0.2px;
+    background: linear-gradient(90.56deg, #FF2626 0.49%, #FF5858 99.81%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+}
+.faq-item {
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 10px;
+}
+.faq-question {
+    font-family: 'Hind Siliguri';
+    font-size: 24px;
+    font-weight: 500;
+    background-color: #FFE5E5;
+    color: #051E38;
+    line-height: 34px;
+    padding: 15px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    position: relative;
+    font-weight: bold;
+}
+.faq-question::after {
+    content: "+";
+    font-size: 30px;
+    font-weight: 500;
+    position: absolute;
+    right: 20px;
+    color: #FF2929;
+    transition: transform 0.3s;
+}
+.faq-item.open .faq-question::after {
+    content: "-";
+    font-size: 30px;
+    font-weight: 500;
+    color: #FF2929;
+}
+.faq-answer {
+    font-family: 'Hind Siliguri';
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    display: none;
+    background-color: #fff;
+    padding: 15px 20px;
+    color: #051E38;
+    border: 1px solid #EA1827;
+}
+
+.faq-item.open .faq-answer {
+    display: block;
+}
+/* FAQ section css end */
+/* home page css start */
+
+/* CNG Page CSS start */
+/* noptice section CSS start */
+.notice .title{
+    color: #000000;
+    font-family: 'Hind Siliguri';
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    font-weight: 500;
+}
+.notice .notice_list{
+    display: flex;
+    align-items: center !important;
+}
+.notice .notice_list i{
+    font-size: 24px;
+    color: #FFFFFF;
+    width: 24px;
+    height: 24px;
+    background: linear-gradient(270deg, #FF2424 0%, #FF5656 100%);
+}
+.notice .all_notice_button button{
+    border: 1px solid; 
+    border-image: linear-gradient(270deg, #FF5656 0%, #FF2424  100%) 1;
+    color: #141F39;
+    background: linear-gradient(270deg, #FF5656 0%, #FF2424  100%) 1;
+    border-radius: 3px;
+}
+.icon-button {
+    width: 25px;
+    height: 25px;
+    background-color: #FF3B3B;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.icon-button .arrow {
+    font-size: 24px;
+    color: white;
+}
+.notice .notice_list p{
+    color: #000000;
+    font-family: 'Hind Siliguri';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: auto;
+    margin-top: 1rem;
+}
+
+/* noptice section CSS End */
+/* dealist section design start */
+
+.dealist .location_item{
+    margin-top: 75px;
+}
+.dealist .form-select{
+    width: 50% ;
+    margin-bottom: 40px !important;
+}
+.dealist .right_side .card{
+    width: 338px;
+    height: 221px;
+}
+.dealist .right_side .card a{
+    text-decoration: none;
+}
+.dealist .right_side .card a p{
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Hind Siliguri';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+}
+.dealist .right_side .card{
+    padding: 30px;
+}
+.dealist .right_side .card:hover{
+    border: 1px solid #FF4040;
+}
+.dealist .form-select-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dealist .form-select {
+    text-align: center;
+    text-align-last: center;
+}
+.dealist select{
+    font-family: 'Hind Siliguri';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #061E38;
+    border-color: #FF4040;
+}
+.dealist select:focus{
+    border-color: #FF4040;
+}
+.form-select {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.dealist .option{
+    font-family: 'Hind Siliguri';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #061E38;
+    border-color: #FF2121;
+}
+.dealist .form-select option:hover{
+    background-color: #FF2121;
+}
+
+.dealist .btn{
+    color: #FFFFFF;
+    font-family: 'Hind Siliguri';
+    font-size: 16px;
+    line-height: 24px;
+    padding: 8px 10px;
+    font-weight: 500;
+    background: linear-gradient(91.25deg, #FF2727 -4.4%, #FF5454 101.68%);
+    border: none;
+    width: 50%;
+}
+.dealist .search{
+    font-family: 'Hind Siliguri';
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+}
+/* dealist section design end */
+/* notice section design end */
+/* CNG Page design end */
+
+/* Footer start */
+footer {
+    background-color: #051E38;
+    font-family: "Chivo", serif;
+}
+footer div img .logo{
+    width: 279px;
+    height: 67.49px;
+}
+footer p{
     color: #B4B6C4;
-    text-decoration: underline;
 }
-
+footer .contact{
+    color: #B4B6C4;
+}
+footer .footer_text{
+    font-family: "Chivo", serif;
+    font-weight: 700 ;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+footer .footer_gray{
+    font-family: "Chivo", serif;
+    font-weight: 500 ;
+    font-size: 16px;
+    line-height: 26px;
+    color: #B4B6C4;
+}
+footer .footer_gray i{
+    color: #B4B6C4;
+    width: 18px;
+    height: 18px;
+    opacity: 100%;
+}
+footer .copy_right{
+    font-family: "Chivo", serif;
+    font-weight: 500 ;
+    font-size: 14px;
+    line-height: 20px;
+    color: #B4B6C4;
+    opacity: 80%;
+    text-decoration: none;
+}
 /* Footer end */
