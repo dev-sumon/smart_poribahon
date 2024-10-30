@@ -250,9 +250,7 @@ body{
 
 footer {
     background-color: #051E38;
-}
-footer div h6{
-    color: #FFFFFF;
+    font-family: "Chivo", serif;
 }
 footer div img .logo{
     width: 279px;
@@ -261,36 +259,36 @@ footer div img .logo{
 footer p{
     color: #B4B6C4;
 }
-
-
-/* footer .btn-outline-light {
-    border-color: #B4B6C4;
+footer .contact{
     color: #B4B6C4;
-} */
-
-/* footer .btn-outline-light:hover {
-    background-color: #B4B6C4;
-    color: #0a1a2f;
-} */
-
-footer h6 {
-    font-weight: bold;
 }
-
-footer h6, p {
-   font-family: "Chivo", serif;
+footer .footer_text{
+    font-family: "Chivo", serif;
+    font-weight: 700 ;      /* bold */
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
 }
-
-footer p, footer ul li {
+footer .footer_gray{
+    font-family: "Chivo", serif;
+    font-weight: 500 ;      /* regular */
+    font-size: 16px;
+    line-height: 26px;
+    color: #B4B6C4;
+}
+footer .footer_gray i{
+    color: #B4B6C4;
+    width: 18px;
+    height: 18px;
+    opacity: 100%;
+}
+footer .copy_right{
+    font-family: "Chivo", serif;
+    font-weight: 500 ;      /* regular */
     font-size: 14px;
-}
-
-footer ul li a:hover {
+    line-height: 20px;
     color: #B4B6C4;
-    text-decoration: underline;
-}
-footer .container p a{
+    opacity: 80%;
     text-decoration: none;
-    color: #B4B6C4;
 }
 /* Footer end */
