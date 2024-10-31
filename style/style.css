@@ -68,6 +68,14 @@
     opacity: 0.7;
     padding-right: 20px;
 }
+.hero select{
+    font-family: 'Hind Siliguri';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #061E38;
+    border-color: #FF4040;
+}
 .hero .select_iteam{
     border: 1px solid #FF2727;
     font-family: 'Hind Siliguri';
@@ -542,7 +550,7 @@
     background: linear-gradient(270deg, #FF5656 0%, #FF2424  100%) 1;
     border-radius: 3px;
 } */
-.notice .all_notice_button a span{
+.notice .all_notice_button  span{
     font-family: 'Hind Siliguri';
     font-size: 16px;
     font-weight: 400;
