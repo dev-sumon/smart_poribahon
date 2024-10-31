@@ -1,9 +1,3 @@
-    /* global css start */
-body{
-    /* font-family: 'Hind Siliguri', sans-serif;  
-    font-family: "Chivo", serif;   */
-}
-    /* global css End! */
 
 .navbar .menu_bar .menu{
     color: #051E38;
@@ -247,7 +241,6 @@ body{
 
 
 /* Footer start */
-
 footer {
     background-color: #051E38;
     font-family: "Chivo", serif;
