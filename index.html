@@ -10,39 +10,43 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
     <!-- Google Fonts - Hind Siliguri -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+      />
        <!-- font-family: "Chivo", serif; -->
        <link rel="preconnect" href="https://fonts.googleapis.com">
        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
        <link href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
- 
+        <!-- font-family: "Manrope", serif; -->
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet"> 
     <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
-
     <!-- Bootstrap CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
 
+    <!-- Custom css link -->
     <link rel="stylesheet" href="style/style.css">
   </head>
   <body>
+    <!-- nav section start -->
     <nav class="navbar navbar-expand-lg">
       <div class="container">
         <div class="logo me-2">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index.html">
                 <img src="images/logo.png" alt="paribahan_logo" />
               </a>
         </div>
         <div class="navbar-nav me-auto menu_bar" id="">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link menu" aria-current="page" href="#">হোম</a>
+              <a class="nav-link menu" aria-current="page" href="index.html">হোম</a>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle menu" href="#" id="navbarDropdown" role="button" 
@@ -88,7 +92,9 @@
         </div>
       </div>
     </nav>
-            <!-- Hero section start -->
+    <!-- nav section end -->
+
+    <!-- hero section end -->
     <section class="hero">
       <div class="container">
         <div class="row d-flex align-items-center">
@@ -102,34 +108,38 @@
             </div>
             <div class="row g-2">
               <div class="col-6 col-md-4">
-                <div class="form-select select_iteam">
-                    <option value="">বিভাগ</option>
-                </div>
+                <select class="form-select select_iteam">
+                    <option>বিভাগ</option>
+                    <option>বিভাগ</option>
+                    <option>বিভাগ</option>
+                    <option>বিভাগ</option>
+                </select>
+            </div>
+              <div class="col-6 col-md-4">
+                  <select name="" id="" class="form-select select_iteam">
+                    <option value="">জেলা</option>
+                  </select>
               </div>
               <div class="col-6 col-md-4">
-                <div class="form-select select_iteam">
-                  <option value="">জেলা</option>
-                </div>
+                  <select name="" id="" class="form-select select_iteam">
+                    <option value="">থানা</option>
+                  </select>
               </div>
               <div class="col-6 col-md-4">
-                <div class="form-select select_iteam">
-                  <option value="">থানা</option>
-                </div>
-              </div>
-              <div class="col-6 col-md-4">
-                <div class="form-select select_iteam">
+                <select name="" id="" class="form-select select_iteam">
                   <option value="">ইউনিয়ন</option>
-                </div>
+                </select>
+                 
               </div>
               <div class="col-6 col-md-4">
-                <div class="form-select select_iteam">
-                  <option value="">গ্রাম</option>
-                </div>
+                  <select name="" id="" class="form-select select_iteam">
+                    <option value="">গ্রাম</option>
+                  </select>
               </div>
               <div class="col-6 col-md-4">
-                <div class="form-select select_iteam">
-                  <option value="">গাড়ি</option>
-                </div>
+                  <select name="" id="" class="form-select select_iteam">
+                    <option value="">গাড়ি</option>
+                  </select>
               </div>
                 <div class="submit">
                   <button class="btn btn-danger mt-3 w-100">এখানে সার্চ করুন</button>
@@ -145,7 +155,100 @@
         
       </div>
     </section>
-            <!-- Hero section End! -->
+    <!-- hero section end -->
+
+    <!-- vehicles_list section start -->
+    <section class="vehicles_list">
+      <div class="container">
+        <div class="row">
+          <div class="d-flex align-items-center justify-content-between">
+            <div class="card p-3">
+              <div class="deatils">
+                <a href="cng.html">
+                  <img src="images/Group (6).svg" alt="">
+                <p>সি এন জি</p>
+                </a>
+              </div>
+            </div>
+            <div class="card p-3">
+              <div class="deatils">
+                <img src="images/Group (7).svg" alt="">
+                <p>হায়েস</p>
+              </div>
+            </div>
+            <div class="card p-3">
+              <div class="deatils">
+                <img src="images/Group (2).svg" alt="">
+                <p>কার</p>
+              </div>
+            </div>
+            <div class="card p-3">
+              <div class="deatils">
+                <img src="images/Group (3).svg" alt="">
+                <p>মাইক্রো</p>
+              </div>
+            </div>
+            <div class="card p-3">
+              <div class="deatils">
+                <img src="images/Group (4).svg" alt="">
+                <p>বাইক</p>
+              </div>
+            </div>
+            <div class="card p-3">
+              <div class="deatils">
+                <img src="images/Group (5).svg" alt="">
+                <p>পার্সেল</p>
+              </div>
+            </div>
+
+            <!-- Useful Links -->
+            <div class="col-md-2 mb-4 mt-5">
+                <h6 class="text-capitalize footer_text">Useful Links</h6>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="footer_gray text-decoration-none">Features</a></li>
+                    <li><a href="#" class="footer_gray text-decoration-none">About</a></li>
+                    <li><a href="#" class="footer_gray text-decoration-none">Service</a></li>
+                    <li><a href="#" class="footer_gray text-decoration-none">Team</a></li>
+                </ul>
+            </div>
+
+            <!-- Help & Support -->
+            <div class="col-md-2 mb-4 mt-5">
+                <h6 class="text-capitalize footer_text">Help & Support</h6>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="footer_gray text-decoration-none">FAQ</a></li>
+                    <li><a href="#" class="footer_gray text-decoration-none">Blog</a></li>
+                    <li><a href="#" class="footer_gray text-decoration-none">Contact Us</a></li>
+                    <li><a href="#" class="footer_gray text-decoration-none">Support</a></li>
+                </ul>
+            </div>
+
+            <!-- Resources -->
+            <div class="col-md-2 mb-4 mt-5">
+                <h6 class="text-capitalize footer_text">Resources</h6>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="footer_gray text-decoration-none">Guides and resources</a></li>
+                    <li><a href="#" class="footer_gray text-decoration-none">Team</a></li>
+                    <li><a href="#" class="footer_gray text-decoration-none">Tools</a></li>
+                    <li><a href="#" class="footer_gray text-decoration-none">Support</a></li>
+                </ul>
+            </div>
+        </div>
+
+          <!-- Social Links -->
+
+        <div class="d-flex justify-content-between align-items-center mt-4">
+          <p class="mb-0 copy_right">© All Right Reserved</p>
+          <div class="d-flex gap-3">
+            <a href="#" class="footer_gray"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="footer_gray"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="footer_gray"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="footer_gray"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- vehicles_list section end -->
 
     <!-- Connected with us section Start -->
 
@@ -199,80 +302,203 @@
 
     <!-- Connected with us section End! -->
 
-    <!-- BD Smart vehicles Blog section Start -->
-
-    <section class="bd_smart_vehicle_part">
-      <div class="container mt-5">
-        <div class="head-text">
-          <h2 class="heading_section">বাংলাদেশ স্মার্ট পরিবহন ব্লগ থেকে </h2>
-          <p class="sub_text">সকল বিবৃতি, আপডেট, রিলিজ ও অন্যান্য</p>
-        </div>
-        <div class="row">
-          <!-- Blog Post 1 -->
-          <div class="col-md-4 mb-4 pb-4">
-            <div class="post_card pb-4">
-              <img src="images/smart_car.png" alt="Blog 1" class="post_image">
-              <div class="post_content">
-                <h4 class="post_title">স্মার্ট বাংলাদেশে পরিবহন খাত আনস্মার্টই থাকবে?</h4>
-                <p class="post_date"><i class="fa-regular fa-calendar mr-1" style="color: red;"></i>  জুন ৬, ২০২৪</p>
-                <p class="post_description">সমৃদ্ধ বাংলাদেশ গড়ে তুলতে সবার আগে প্রয়োজন আধুনিক যোগাযোগ ব্যবস্থা। সেটা হোক সড়ক, রেলপথ, নৌপথ ও তথ্যপ্রযুক্তি ব্যবস্থা।</p>
-              </div>
+    <!-- search driver section start  -->
+    <section class="search_section">
+      <div class="image">
+        <img src="images/Group 39894.svg" alt="">
+      </div>
+      <div class="container">
+       
+        <div class="row d-flex align-items-center">
+          <div class="col-4 d-flex align-items-center">
+            <div class="text">
+              <p>সরাসরি গাড়ি অথবা ড্রাইভার কে খুঁজুন</p>
             </div>
           </div>
-          <!-- Blog Post 2 -->
-          <div class="col-md-4 mb-4">
-            <div class="post_card">
-              <img src="/images/cycle_Location tracking-pana 1.png" alt="Blog 2" class="post_image">
-              <div class="post_content">
-                <h4 class="post_title">স্মার্ট বাংলাদেশে পরিবহন খাত আনস্মার্টই থাকবে?</h4>
-                <p class="post_date"><i class="fa-regular fa-calendar mr-1" style="color: red;"></i> জুন ৬, ২০২৪</p>
-                <p class="post_description">সমৃদ্ধ বাংলাদেশ গড়ে তুলতে সবার আগে প্রয়োজন আধুনিক যোগাযোগ ব্যবস্থা। সেটা হোক সড়ক, রেলপথ, নৌপথ ও তথ্যপ্রযুক্তি ব্যবস্থা।</p>
-              </div>
-            </div>
+          <div class="col-6">
+            <form class="d-flex" role="search">
+              <input class="form-control me-2 search" type="search" placeholder="গাড়ির অথবা ড্রাইভার নাম্বার" aria-label="Search">
+            </form>
           </div>
-          <!-- Blog Post 3 -->
-          <div class="col-md-4 mb-4">
-            <div class="post_card">
-              <img src="images/squti_Take Away-pana 1.png" alt="Blog 3" class="post_image">
-              <div class="post_content">
-                <h4 class="post_title">স্মার্ট বাংলাদেশে পরিবহন খাত আনস্মার্টই থাকবে?</h4>
-                <p class="post_date"><i class="fa-regular fa-calendar mr-1" style="color: red;"></i>  জুন ৬, ২০২৪</p>
-                <p class="post_description">সমৃদ্ধ বাংলাদেশ গড়ে তুলতে সবার আগে প্রয়োজন আধুনিক যোগাযোগ ব্যবস্থা। সেটা হোক সড়ক, রেলপথ, নৌপথ ও তথ্যপ্রযুক্তি ব্যবস্থা।</p>
-              </div>
-            </div>
+          <div class="col-2">
+            <form class="d-flex" role="search">
+              <button class="btn btn-outline-success" type="submit">ক্লিক করুন</button>
+            </form>
           </div>
-        </div>
-        <div class="btn_section">
-          <a href="#" class="btn btn-outline-danger ml-4">সব গুলো ব্লগ <i class="fa-solid fa-arrow-right-long"></i></a>
         </div>
       </div>
     </section>
-    <!-- BD Smart vehicles Blog section End! -->
+    <!-- search driver section end  -->
 
+    <!-- help_us section start  -->
+    <section class="help_us">
+      <div class="container">
+        <div class="help_us_headr text-center">
+          <div class="title">
+            <h2>আমরা কিভাবে আপনাকে সহয়ায়তা করি</h2>
+          </div>
+          <div class="desc">
+            <p>
+              যেকোনো যাত্রী প্রয়োজনের সময় তার নিকটবর্তী স্টেশনে গাড়ির জন্য সিগন্যাল পাঠাতে <br>
+              পারবেন।ফলে কাউকে ঘণ্টার পর ঘণ্টা গাড়ির জন্য অপেক্ষা করতে হবে না। 
+            </p>
+          </div>
+        </div>
+        <div class="car-container">
+            <img src="images/Group 2.png" alt="Car and Phone" class="car-image">
 
+            <div class="feature-box feature-box-1">
+                <div class="icon-circle">1</div>
+                <p class="feature-text">আপনার চেনা কিছু গাড়িতে হারিয়ে গেলে আপনার এটা খুব সহজে খুঁজে বের করতে পারবেন।</p>
+            </div>
+    
+            <div class="feature-box feature-box-2">
+                <div class="icon-circle">2</div>
+                <p class="feature-text">গাড়ীটি রিয়েলটাইম স্মার্ট ফিচারের মাধ্যমে চালাতে পারবেন।</p>
+            </div>
+    
+            <div class="feature-box feature-box-3">
+                <div class="icon-circle">3</div>
+                <p class="feature-text">ঘরে বসেই চার্জ দেওয়া সম্ভব, ইন্টারনেটের মাধ্যমে লোকেশন দেখার জন্য গাড়ীর নিরাপত্তা বাড়াতে সাহায্য করে।</p>
+            </div>
+    
+            <div class="feature-box feature-box-4">
+                <div class="icon-circle">4</div>
+                <p class="feature-text">গাড়ীর স্ট্যাটাস দেখতে যেকোন স্মার্ট ডিভাইস দিয়ে QR কোড ব্যবহার করে দেখতে পারবেন।</p>
+            </div>
+    
+            <div class="feature-box feature-box-5">
+                <div class="icon-circle">5</div>
+                <p class="feature-text">প্রতিটি গাড়ির জন্য QR কোডের মাধ্যমে ডিজিটাল রেজিস্ট্রেশন করা থাকে।</p>
+            </div>
+        </div>
+    </div>
+  </section>
+    <!-- help_us section end  -->
 
+    <!-- BD Smart vehicles Blog section Start -->
 
+  <section class="bd_smart_vehicle_part">
+    <div class="container mt-5">
+      <div class="head-text">
+        <h2 class="heading_section">বাংলাদেশ স্মার্ট পরিবহন ব্লগ থেকে </h2>
+        <p class="sub_text">সকল বিবৃতি, আপডেট, রিলিজ ও অন্যান্য</p>
+      </div>
+      <div class="row">
+        <!-- Blog Post 1 -->
+        <div class="col-md-4 mb-4 pb-4">
+          <div class="post_card pb-4">
+            <img src="images/smart_car.png" alt="Blog 1" class="post_image">
+            <div class="post_content">
+              <h4 class="post_title">স্মার্ট বাংলাদেশে পরিবহন খাত আনস্মার্টই থাকবে?</h4>
+              <p class="post_date"><i class="fa-regular fa-calendar mr-1" style="color: red;"></i>  জুন ৬, ২০২৪</p>
+              <p class="post_description">সমৃদ্ধ বাংলাদেশ গড়ে তুলতে সবার আগে প্রয়োজন আধুনিক যোগাযোগ ব্যবস্থা। সেটা হোক সড়ক, রেলপথ, নৌপথ ও তথ্যপ্রযুক্তি ব্যবস্থা।</p>
+            </div>
+          </div>
+        </div>
+        <!-- Blog Post 2 -->
+        <div class="col-md-4 mb-4">
+          <div class="post_card">
+            <img src="images/Location tracking-pana 1.png" alt="Blog 2" class="post_image">
+            <div class="post_content">
+              <h4 class="post_title">স্মার্ট বাংলাদেশে পরিবহন খাত আনস্মার্টই থাকবে?</h4>
+              <p class="post_date"><i class="fa-regular fa-calendar mr-1" style="color: red;"></i> জুন ৬, ২০২৪</p>
+              <p class="post_description">সমৃদ্ধ বাংলাদেশ গড়ে তুলতে সবার আগে প্রয়োজন আধুনিক যোগাযোগ ব্যবস্থা। সেটা হোক সড়ক, রেলপথ, নৌপথ ও তথ্যপ্রযুক্তি ব্যবস্থা।</p>
+            </div>
+          </div>
+        </div>
+        <!-- Blog Post 3 -->
+        <div class="col-md-4 mb-4">
+          <div class="post_card">
+            <img src="images/squti_Take Away-pana 1.png" alt="Blog 3" class="post_image">
+            <div class="post_content">
+              <h4 class="post_title">স্মার্ট বাংলাদেশে পরিবহন খাত আনস্মার্টই থাকবে?</h4>
+              <p class="post_date"><i class="fa-regular fa-calendar mr-1" style="color: red;"></i>  জুন ৬, ২০২৪</p>
+              <p class="post_description">সমৃদ্ধ বাংলাদেশ গড়ে তুলতে সবার আগে প্রয়োজন আধুনিক যোগাযোগ ব্যবস্থা। সেটা হোক সড়ক, রেলপথ, নৌপথ ও তথ্যপ্রযুক্তি ব্যবস্থা।</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="btn_section">
+        <a href="#" class="btn btn-outline-danger ml-4">সব গুলো ব্লগ <i class="fa-solid fa-arrow-right-long"></i></a>
+      </div>
+    </div>
+  </section>
+  <!-- BD Smart vehicles Blog section End! -->
 
+    <!-- FAQ section start  -->
+    <section class="faq">
+      <div class="container d-flex justify-content-center">
+        <div class="faq-section">
+          <div class="faq-title  py-5 pb-5">সচরাচর আপনার প্রশ্ন সমূহ</div>
+      
+          <div class="faq-item">
+              <div class="faq-question">বাংলাদেশ স্মার্ট পরিবহন কি কাজ করে?</div>
+              <div class="faq-answer">
+                যদি আপনার কোনো জিনিস গাড়িতে হারিয়ে যায়, তবে বাংলাদেশ স্মার্ট পরিবহনের মাধ্যমে তা সহজেই খুঁজে পাওয়া সম্ভব। সার্চ অপশনে গাড়ির নম্বর বা ফোন নম্বর দিয়ে সার্চ করলে আপনি সরাসরি ড্রাইভারের সাথে যোগাযোগ করতে পারবেন এবং প্রয়োজনীয় তথ্য পেয়ে হারানো জিনিসটি পুনরুদ্ধার করতে পারবেন।
+              </div>
+          </div>
+      
+          <div class="faq-item">
+              <div class="faq-question">বাংলাদেশ স্মার্ট পরিবহন কেন প্রয়োজন?</div>
+              <div class="faq-answer">
+                বাংলাদেশ স্মার্ট পরিবহন মানুষের সেবায় কাজ করছে। এটি যাত্রীদের নিরাপদ, স্মার্ট, ও প্রযুক্তি-নির্ভর যাত্রা নিশ্চিত করে।
+              </div>
+          </div>
+      
+          <div class="faq-item">
+              <div class="faq-question">বাংলাদেশ স্মার্ট পরিবহনের লক্ষ্য কি?</div>
+              <div class="faq-answer">
+                বাংলাদেশ স্মার্ট পরিবহন ডিজিটাল প্রযুক্তির ব্যবহার করে স্মার্ট ও নিরাপদ যাতায়াত নিশ্চিত করার লক্ষ্যে কাজ করছে, যাতে যাত্রীরা আরো সহজ ও নিরাপদে গন্তব্যে পৌঁছাতে পারেন।
+              </div>
+          </div>
+          <div class="faq-item">
+              <div class="faq-question">বাংলাদেশ স্মার্ট পরিবহন কিভাবে আমাদেরকে সাহায্য করে?</div>
+              <div class="faq-answer">
+                বাংলাদেশ স্মার্ট পরিবহন বিভিন্ন উপায়ে সহায়তা করে। উদাহরণস্বরূপ, যদি কোনো যাত্রী কোনো ড্রাইভার সম্পর্কে সন্দেহ করেন, তবে গাড়ির ভিতরে থাকা স্ক্যান কোড ব্যবহার করে ড্রাইভারের পরিচয় যাচাই করা যাবে। স্ক্যান করলে ড্রাইভারের ছবি ও বিস্তারিত তথ্য পাওয়া যাবে, যা যাত্রাকে আরো নিরাপদ ও নিশ্চিন্ত করবে।
+              </div>
+          </div>
+          <div class="faq-item">
+              <div class="faq-question">স্মার্ট বাংলাদেশ গাড়ির প্রধান সুবিধা কী?</div>
+              <div class="faq-answer">
+                স্মার্ট বাংলাদেশ গাড়ির মাধ্যমে যাত্রীরা খুব সহজে এবং নিরাপদে গন্তব্যে পৌঁছাতে পারবেন। আমাদের ড্রাইভারগণ অভিজ্ঞ এবং নির্ভরযোগ্য, যা যাত্রার সময় নিরাপত্তা নিশ্চিত করে।
+              </div>
+          </div>
+          <div class="faq-item">
+              <div class="faq-question">স্মার্ট বাংলাদেশ গাড়ির চালকরা কি প্রশিক্ষিত?</div>
+              <div class="faq-answer">
+                হ্যাঁ, আমাদের সব চালককে প্রশিক্ষণ প্রদান করা হয়েছে এবং তারা পরিবহন নীতিমালা সম্পর্কে সচেতন। নিরাপত্তা এবং সেবার মান বজায় রাখতে আমাদের চালকদের সবসময় পর্যবেক্ষণে রাখা হয়।
+              </div>
+          </div>
+          <div class="faq-item">
+              <div class="faq-question">আমি কি যাত্রার সময় কিছু হারিয়ে গেলে খুঁজে পাব?</div>
+              <div class="faq-answer">
+                হ্যাঁ, স্মার্ট বাংলাদেশে আপনি হারানো জিনিসপত্র খুঁজে পাওয়ার জন্য একটি বিশেষ সাপোর্ট সিস্টেম পাবেন। যাত্রার পরে, আপনি আমাদের কাস্টমার সাপোর্টে যোগাযোগ করে সাহায্য নিতে পারেন। 
+              </div>
+          </div>
+          <div class="faq-item">
+              <div class="faq-question">স্মার্ট বাংলাদেশ গাড়ির পেমেন্ট পদ্ধতি কী কী?</div>
+              <div class="faq-answer">
+                আপনি ক্যাশ, মোবাইল ব্যাংকিং, অথবা কার্ড ব্যবহার করে ভাড়া পরিশোধ করতে পারেন।
+              </div>
+          </div>
+      
+      </div>
+      </div>
+  </section>
+  
+  <!-- EAQ section end  -->
+  <!-- Footer Part start -->
 
-
-
-
-
-
-
-
-
-     <!-- Footer Part start -->
-
-    <footer class="footer_gray pt-5 pb-4">
+  <footer class="footer_gray pt-5 pb-4">
     <div class="container">
         <div class="row">
             <!-- Logo and Contact Section -->
             <div class="col-md-6 mb-4 left_footer">
                 <img src="images/footer_logo.png" alt="Logo" class="mb-3 logo">
                 <p class="mb-3">Phasellus pulvinar porta turpis sit amet facilis sapien bibendum eu praesent massa.</p>
-                <p ><i class="fas fa-phone-alt me-2"></i><a class="contact" href="#"> +880 1308282653, +880 1308282688</a></p>
-                <p ><i class="fas fa-envelope me-2"></i><a class="contact" href="#">bangladeshsmartparibahan@gmail.com</a></p>
+                <p ><i class="fas fa-phone-alt me-2"></i><a class="contact" href="tel:+880 1308282653"> +880 1308282653, +880 1308282688</a></p>
+                <p ><i class="fas fa-envelope me-2"></i><a class="contact" href="mailto:bangladeshsmartparibahan@gmail.com">bangladeshsmartparibahan@gmail.com</a></p>
                 <div class="d-flex">
                     <a href="#" class="me-2"><img class="btb" src="images/image 30.png" alt="google_img"></a>
                     <a href="#" class="mr-3"><img src="images/image 31.png" alt="apple_img"></a>
@@ -326,13 +552,17 @@
         </div>
     </div>
     </footer>
+  <!-- Footer part End! -->
 
-      <!-- Footer part End! -->
 
-
-          
-    
-    <!-- Bootstrap JS (with Popper) -->
+  <!-- FAQ JS start -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <!-- Bootstrap JS (with Popper) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom Js Link -->
+     <script src="js/main.js"></script>
+
+
   </body>
 </html>
