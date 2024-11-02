@@ -1,0 +1,75 @@
+.banner_container {
+    font-family: 'Hind Siliguri';
+    background-color: rgba(255, 237, 237, 0.5);
+    width: 1170px;
+    height: 360px;
+    padding: 20px;
+    /* display: grid;
+    place-items: center;
+    text-align: center; */
+    isplay: grid;                /* Enable Grid */
+    grid-template-rows: repeat(2, auto); /* Two rows for two divs */
+    justify-items: center;        /* Center horizontally */
+    align-items: center;          /* Center vertically */
+    /* height: 100vh;    */
+}
+.location_text {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 46px;
+    letter-spacing: 0.2px;
+    color: #141F39 !important;
+}
+.banner_title {
+    font-family: 'Hind Siliguri';
+    font-weight: 700;
+    font-size: 68px;
+    line-height: 70px;
+    letter-spacing: 0.2px;
+    background: linear-gradient(90.56deg, #FF2626 0.49%, #FF5858 99.81%);
+    -webkit-background-clip: text;
+    color: transparent; 
+    padding-top: 20px;
+}
+
+/*  */
+
+<div class="container">
+    <!-- Navigation Menu -->
+    
+
+    <!-- Content Section -->
+    <div class="row">
+        <!-- Sidebar -->
+        <div class="col-md-3">
+            <div class="list-group mb-3">
+                <button class="list-group-item list_group_item_action">বিভাগ</button>
+                <button class="list-group-item list_group_item_action">জেলা</button>
+                <button class="list-group-item list_group_item_action">থানা</button>
+                <button class="list-group-item list_group_item_action">ইউনিয়ন</button>
+                <button class="list-group-item list_group_item_action">মোটর স্ট্যান্ড</button>
+                <button class="list-group-item list_group_item_action">রিপোর্ট</button>
+                <button class="list-group-item list_group_item_action">গ্যালারি</button>
+                <button class="list-group-item list_group_item_action">অ্যাডমিন লগইন</button>
+            </div>
+            <div class="sidebar_card">230 x 250 px</div>
+            <div class="sidebar_card">230 x 250 px</div>
+        </div>
+        <!-- navigation -->
+         
+        <!-- Main Content -->
+        <div class="col-md-9">
+            <div class="video_thumbnail mb-4">
+                <img src="images/video.png" alt="Video Thumbnail">
+                <div class="play_button">&#9658;</div>
+            </div>
+            <div class="content_text">
+                <h4>স্ট্যান্ড নাম - নিজবাহাদুরপুর টি এন্ড টি স্ট্যান্ড</h4>
+                <p><strong>মালিকানাঃ</strong> সিলেট বিভাগ থেকে শুরু করে মৌলভীবাজার জেলাতে...</p>
+                <p><strong>অবস্থানঃ</strong> সিলেট বিভাগের মধ্যে মৌলভীবাজার জেলার বড়লেখা থানার নিজবাহাদুরপুর ইউনিয়ন...</p>
+                <p><strong>অবদানঃ</strong> এ স্ট্যান্ডটি স্থানীয় মানুষের জীবনে অত্যন্ত গুরুত্বপূর্ণ...</p>
+                <!-- Add additional content sections as needed -->
+            </div>
+        </div>
+    </div>
+</div>
