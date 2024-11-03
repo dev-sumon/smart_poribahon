@@ -283,7 +283,7 @@
     padding: 20px;
     overflow: visible;
     margin-left: -20px;
-    margin-bottom: 10px;
+    margin-top: -10px;
 }
 .icon-circle::before {
     content: "";
@@ -629,15 +629,15 @@
 /* dealist section design start */
 
 .dealist .location_item{
-    margin-top: 75px;
+    margin-top: 130px;
 }
 .dealist .form-select{
     width: 50% ;
     margin-bottom: 40px !important;
 }
 .dealist .right_side .card{
-    width: 338px;
-    height: 221px;
+    width: 300px;
+    height: 300px;
 }
 .dealist .right_side .card a{
     text-decoration: none;
@@ -706,6 +706,11 @@
     border: none;
     width: 50%;
 }
+.dealist .btn-outline-success{
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
 .dealist .search{
     font-family: 'Hind Siliguri';
     font-size: 20px;
@@ -713,11 +718,15 @@
     font-weight: 400;
     color: rgba(0, 0, 0, 0.5);
 }
+
+
+
 /* dealist section design end */
 /* CNG Page design end */
 
 
 /* stand commuity page css start */
+/* president and members section css start */
 .president_and_members .stand_location{
     text-align: center;
 }
@@ -733,30 +742,73 @@
     text-align: center;
 }
 .president_and_members .member_list_title h2{
-    /* সি এন জি স্টেশন সভাপতি ও সদস্য বৃন্দ তালিকা */
-
-/* position: absolute;
-width: 675px;
-height: 140px;
-left: 463px;
-top: 260px; */
-
-font-family: 'Hind Siliguri';
-font-weight: 700;
-font-size: 68px;
-line-height: 70px;
-text-align: center;
-letter-spacing: 0.2px;
-padding-top: 10px;
-
-background: linear-gradient(90.56deg, #FF2626 0.49%, #FF5858 99.81%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-background-clip: text;
-text-fill-color: transparent;
-
-
+    font-family: 'Hind Siliguri';
+    font-weight: 700;
+    font-size: 68px;
+    line-height: 70px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    padding-top: 10px;
+    background: linear-gradient(90.56deg, #FF2626 0.49%, #FF5858 99.81%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
 }
+/* president and members section css end */
+/* deatils section css start */
+.dealist .profile-card {
+    position: relative;
+    width: 280px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.dealist .badge {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-family: 'Hind Siliguri';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    background: linear-gradient(90.56deg, #FF2626 0.49%, #FF5858 99.81%);
+    color: white;
+    border-radius: 50%;
+    font-size: 14px;
+    width: 94px;
+    height: 94px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-40%, 250%);
+}
+.dealist .profile-image {
+    border-radius: 6px;
+    object-fit: cover;
+}
+.dealist .profile-details h3 {
+    margin-top: 10px;
+    font-family: 'Hind Siliguri';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+    color: #212529;
+}
+.dealist .profile-details p {
+    margin-bottom: 2px;
+    font-family: 'Hind Siliguri';
+    font-size: 16px;
+    font-weight: 000;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #212529;
+}
+/* deatils section css end */
 /* stand commuity page css end */
 
 /* Footer start */
