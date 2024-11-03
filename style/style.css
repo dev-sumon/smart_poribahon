@@ -914,10 +914,10 @@
 
 /* CNG owner page css start */
 /* dealist section css start */
-.dealist .driver_list .profile-card .profile_image{
+.dealist .driver_list .profile .profile_image{
     position: relative;
 }
-.dealist .driver_list .profile-card .beage {
+.dealist .driver_list .profile .beage {
     position: absolute;
     font-family: 'Hind Siliguri';
     font-size: 24px;
@@ -931,16 +931,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transform: translate(260%, -120%);
+    transform: translate(290%, -130%);
     cursor: pointer;
 }
-.dealist .driver_list .profile-card .profile_image img{
+.dealist .driver_list .profile .profile_image img{
    width: 200px; 
    height: 200px;
    object-fit: cover; 
    border-radius: 50%;
 }
-.dealist .driver_list .profile-card .profile-details h3{
+.dealist .driver_list .profile .profile-details h3{
     font-family: 'Hind Siliguri';
     font-size: 18px;
     font-weight: 600;
@@ -949,7 +949,7 @@
     color: #212529;
     margin: 0px;
 }
-.dealist .driver_list .profile-card .profile-details p{
+.dealist .driver_list .profile .profile-details p{
     font-family: 'Hind Siliguri';
     font-size: 14px;
     font-weight: 500;
