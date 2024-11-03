@@ -911,6 +911,56 @@
 /* dealist section css end */
 /* CNG owner page css end */
 
+
+/* CNG owner page css start */
+/* dealist section css start */
+.dealist .driver_list .profile-card .profile_image{
+    position: relative;
+}
+.dealist .driver_list .profile-card .beage {
+    position: absolute;
+    font-family: 'Hind Siliguri';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #FFFFFF;
+    background: linear-gradient(180deg, #FF2929 0%, #FF5252 100%);
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(260%, -120%);
+    cursor: pointer;
+}
+.dealist .driver_list .profile-card .profile_image img{
+   width: 200px; 
+   height: 200px;
+   object-fit: cover; 
+   border-radius: 50%;
+}
+.dealist .driver_list .profile-card .profile-details h3{
+    font-family: 'Hind Siliguri';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #212529;
+    margin: 0px;
+}
+.dealist .driver_list .profile-card .profile-details p{
+    font-family: 'Hind Siliguri';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    color: #212529;
+}
+/* dealist section css end */
+/* CNG owner page css end */
+
+
 /* Footer start */
 footer {
     background-color: #051E38;
