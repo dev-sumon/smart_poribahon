@@ -537,10 +537,11 @@
     align-items: center !important;
 }
 .notice .notice_list i{
-    font-size: 24px;
+    font-size: 17px;
     color: #FFFFFF;
     width: 24px;
     height: 24px;
+    border-radius: 5px;
     background: linear-gradient(270deg, #FF2424 0%, #FF5656 100%);
 }
 /* .notice .all_notice_button button{
@@ -602,19 +603,19 @@
     color: #FF4040;
 }
 .icon-button {
-    width: 25px;
-    height: 25px;
-    background-color: #FF3B3B;
     border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     cursor: pointer;
     margin-right: 10px;
 }
-.icon-button .arrow {
-    font-size: 24px;
+.icon-button i{
+    width: 25px;
+    height: 25px;
+    background-color: #FF3B3B;
+    font-size: 17px;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .notice .notice_list p{
     color: #000000;
@@ -632,7 +633,7 @@
     margin-top: 130px;
 }
 .dealist .form-select{
-    width: 50% ;
+    width: 70% ;
     margin-bottom: 40px !important;
 }
 .dealist .right_side .card{
@@ -682,7 +683,6 @@
     box-shadow: none !important;
     outline: none !important;
 }
-
 .dealist .option{
     font-family: 'Hind Siliguri';
     font-weight: 500;
@@ -704,7 +704,7 @@
     font-weight: 500;
     background: linear-gradient(91.25deg, #FF2727 -4.4%, #FF5454 101.68%);
     border: none;
-    width: 50%;
+    width: 70%;
 }
 .dealist .btn-outline-success{
     outline: none !important;
@@ -759,7 +759,7 @@
 /* deatils section css start */
 .dealist .profile-card {
     position: relative;
-    width: 280px;
+    width: 224px;
     padding: 20px;
     border-radius: 10px;
     background-color: white;
@@ -803,13 +803,113 @@
     margin-bottom: 2px;
     font-family: 'Hind Siliguri';
     font-size: 16px;
-    font-weight: 000;
+    font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.2px;
     color: #212529;
 }
 /* deatils section css end */
 /* stand commuity page css end */
+
+/* CNG owner page css start */
+/* dealist section css start */
+.dealist .owner_list .profile-card{
+    padding: 0px;
+}
+.dealist .owner_list .profile-card img{
+    width: 100%;
+}
+.dealist .owner_list .profile-card .profile-details{
+    text-align: left;
+    padding: 0px 15px;
+}
+.dealist .owner_list .profile-card h3{
+    font-family: 'Hind Siliguri';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #212529;
+    margin: 0px;
+}
+.dealist .owner_list .profile-card .owner{
+    font-family: 'Hind Siliguri';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    color: #212529;
+}
+.dealist .owner_list .profile-card .number{
+    font-family: 'Hind Siliguri';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #212529;
+}
+.dealist .owner_list .profile-card a{
+    text-decoration: none;
+    color: #FF2424;
+    /* margin-top: 5px; */
+    font-family: 'Hind Siliguri';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    border-bottom: 2px solid #FF2424;
+}
+.dealist .owner_list .profile-card span{
+    color: #FF2424;
+    font-family: 'Hind Siliguri';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    padding-left: 5px;
+}
+
+.dealist .next_page .left_arrow a{
+    text-decoration: none;
+    color: #FF2424;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 45px;
+    background-color: #F1F5F8;
+    margin-right: 10px;
+   
+}
+.dealist .next_page .page_number a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Hind Siliguri';
+    font-size: 16px;
+    font-weight: 700;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 45px;
+    background-color: #FF2121;
+    margin-right: 10px;
+}
+.dealist .next_page .right_arrow a{
+    text-decoration: none;
+    color: #FF2424;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 45px;
+    background-color: #F1F5F8;
+}
+/* dealist section css end */
+/* CNG owner page css end */
 
 /* Footer start */
 footer {
