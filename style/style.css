@@ -960,6 +960,140 @@
 /* dealist section css end */
 /* CNG owner page css end */
 
+/* CNG owner profile page css start */
+/* CNG Owner profile section css start */
+.profile_section .profile_image img{
+    width: 500px;
+    height: 620px;
+    object-fit: cover;
+}
+.profile_section .profile_deatils .profile_info .owner{
+    font-family: 'Hind Siliguri';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #000000;
+}
+.profile_section .profile_deatils .profile_info h3{
+    font-family: 'Hind Siliguri';
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 68px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #000000;
+}
+.profile_section .profile_deatils .profile_info .desc{
+    font-family: 'Hind Siliguri';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #000000;
+}
+.profile_section .profile_deatils .profile_info .deatils .designation{
+    font-family: 'Hind Siliguri';
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #141F39;
+
+}
+.profile_section .profile_deatils .profile_info .deatils .designation_name{
+    font-family: 'Kohinoor Bangla';
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #141F39;
+}
+.profile_section .profile_deatils .profile_info .deatils .email{
+    font-family: 'Hind Siliguri';
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #141F39;
+}
+.profile_section .profile_deatils .profile_info .deatils .email_address{
+    font-family: 'Hind Siliguri';
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #141F39;
+}
+.profile_section .profile_deatils .profile_info .deatils .phone{
+    font-family: 'Hind Siliguri';
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #141F39;
+}
+.profile_section .profile_deatils .profile_info .deatils .number{
+    font-family: 'Hind Siliguri';
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #141F39;
+}
+.profile_section .profile_deatils .profile_info .deatils .car{
+    font-family: 'Hind Siliguri';
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #141F39;
+}
+.profile_section .profile_deatils .profile_info .deatils .car_number{
+    font-family: 'Kohinoor Bangla';
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #141F39;
+}
+.profile_section .profile_deatils .profile_info .deatils .blood{
+    font-family: 'Hind Siliguri';
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #141F39;
+}
+.profile_section .profile_deatils .profile_info .deatils .blood_group{
+    font-family: 'Kohinoor Bangla';
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #141F39;
+}
+/* CNG Owner profile section css end */
+
+/* .gallery_section img{
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+} */
+
+/* CNG owner profile page css end */
 
 /* Footer start */
 footer {
