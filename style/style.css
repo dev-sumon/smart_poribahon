@@ -1086,14 +1086,34 @@
     color: #141F39;
 }
 /* CNG Owner profile section css end */
-
+/* Gallery section css start */
 .gallery_section img{
     width: 100%;
     height: 260px;
     object-fit: cover;
 }
-
+/* Gallery section css end */
 /* CNG owner profile page css end */
+
+/* CNG driver profile page css start */
+/* profile section css start */
+.profile_section .profile_deatils .profile_info .book_now{
+    margin-top: 100px;
+}
+.profile_section .profile_deatils .profile_info a {
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #FFFFFF;
+    font-family: 'Hind Siliguri';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: right;
+    background: linear-gradient(90.56deg, #FF2626 0.49%, #FF5858 99.81%);
+    border-radius: 5px;
+}
+/* profile section css end */
+/* CNG driver profile page css end */
 
 /* Footer start */
 footer {
