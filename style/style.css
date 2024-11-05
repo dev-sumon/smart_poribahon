@@ -770,6 +770,7 @@
 }
 
 /* noptice section CSS End */
+
 /* dealist section design start */
 
 .dealist .location_item{
@@ -858,8 +859,25 @@
     color: rgba(0, 0, 0, 0.5);
 }
 /* dealist section design end */
-/* notice section design end */
-/* CNG Page design end */
+
+/* VIDEO PLAY */
+
+.video-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 5px solid #ff0000;
+    border-radius: 15px;
+}
+
+.video-container video {
+    width: 100%;
+    height: 100vh;
+    border-radius: 15px;
+}
 
 /* Footer start */
 footer {
@@ -907,21 +925,36 @@ footer .copy_right{
 }
 /* Footer end */
 
-/* stand_intro hero section */
 
+/* stand_intro  section */
+   
+section .adds_section{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+div .adds1{
+    width: 250px;
+    height: 250px;
+    margin: 80px 0 80px 0;
+}
+div .adds2{
+    width: 250px;
+    height: 250px;
+    margin: 80px 0 80px 0;
+}
 .banner_container {
     font-family: 'Hind Siliguri';
     background-color: rgba(255, 237, 237, 0.5);
-    width: 100%;                  /* Full width for better responsiveness */
-    max-width: 1170px;            /* Limits the max width */
+    width: 100%;              
+    max-width: 1170px;        
     height: 360px;
     padding: 20px;
-    display: flex;                /* Use flex for easier centering */
-    flex-direction: column;       /* Stack the two divs vertically */
-    justify-content: center;      /* Center content vertically */
-    align-items: center;          /* Center content horizontally */
-    text-align: center;           /* Center text within each div */
-    margin: 0 auto;               /* Center the container on the page */
+    display: flex;            
+    flex-direction: column;   
+    justify-content: center;  
+    align-items: center;      
+    text-align: center;       
+    margin: 0 auto;           
 }
 
 .location_text {
@@ -936,25 +969,18 @@ footer .copy_right{
     font-family: 'Hind Siliguri';
     font-weight: 700;
     font-size: 68px;
-    line-height: 1;               /* Tighter line height for closer spacing */
+    line-height: 1;            
     letter-spacing: 0.2px;
     background: linear-gradient(90.56deg, #FF2626 0.49%, #FF5858 99.81%);
     -webkit-background-clip: text;
     color: transparent;
     margin-top: 10px;            
-
 }
 div .content_nav{
     width: 780px;
     height: 105px;
     top: 852px;
     left: 601px;
-}
-div .nav1 li{
-  
-}
-div .nav2 li{
-    
 }
 .nav1 ul li a{
     font-family: 'Hind Siliguri';
@@ -968,23 +994,10 @@ div .nav2 li{
     font-family: 'Hind Siliguri';
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;  
-    color: #1F1E1E;   
+    line-height: 24px;
+    color: #1F1E1E;
     text-decoration: none;
-    
 }
-.nav1 ul li{
-    
-}
-
-
-/* stand_intro hero section End! */
-
-
-
-
-/*  */
-
 /* Header Section */
 .banner_container {
     font-family: 'Hind Siliguri';
@@ -1005,7 +1018,6 @@ div .nav2 li{
     color: transparent;
     margin-top: 10px;
 }
-
 /* Navigation Menu */
 .nav_menu {
     display: flex;
@@ -1025,36 +1037,11 @@ div .nav2 li{
     color: #FF2626;
     border-bottom: 3px solid #FF2626;
 }
-
-/* Video Thumbnail */
-.video_thumbnail {
-    border: 5px solid #FF2626;
-    border-radius: 10px;
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-}
 .video_thumbnail img {
     width: 100%;
     height: auto;
     border-radius: 10px;
 }
-.play_button {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 50px;
-    color: white;
-    background: rgba(0, 0, 0, 0.5);
-    border-radius: 50%;
-    width: 80px;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 /* Sidebar */
 .sidebar_card {
     width: 100%;
@@ -1067,14 +1054,29 @@ div .nav2 li{
     font-size: 18px;
     color: #FF2626;
 }
-
 /* Sidebar Buttons */
 .list_group_item_action {
     text-align: center;
     font-weight: bold;
     color: #FF2626;
 }
+.content_text .bold_content{
+    font-family: 'Hind Siliguri';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+}
+.content_text .normal_content{
+    font-family: 'Hind Siliguri';
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+}
+
+/* stand_intro section End! */
 
 
-
-/*  */
