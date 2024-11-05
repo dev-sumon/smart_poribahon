@@ -523,7 +523,7 @@
 /* home page css start */
 
 /* CNG Page CSS start */
-/* noptice section CSS start */
+/* notice section CSS start */
 .notice .title{
     color: #000000;
     font-family: 'Hind Siliguri';
@@ -626,7 +626,7 @@
     margin-top: 1rem;
 }
 
-/* noptice section CSS End */
+/* notice section CSS End */
 /* dealist section design start */
 
 .dealist .location_item{
@@ -1123,6 +1123,69 @@
 }
 /* profile section css end */
 /* CNG driver profile page css end */
+
+/* notice page css start */
+/* notice board section css start */
+
+.notice_bord_section .head .title h3{
+    font-family: 'Hind Siliguri';
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #000000;
+}
+.notice_bord_section .select_option .year select{
+    font-family: 'Kohinoor Bangla';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #000000;
+}
+.notice_bord_section .select_option .notice_type select{
+    font-family: 'Kohinoor Bangla';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #000000;
+}
+.table{
+    border: none;
+}
+.table .thead-dark th{
+    border: none !important;
+}
+.table td{
+    border: none !important;
+    font-family: 'Kohinoor Bangla';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+}
+.custom-header th{
+    font-family: 'Hind Siliguri';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    background: #051E38;
+    color: #FFFEFE;
+    border: none; 
+    padding: 10px;
+}
+.custom-header td{
+    
+
+}
+
+/* notice board section css end */
+/* notice page css end */
 
 /* Footer start */
 footer {
