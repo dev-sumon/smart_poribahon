@@ -1179,13 +1179,25 @@
     border: none; 
     padding: 10px;
 }
-.custom-header td{
-    
-
-}
-
 /* notice board section css end */
 /* notice page css end */
+
+/* error page css start */
+/* error section css start */
+.error_section .error_image .error h3{
+    font-family: 'Hind Siliguri';
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+.error_section .error_image .image img{
+    width: 100%;
+}
+/* error section css end*/
+/* error page css end */
+
 
 /* Footer start */
 footer {
