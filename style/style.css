@@ -1092,6 +1092,15 @@
     height: 260px;
     object-fit: cover;
 }
+.gallery_section h3{
+    font-family: 'Hind Siliguri';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #141F39;
+}
 /* Gallery section css end */
 /* CNG owner profile page css end */
 
