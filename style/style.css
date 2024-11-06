@@ -68,6 +68,14 @@
     opacity: 0.7;
     padding-right: 20px;
 }
+.hero select{
+    font-family: 'Hind Siliguri';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #061E38;
+    border-color: #FF4040;
+}
 .hero .select_iteam{
     border: 1px solid #FF2727;
     font-family: 'Hind Siliguri';
@@ -275,7 +283,7 @@
     padding: 20px;
     overflow: visible;
     margin-left: -20px;
-    margin-bottom: 10px;
+    margin-top: -10px;
 }
 .icon-circle::before {
     content: "";
@@ -445,7 +453,6 @@
 /* FAQ section css start */
 .faq-section {
     width: 100%;
-    max-width: 600px;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -458,6 +465,7 @@
     font-size: 52px;
     line-height: 60px;
     letter-spacing: 0.2px;
+    text-align: center;
     background: linear-gradient(90.56deg, #FF2626 0.49%, #FF5858 99.81%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -475,7 +483,7 @@
     background-color: #FFE5E5;
     color: #051E38;
     line-height: 34px;
-    padding: 15px 20px;
+    padding: 15px 35px;
     font-size: 1em;
     cursor: pointer;
     position: relative;
@@ -515,7 +523,7 @@
 /* home page css start */
 
 /* CNG Page CSS start */
-/* noptice section CSS start */
+/* notice section CSS start */
 .notice .title{
     color: #000000;
     font-family: 'Hind Siliguri';
@@ -529,10 +537,11 @@
     align-items: center !important;
 }
 .notice .notice_list i{
-    font-size: 24px;
+    font-size: 17px;
     color: #FFFFFF;
     width: 24px;
     height: 24px;
+    border-radius: 5px;
     background: linear-gradient(270deg, #FF2424 0%, #FF5656 100%);
 }
 /* .notice .all_notice_button button{
@@ -542,7 +551,7 @@
     background: linear-gradient(270deg, #FF5656 0%, #FF2424  100%) 1;
     border-radius: 3px;
 } */
-.notice .all_notice_button a span{
+.notice .all_notice_button  span{
     font-family: 'Hind Siliguri';
     font-size: 16px;
     font-weight: 400;
@@ -594,19 +603,19 @@
     color: #FF4040;
 }
 .icon-button {
-    width: 25px;
-    height: 25px;
-    background-color: #FF3B3B;
     border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     cursor: pointer;
     margin-right: 10px;
 }
-.icon-button .arrow {
-    font-size: 24px;
+.icon-button i{
+    width: 25px;
+    height: 25px;
+    background-color: #FF3B3B;
+    font-size: 17px;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .notice .notice_list p{
     color: #000000;
@@ -617,19 +626,19 @@
     margin-top: 1rem;
 }
 
-/* noptice section CSS End */
+/* notice section CSS End */
 /* dealist section design start */
 
 .dealist .location_item{
-    margin-top: 75px;
+    margin-top: 130px;
 }
 .dealist .form-select{
-    width: 50% ;
+    width: 70% ;
     margin-bottom: 40px !important;
 }
 .dealist .right_side .card{
-    width: 338px;
-    height: 221px;
+    width: 300px;
+    height: 300px;
 }
 .dealist .right_side .card a{
     text-decoration: none;
@@ -674,7 +683,6 @@
     box-shadow: none !important;
     outline: none !important;
 }
-
 .dealist .option{
     font-family: 'Hind Siliguri';
     font-weight: 500;
@@ -696,7 +704,12 @@
     font-weight: 500;
     background: linear-gradient(91.25deg, #FF2727 -4.4%, #FF5454 101.68%);
     border: none;
-    width: 50%;
+    width: 70%;
+}
+.dealist .btn-outline-success{
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
 }
 .dealist .search{
     font-family: 'Hind Siliguri';
@@ -705,9 +718,575 @@
     font-weight: 400;
     color: rgba(0, 0, 0, 0.5);
 }
+
+
+
 /* dealist section design end */
-/* notice section design end */
 /* CNG Page design end */
+
+
+/* stand commuity page css start */
+/* president and members section css start */
+.president_and_members .stand_location{
+    text-align: center;
+}
+.president_and_members .stand_location h5{
+    color: #141F39;
+    font-family: 'Hind Siliguri';
+    font-size: 24px;
+    font-family: 700;
+    line-height: 46px;
+    letter-spacing: 0.2px;
+}
+.president_and_members .member_list_title{
+    text-align: center;
+}
+.president_and_members .member_list_title h2{
+    font-family: 'Hind Siliguri';
+    font-weight: 700;
+    font-size: 68px;
+    line-height: 70px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    padding-top: 10px;
+    background: linear-gradient(90.56deg, #FF2626 0.49%, #FF5858 99.81%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+/* president and members section css end */
+/* deatils section css start */
+.dealist .profile-card {
+    position: relative;
+    width: 224px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.dealist .badge {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-family: 'Hind Siliguri';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    background: linear-gradient(90.56deg, #FF2626 0.49%, #FF5858 99.81%);
+    color: white;
+    border-radius: 50%;
+    font-size: 14px;
+    width: 94px;
+    height: 94px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-40%, 250%);
+}
+.dealist .profile-image {
+    border-radius: 6px;
+    object-fit: cover;
+}
+.dealist .profile-details h3 {
+    margin-top: 10px;
+    font-family: 'Hind Siliguri';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+    color: #212529;
+}
+.dealist .profile-details p {
+    margin-bottom: 2px;
+    font-family: 'Hind Siliguri';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #212529;
+}
+/* deatils section css end */
+/* stand commuity page css end */
+
+/* CNG owner page css start */
+/* dealist section css start */
+.dealist .owner_list .profile-card{
+    padding: 0px;
+}
+.dealist .owner_list .profile-card img{
+    width: 100%;
+}
+.dealist .owner_list .profile-card .profile-details{
+    text-align: left;
+    padding: 0px 15px;
+}
+.dealist .owner_list .profile-card h3{
+    font-family: 'Hind Siliguri';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #212529;
+    margin: 0px;
+}
+.dealist .owner_list .profile-card .owner{
+    font-family: 'Hind Siliguri';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    color: #212529;
+}
+.dealist .owner_list .profile-card .number{
+    font-family: 'Hind Siliguri';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #212529;
+}
+.dealist .owner_list .profile-card a{
+    text-decoration: none;
+    color: #FF2424;
+    /* margin-top: 5px; */
+    font-family: 'Hind Siliguri';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    border-bottom: 2px solid #FF2424;
+}
+.dealist .owner_list .profile-card span{
+    color: #FF2424;
+    font-family: 'Hind Siliguri';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    padding-left: 5px;
+}
+
+.dealist .next_page .left_arrow a{
+    text-decoration: none;
+    color: #FF2424;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 45px;
+    background-color: #F1F5F8;
+    margin-right: 10px;
+   
+}
+.dealist .next_page .page_number a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Hind Siliguri';
+    font-size: 16px;
+    font-weight: 700;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 45px;
+    background-color: #FF2121;
+    margin-right: 10px;
+}
+.dealist .next_page .right_arrow a{
+    text-decoration: none;
+    color: #FF2424;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 45px;
+    background-color: #F1F5F8;
+}
+/* dealist section css end */
+/* CNG owner page css end */
+
+
+/* CNG owner page css start */
+/* dealist section css start */
+.dealist .driver_list .profile .profile_image{
+    position: relative;
+}
+.dealist .driver_list .profile .beage {
+    position: absolute;
+    font-family: 'Hind Siliguri';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #FFFFFF;
+    background: linear-gradient(180deg, #FF2929 0%, #FF5252 100%);
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(290%, -130%);
+    cursor: pointer;
+}
+.dealist .driver_list .profile .profile_image img{
+   width: 200px; 
+   height: 200px;
+   object-fit: cover; 
+   border-radius: 50%;
+}
+.dealist .driver_list .profile .profile-details h3{
+    font-family: 'Hind Siliguri';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #212529;
+    margin: 0px;
+}
+.dealist .driver_list .profile .profile-details p{
+    font-family: 'Hind Siliguri';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    color: #212529;
+}
+/* dealist section css end */
+/* CNG owner page css end */
+
+/* CNG owner profile page css start */
+/* CNG Owner profile section css start */
+.profile_section .profile_image img{
+    width: 500px;
+    height: 620px;
+    object-fit: cover;
+}
+.profile_section .profile_deatils .profile_info .owner{
+    font-family: 'Hind Siliguri';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #000000;
+}
+.profile_section .profile_deatils .profile_info h3{
+    font-family: 'Hind Siliguri';
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 68px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #000000;
+}
+.profile_section .profile_deatils .profile_info .desc{
+    font-family: 'Hind Siliguri';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #000000;
+}
+.profile_section .profile_deatils .profile_info .deatils .designation{
+    font-family: 'Hind Siliguri';
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #141F39;
+
+}
+.profile_section .profile_deatils .profile_info .deatils .designation_name{
+    font-family: 'Kohinoor Bangla';
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #141F39;
+}
+.profile_section .profile_deatils .profile_info .deatils .email{
+    font-family: 'Hind Siliguri';
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #141F39;
+}
+.profile_section .profile_deatils .profile_info .deatils .email_address{
+    font-family: 'Hind Siliguri';
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #141F39;
+}
+.profile_section .profile_deatils .profile_info .deatils .phone{
+    font-family: 'Hind Siliguri';
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #141F39;
+}
+.profile_section .profile_deatils .profile_info .deatils .number{
+    font-family: 'Hind Siliguri';
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #141F39;
+}
+.profile_section .profile_deatils .profile_info .deatils .car{
+    font-family: 'Hind Siliguri';
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #141F39;
+}
+.profile_section .profile_deatils .profile_info .deatils .car_number{
+    font-family: 'Kohinoor Bangla';
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #141F39;
+}
+.profile_section .profile_deatils .profile_info .deatils .blood{
+    font-family: 'Hind Siliguri';
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #141F39;
+}
+.profile_section .profile_deatils .profile_info .deatils .blood_group{
+    font-family: 'Kohinoor Bangla';
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #141F39;
+}
+/* CNG Owner profile section css end */
+/* Gallery section css start */
+.gallery_section img{
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+}
+.gallery_section h3{
+    font-family: 'Hind Siliguri';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #141F39;
+}
+/* Gallery section css end */
+/* CNG owner profile page css end */
+
+/* CNG driver profile page css start */
+/* profile section css start */
+.profile_section .profile_deatils .profile_info .book_now{
+    margin-top: 100px;
+}
+.profile_section .profile_deatils .profile_info a {
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #FFFFFF;
+    font-family: 'Hind Siliguri';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: right;
+    background: linear-gradient(90.56deg, #FF2626 0.49%, #FF5858 99.81%);
+    border-radius: 5px;
+}
+/* profile section css end */
+/* CNG driver profile page css end */
+
+/* notice page css start */
+/* notice board section css start */
+
+.notice_bord_section .head .title h3{
+    font-family: 'Hind Siliguri';
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #000000;
+}
+.notice_bord_section .select_option .year select{
+    font-family: 'Kohinoor Bangla';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #000000;
+}
+.notice_bord_section .select_option .notice_type select{
+    font-family: 'Kohinoor Bangla';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #000000;
+}
+.table{
+    border: none;
+}
+.table .thead-dark th{
+    border: none !important;
+}
+.table td{
+    border: none !important;
+    font-family: 'Kohinoor Bangla';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+}
+.custom-header th{
+    font-family: 'Hind Siliguri';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    background: #051E38;
+    color: #FFFEFE;
+    border: none; 
+    padding: 10px;
+}
+/* notice board section css end */
+/* notice page css end */
+
+/* error page css start */
+/* error section css start */
+.error_section .error_image .error h3{
+    font-family: 'Hind Siliguri';
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+.error_section .error_image .image img{
+    width: 100%;
+}
+/* error section css end*/
+/* error page css end */
+
+/* contact page css start  */
+/* contact deatils section css start  */
+.contact_deatils .deatils .conatact_info h3{
+    font-family: 'Hind Siliguri';
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+.contact_deatils .deatils .conatact_info p{
+    font-family: 'Hind Siliguri';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #000000
+}
+/* contact deatils section css end */
+/* contact section css start  */
+.contact h4{
+    font-family: 'Hind Siliguri';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+.contact a{
+    font-family: 'Hind Siliguri';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #000000;
+    display: block;
+}
+
+/* contact section css end */
+/* contact section css start */
+.form-container-section {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.form-container-section h5{
+    font-family: 'Hind Siliguri';
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+.form-container-section button{
+    padding: 10px 20px;
+}
+.form-container-sectio input{
+    border: 1.5px solid #E5E5E5;
+}
+.form-container-sectio input:focus{
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+.form-control:focus {
+    box-shadow: none;
+    border-color: #ced4da;
+}
+.form-container-sectio::placeholder{
+    font-family: 'Hind Siliguri';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+    color: #605F62;
+
+}
+.form-container-section .btn-submit {
+    font-family: 'Hind Siliguri';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: right;
+    background: linear-gradient(90.56deg, #FF2626 0.49%, #FF5858 99.81%);
+    color: white;
+    border: none;
+}
+/* contact section css end */
+/* contact page css end */
 
 /* Footer start */
 footer {
