@@ -16,7 +16,7 @@
     font-weight: 500;
     line-height: 16px;
 }
-.login_register button{
+.navbar .login_register button{
     padding: 16px 20px;
     color: #051E38;
     font-family: "Hind Siliguri";
@@ -27,11 +27,11 @@
     border: 1px solid #FF2727;
     transition:  0.5s;
 }
-.login_register button:focus{
+.navbar .login_register button:focus{
     outline: none;
     box-shadow: none;
 }
-.login_register button:hover{
+.navbar .login_register button:hover{
     color: #FFFFFF;
     background: linear-gradient(94.75deg, #FF2121 0.75%, #FF6060 106.31%);
 }
@@ -236,7 +236,8 @@
 .search_section .container{
     background-color: #FFE5E5;
     border-radius: 5px;
-    padding: 20px 0px;
+    padding: 20px 120px;
+    max-width: 1400px;
 }
 .search_section .text{
     font-family: 'Hind Siliguri';
@@ -368,7 +369,7 @@
     }
 .feature-box-2 { 
     top: 0%;
-    right: -45%; 
+    right: -31%; 
 }
 .feature-box-3 { 
     bottom: 34%;

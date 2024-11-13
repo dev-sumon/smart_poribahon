@@ -1,0 +1,57 @@
+/* @media (min-width: 768px) and (max-width: 992px) {
+    .navbar .menu_bar{
+        display: none;
+    }
+    .navbar .language{
+        display: none !important;
+    }
+} */
+ @media(min-width: 1400px){
+
+ }
+ @media(min-width: 1200px) and (max-width: 1400px){
+
+ }
+ @media(min-width: 992px) and (max-width: 1200px){
+    .hero .title h3 {
+        font-size: 40px;
+    }
+    .hero .title h2 {
+        font-size: 66px;
+    }
+ }
+ @media(min-width: 768px) and (max-width: 992px){
+
+ }
+ @media(max-width: 575px){
+    .hero .hero_image img{
+        width: 100%;
+    }
+    .hero .title h3 {
+        color: #141F39;
+        font-family: "Hind Siliguri";
+        font-size: 34px;
+        font-weight: 700;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+    .hero .title h2 {
+        font-size: 54px;
+        text-align: center;
+    }
+    .hero .title p {
+        font-size: 18px;
+        text-align: center;
+    }
+ }
+ @media(max-width: 425px){
+    .hero .title p {
+        font-size: 18px;
+        text-align: center;
+        padding: 0px 52px;
+    }
+    .hero .title h2 {
+        padding-top: 0px;
+    }
+ }
