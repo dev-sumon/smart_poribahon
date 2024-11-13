@@ -22,3 +22,12 @@ function redirectToLogin(){
     });
 
 // login and register button js end
+
+
+const phoneInputField = document.querySelector("#phone");
+    const phoneInput = window.intlTelInput(phoneInputField, {
+        preferredCountries: ["bd", "us", "gb", "in"], // Bangladesh as preferred with others
+        separateDialCode: true, // Displays the country code separately
+        initialCountry: "bd", // Set Bangladesh as default
+        utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js" // Load utils for formatting
+    });

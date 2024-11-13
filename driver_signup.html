@@ -30,6 +30,9 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
 
+    <!-- intl-tel-input CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.min.css" />
+
     <!-- Custom css link -->
     <link rel="stylesheet" href="style/style.css">
   </head>
@@ -96,49 +99,67 @@
     </nav>
     <!-- nav section end -->
 
-    <!-- login section design start  -->
-    <section class="login_section">
+    <!-- signup section design start  -->
+    <section class="register_section">
       <div class="container d-flex justify-content-center align-items-center vh-100">
+       <div class="row">
         <div class="card p-4 shadow-sm" style="max-width: 400px; width: 100%; border-radius: 15px">
-          <h4 class="mb-4">একাউন্টে লগইন করুন</h4>
-          <form>
-            <div class="mb-3">
-              <label for="email" class="form-label">ইমেইল অথবা মোবাইল নাম্বার লিখুন</label>
-              <input type="email" class="form-control" name="email" id="email" placeholder="ইমেইল অথবা মোবাইল নাম্বার লিখুন" required />
-            </div>
-            <div class="mb-3">
-              <label for="password" class="form-label">পাসওয়ার্ড</label>
-              <input type="password" class="form-control" id="password" name="password" placeholder="পাসওয়ার্ড লিখুন" required />
-              
-            </div>
-            <div class="form-check mb-3 d-flex justify-content-between">
-              <input class="form-check-input" type="checkbox" id="rememberMe" />
-              <label class="form-check-label" for="rememberMe">মনে রাখুন</label>
-               <a class="forget_password" href="">পাসওয়ার্ড ভুলে গেছেন?</a>
-            </div>
-            <button type="submit" class="btn btn-danger w-100 mb-3 login">লগইন করুন</button>
-            <div class="text-center mb-3">
-              <div class="divider">
-                <hr>
-                <span>অথবা</span>
-                <hr>
+            <h4 class="mb-4">অ্যাকাউন্ট তৈরী করুন</h4>
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">নাম</label>
+                <input type="text" class="form-control" name="name" id="name" placeholder="আপনার নাম লিখুন" required />
               </div>
-            </div>
-            <button type="button" class="btn btn-light border w-100 mb-3 google_button">
-              <img src="images/google.png" alt="Google logo" width="20" class="me-2" />
-              গুগল দিয়ে প্রবেশ করুন
-            </button>
-            <div class="text-center">
-              <!-- <a href="#" class="text-decoration-none back_to_create">আপনার কোন একাউন্ট নেই?</a> -->
-               <span class="no_account">আপনার কোন একাউন্ট নেই?</span>
-              <br />
-              <button class="btn btn-dark mt-2 w-100 create_button">একাউন্ট তৈরি করুন</button>
-            </div>
-          </form>
-        </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">ইমেইল অথবা মোবাইল নাম্বার লিখুন</label>
+                <input type="email" class="form-control" name="email" id="email" placeholder="ইমেইল অথবা মোবাইল নাম্বার লিখুন" required />
+              </div>
+              <div class="mb-3">
+                  <label for="phone" class="form-label">মোবাইল নাম্বার</label>
+                  <input type="tel" id="phone" name="phone" class="form-control w-100" placeholder="" required>
+              </div>
+              <div class="mb-3">
+                <label for="password" class="form-label">পাসওয়ার্ড</label>
+                <input type="password" class="form-control" id="password" name="password" placeholder="পাসওয়ার্ড লিখুন" required />
+                <span>ন্যূনতম ৮ অক্ষরে লিখুন</span>
+                
+              </div>
+              <div class="mb-3">
+                <label for="password" class="form-label">পাসওয়ার্ড নিশ্চিত করুন</label>
+                <input type="password" class="form-control" id="password" name="password" placeholder="আবার পাসওয়ার্ড লিখুন" required />
+                <span>ন্যূনতম ৮ অক্ষরে লিখুন</span>
+              </div>
+              <div class="mb-3">
+                  <p>
+                      রেজিস্ট্রেশন করার মাধ্যমে আপনি আমাদের ব্যবহারকারীর শর্তাবলি মেনে নিচ্ছেন।
+                  </p>
+              </div>
+              <button type="submit" class="btn btn-danger w-100 mb-3 login">এ অ্যাকাউন্ট তৈরী করুন</button>
+              <div class="text-center mb-3">
+                <div class="divider">
+                  <hr>
+                  <span>অথবা</span>
+                  <hr>
+                </div>
+              </div>
+              <button type="button" class="btn btn-light border w-100 mb-3 google_button">
+                <img src="images/google.png" alt="Google logo" width="20" class="me-2" />
+                গুগল দিয়ে এগিয়ে যান
+              </button>
+              <div class="text-center back_login">
+                <!-- <a href="#" class="text-decoration-none back_to_create">আপনার কোন একাউন্ট নেই?</a> -->
+                 <span class="no_account">ইতিমধ্যে একটি অ্যাকাউন্ট আছে?</span>
+                <br />
+                <div class="back_login_page">
+                  <button type="button" id="loginButton" class="btn btn-light w-100 mb-3">আপনার অ্যাকাউন্টে লগইন করুন</button>
+                </div>
+              </div>
+            </form>
+          </div>
+       </div>
       </div>
     </section>
-    <!-- login section design end  -->
+    <!-- signup section design end  -->
    
   <!-- Footer Part start -->
 
@@ -212,9 +233,14 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
   <!-- Bootstrap JS (with Popper) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- intl-tel-input JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+
   <!-- Custom Js Link -->
      <script src="js/main.js"></script>
 
+     
 
   </body>
 </html>
