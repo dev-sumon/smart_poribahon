@@ -22,7 +22,7 @@
     .hero .hero_image img{
         width: 100%;
     }
-    .search_section .text {
+    .search_section .text h2{
         font-size: 25px;
     }
     .search_section .btn {
@@ -57,7 +57,7 @@
     .search_section .container {
         padding: 20px 20px;
     }
-    .search_section .text {
+    .search_section .text h2{
         font-size: 20px;
         padding-left: 0px;
     }
@@ -83,7 +83,7 @@
     .search_section .container {
         padding: 20px 20px;
     }
-    .search_section .text {
+    .search_section .text h2{
         padding-left: 0px;
         text-align: center !important;
     }
@@ -132,7 +132,7 @@
     .search_section .container {
         padding: 20px 20px;
     }
-    .search_section .text {
+    .search_section .text h2{
         font-size: 32px;
         padding-left: 0px;
     }
@@ -167,9 +167,17 @@
     .search_section .search {
         margin-bottom: 20px;
     }
+    .search_section .text h2{
+        font-size: 32px;
+        padding-left: 0px;
+    }
  }
  @media(max-width: 375px){
     .form-select {
         padding: .375rem 1.25rem .375rem .75rem;
+    }
+    .search_section .text h2{
+        font-size: 32px;
+        padding-left: 0px;
     }
  }
