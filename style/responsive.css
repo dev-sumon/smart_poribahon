@@ -31,6 +31,32 @@
     .search_section .container {
         padding: 20px 20px;
     }
+    .car-image {
+        padding: 128px;
+    }
+    .feature-box {
+        width: 300px;
+    }
+    .feature-box-1 {
+        top: 5%;
+        left: -30%;
+    }
+    .feature-box-2 {
+        top: 5%;
+        right: -17%;
+    }
+    .feature-box-3 {
+        bottom: 32%;
+        left: -17%;
+    }
+    .feature-box-4 {
+        bottom: 43%;
+        right: -30%;
+    }
+    .feature-box-5 {
+        bottom: 20%;
+        left: 50%;
+    }
  }
  @media(min-width: 768px) and (max-width: 992px){
     .hero{
@@ -69,6 +95,215 @@
         font-size: 15px;
         margin-bottom: 0px !important;
     }
+    .car-image {
+        padding: 0px;
+        margin-bottom: 50px;
+    }
+    .feature-box {
+        position: static;
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    .icon-circle-1{
+        position: absolute;
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFFFFF;
+        color: #FF4040;
+        border-radius: 50%;
+        font-family: "Manrope", sans-serif;
+        font-size: 25.24px;
+        font-weight: 800;
+        border: 4px solid #FF4040;
+        padding: 20px;
+        overflow: visible;
+        top: 390px;
+        left: 5px;
+    }
+    .icon-circle-2{
+        position: absolute;
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFFFFF;
+        color: #FF4040;
+        border-radius: 50%;
+        font-family: "Manrope", sans-serif;
+        font-size: 25.24px;
+        font-weight: 800;
+        border: 4px solid #FF4040;
+        padding: 20px;
+        overflow: visible;
+        top: 580px;
+        left: 5px;
+    }
+    .icon-circle-3{
+        position: absolute;
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFFFFF;
+        color: #FF4040;
+        border-radius: 50%;
+        font-family: "Manrope", sans-serif;
+        font-size: 25.24px;
+        font-weight: 800;
+        border: 4px solid #FF4040;
+        padding: 20px;
+        overflow: visible;
+        top: 740px;
+        left: 5px;
+    }
+    .icon-circle-4{
+        position: absolute;
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFFFFF;
+        color: #FF4040;
+        border-radius: 50%;
+        font-family: "Manrope", sans-serif;
+        font-size: 25.24px;
+        font-weight: 800;
+        border: 4px solid #FF4040;
+        padding: 20px;
+        overflow: visible;
+        top: 930px;
+        left: 5px;
+    }
+    .icon-circle-5{
+        position: absolute;
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFFFFF;
+        color: #FF4040;
+        border-radius: 50%;
+        font-family: "Manrope", sans-serif;
+        font-size: 25.24px;
+        font-weight: 800;
+        border: 4px solid #FF4040;
+        padding: 20px;
+        overflow: visible;
+        top: 1118px;
+        left: 5px;
+    }
+    .icon-circle-1::before {
+        content: "";
+        position: absolute;
+        width: 14px;
+        height: 9px;
+        top: 10px;
+        left: 80%;
+        transform: skewX(-54deg);
+        background-color: #FFF;
+    }
+    .icon-circle-1::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 7px;
+        top: 9px;
+        left: -15%;
+        transform: skewY(170deg);
+        background-color: #fff;
+    }
+    .icon-circle-2::before {
+        content: "";
+        position: absolute;
+        width: 14px;
+        height: 9px;
+        top: 10px;
+        left: 80%;
+        transform: skewX(-54deg);
+        background-color: #FFF;
+    }
+    .icon-circle-2::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 7px;
+        top: 9px;
+        left: -15%;
+        transform: skewY(170deg);
+        background-color: #fff;
+    }
+    .icon-circle-3::before {
+        content: "";
+        position: absolute;
+        width: 14px;
+        height: 9px;
+        top: 10px;
+        left: 80%;
+        transform: skewX(-54deg);
+        background-color: #FFF;
+    }
+    .icon-circle-3::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 7px;
+        top: 9px;
+        left: -15%;
+        transform: skewY(170deg);
+        background-color: #fff;
+    }
+    .icon-circle-4::before {
+        content: "";
+        position: absolute;
+        width: 14px;
+        height: 9px;
+        top: 10px;
+        left: 80%;
+        transform: skewX(-54deg);
+        background-color: #FFF;
+    }
+    .icon-circle-4::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 7px;
+        top: 9px;
+        left: -15%;
+        transform: skewY(170deg);
+        background-color: #fff;
+    }
+    .icon-circle-5::before {
+        content: "";
+        position: absolute;
+        width: 14px;
+        height: 9px;
+        top: 10px;
+        left: 80%;
+        transform: skewX(-54deg);
+        background-color: #FFF;
+    }
+    .icon-circle-5::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 7px;
+        top: 9px;
+        left: -15%;
+        transform: skewY(170deg);
+        background-color: #fff;
+    }
  }
  @media(min-width: 575px) and (max-width: 768px){
     .hero .hero_image img{
@@ -96,6 +331,215 @@
     .search_section .col-12{
         text-align: center;
         justify-content: center;
+    }
+    .car-image {
+        padding: 0px;
+        margin-bottom: 50px;
+    }
+    .feature-box {
+        position: static;
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    .icon-circle-1{
+        position: absolute;
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFFFFF;
+        color: #FF4040;
+        border-radius: 50%;
+        font-family: "Manrope", sans-serif;
+        font-size: 25.24px;
+        font-weight: 800;
+        border: 4px solid #FF4040;
+        padding: 20px;
+        overflow: visible;
+        top: 390px;
+        left: 5px;
+    }
+    .icon-circle-2{
+        position: absolute;
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFFFFF;
+        color: #FF4040;
+        border-radius: 50%;
+        font-family: "Manrope", sans-serif;
+        font-size: 25.24px;
+        font-weight: 800;
+        border: 4px solid #FF4040;
+        padding: 20px;
+        overflow: visible;
+        top: 580px;
+        left: 5px;
+    }
+    .icon-circle-3{
+        position: absolute;
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFFFFF;
+        color: #FF4040;
+        border-radius: 50%;
+        font-family: "Manrope", sans-serif;
+        font-size: 25.24px;
+        font-weight: 800;
+        border: 4px solid #FF4040;
+        padding: 20px;
+        overflow: visible;
+        top: 740px;
+        left: 5px;
+    }
+    .icon-circle-4{
+        position: absolute;
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFFFFF;
+        color: #FF4040;
+        border-radius: 50%;
+        font-family: "Manrope", sans-serif;
+        font-size: 25.24px;
+        font-weight: 800;
+        border: 4px solid #FF4040;
+        padding: 20px;
+        overflow: visible;
+        top: 930px;
+        left: 5px;
+    }
+    .icon-circle-5{
+        position: absolute;
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFFFFF;
+        color: #FF4040;
+        border-radius: 50%;
+        font-family: "Manrope", sans-serif;
+        font-size: 25.24px;
+        font-weight: 800;
+        border: 4px solid #FF4040;
+        padding: 20px;
+        overflow: visible;
+        top: 1080px;
+        left: 5px;
+    }
+    .icon-circle-1::before {
+        content: "";
+        position: absolute;
+        width: 14px;
+        height: 9px;
+        top: 10px;
+        left: 80%;
+        transform: skewX(-54deg);
+        background-color: #FFF;
+    }
+    .icon-circle-1::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 7px;
+        top: 9px;
+        left: -15%;
+        transform: skewY(170deg);
+        background-color: #fff;
+    }
+    .icon-circle-2::before {
+        content: "";
+        position: absolute;
+        width: 14px;
+        height: 9px;
+        top: 10px;
+        left: 80%;
+        transform: skewX(-54deg);
+        background-color: #FFF;
+    }
+    .icon-circle-2::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 7px;
+        top: 9px;
+        left: -15%;
+        transform: skewY(170deg);
+        background-color: #fff;
+    }
+    .icon-circle-3::before {
+        content: "";
+        position: absolute;
+        width: 14px;
+        height: 9px;
+        top: 10px;
+        left: 80%;
+        transform: skewX(-54deg);
+        background-color: #FFF;
+    }
+    .icon-circle-3::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 7px;
+        top: 9px;
+        left: -15%;
+        transform: skewY(170deg);
+        background-color: #fff;
+    }
+    .icon-circle-4::before {
+        content: "";
+        position: absolute;
+        width: 14px;
+        height: 9px;
+        top: 10px;
+        left: 80%;
+        transform: skewX(-54deg);
+        background-color: #FFF;
+    }
+    .icon-circle-4::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 7px;
+        top: 9px;
+        left: -15%;
+        transform: skewY(170deg);
+        background-color: #fff;
+    }
+    .icon-circle-5::before {
+        content: "";
+        position: absolute;
+        width: 14px;
+        height: 9px;
+        top: 10px;
+        left: 80%;
+        transform: skewX(-54deg);
+        background-color: #FFF;
+    }
+    .icon-circle-5::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 7px;
+        top: 9px;
+        left: -15%;
+        transform: skewY(170deg);
+        background-color: #fff;
     }
     
  }
@@ -149,6 +593,215 @@
     }
     .search_section .me-2{
         margin-right: 0rem !important;
+    }
+    .car-image {
+        padding: 0px;
+        margin-bottom: 50px;
+    }
+    .feature-box {
+        position: static;
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    .icon-circle-1{
+        position: absolute;
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFFFFF;
+        color: #FF4040;
+        border-radius: 50%;
+        font-family: "Manrope", sans-serif;
+        font-size: 25.24px;
+        font-weight: 800;
+        border: 4px solid #FF4040;
+        padding: 20px;
+        overflow: visible;
+        top: 350px;
+        left: 5px;
+    }
+    .icon-circle-2{
+        position: absolute;
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFFFFF;
+        color: #FF4040;
+        border-radius: 50%;
+        font-family: "Manrope", sans-serif;
+        font-size: 25.24px;
+        font-weight: 800;
+        border: 4px solid #FF4040;
+        padding: 20px;
+        overflow: visible;
+        top: 540px;
+        left: 5px;
+    }
+    .icon-circle-3{
+        position: absolute;
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFFFFF;
+        color: #FF4040;
+        border-radius: 50%;
+        font-family: "Manrope", sans-serif;
+        font-size: 25.24px;
+        font-weight: 800;
+        border: 4px solid #FF4040;
+        padding: 20px;
+        overflow: visible;
+        top: 700px;
+        left: 5px;
+    }
+    .icon-circle-4{
+        position: absolute;
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFFFFF;
+        color: #FF4040;
+        border-radius: 50%;
+        font-family: "Manrope", sans-serif;
+        font-size: 25.24px;
+        font-weight: 800;
+        border: 4px solid #FF4040;
+        padding: 20px;
+        overflow: visible;
+        top: 890px;
+        left: 5px;
+    }
+    .icon-circle-5{
+        position: absolute;
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFFFFF;
+        color: #FF4040;
+        border-radius: 50%;
+        font-family: "Manrope", sans-serif;
+        font-size: 25.24px;
+        font-weight: 800;
+        border: 4px solid #FF4040;
+        padding: 20px;
+        overflow: visible;
+        top: 1080px;
+        left: 5px;
+    }
+    .icon-circle-1::before {
+        content: "";
+        position: absolute;
+        width: 14px;
+        height: 9px;
+        top: 10px;
+        left: 80%;
+        transform: skewX(-54deg);
+        background-color: #FFF;
+    }
+    .icon-circle-1::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 7px;
+        top: 9px;
+        left: -15%;
+        transform: skewY(170deg);
+        background-color: #fff;
+    }
+    .icon-circle-2::before {
+        content: "";
+        position: absolute;
+        width: 14px;
+        height: 9px;
+        top: 10px;
+        left: 80%;
+        transform: skewX(-54deg);
+        background-color: #FFF;
+    }
+    .icon-circle-2::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 7px;
+        top: 9px;
+        left: -15%;
+        transform: skewY(170deg);
+        background-color: #fff;
+    }
+    .icon-circle-3::before {
+        content: "";
+        position: absolute;
+        width: 14px;
+        height: 9px;
+        top: 10px;
+        left: 80%;
+        transform: skewX(-54deg);
+        background-color: #FFF;
+    }
+    .icon-circle-3::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 7px;
+        top: 9px;
+        left: -15%;
+        transform: skewY(170deg);
+        background-color: #fff;
+    }
+    .icon-circle-4::before {
+        content: "";
+        position: absolute;
+        width: 14px;
+        height: 9px;
+        top: 10px;
+        left: 80%;
+        transform: skewX(-54deg);
+        background-color: #FFF;
+    }
+    .icon-circle-4::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 7px;
+        top: 9px;
+        left: -15%;
+        transform: skewY(170deg);
+        background-color: #fff;
+    }
+    .icon-circle-5::before {
+        content: "";
+        position: absolute;
+        width: 14px;
+        height: 9px;
+        top: 10px;
+        left: 80%;
+        transform: skewX(-54deg);
+        background-color: #FFF;
+    }
+    .icon-circle-5::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 7px;
+        top: 9px;
+        left: -15%;
+        transform: skewY(170deg);
+        background-color: #fff;
     }
     
  }
