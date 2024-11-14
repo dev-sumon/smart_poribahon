@@ -22,6 +22,15 @@
     .hero .hero_image img{
         width: 100%;
     }
+    .search_section .text {
+        font-size: 25px;
+    }
+    .search_section .btn {
+        padding: 10px 14px;
+    }
+    .search_section .container {
+        padding: 20px 20px;
+    }
  }
  @media(min-width: 768px) and (max-width: 992px){
     .hero{
@@ -45,6 +54,21 @@
     .vehicles_list {
         margin-bottom: 50px;
     }
+    .search_section .container {
+        padding: 20px 20px;
+    }
+    .search_section .text {
+        font-size: 20px;
+        padding-left: 0px;
+    }
+    .search_section .btn {
+        padding: 10px 10px !important;
+        font-size: 20px;
+    }
+    .search_section .search {
+        font-size: 15px;
+        margin-bottom: 0px !important;
+    }
  }
  @media(min-width: 575px) and (max-width: 768px){
     .hero .hero_image img{
@@ -56,6 +80,24 @@
     .vehicles_list {
         margin-bottom: 50px;
     }
+    .search_section .container {
+        padding: 20px 20px;
+    }
+    .search_section .text {
+        padding-left: 0px;
+        text-align: center !important;
+    }
+    .search_section .search {
+        margin-bottom: 20px;
+    }
+    .search_section .btn {
+        padding: 5px 100px;
+    }
+    .search_section .col-12{
+        text-align: center;
+        justify-content: center;
+    }
+    
  }
  @media(max-width: 575px){
     .hero .hero_image img{
@@ -87,7 +129,27 @@
     .vehicles_list {
         margin-bottom: 0px;
     }
-   
+    .search_section .container {
+        padding: 20px 20px;
+    }
+    .search_section .text {
+        padding-left: 0px;
+    }
+    .search_section .col-12 {
+        text-align: center;
+        justify-content: center;
+    }
+    .justify-content-sm-center {
+        -ms-flex-pack: center !important;
+        justify-content: center !important;
+    }
+    .search_section .search {
+        margin-bottom: 20px;
+    }
+    .search_section .me-2{
+        margin-right: 0rem !important;
+    }
+    
  }
  @media(max-width: 425px){
     .hero .title p {
@@ -100,6 +162,9 @@
     }
     .connected_us .container .section-title {
         font-size: 28px;
+    }
+    .search_section .search {
+        margin-bottom: 20px;
     }
  }
  @media(max-width: 375px){

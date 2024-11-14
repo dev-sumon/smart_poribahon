@@ -254,7 +254,8 @@
 .search_section .btn{
     color: #FFFFFF;
     font-family: 'Hind Siliguri';
-    padding: 15px 30px;
+    font-size: 30px;
+    padding: 5px 8px;
     font-weight: 500;
     background: linear-gradient(91.25deg, #FF2727 -4.4%, #FF5454 101.68%);
     border: none;
