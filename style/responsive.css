@@ -39,10 +39,22 @@
     .hero .title p {
         font-size: 21px;
     }
+    .custom-card {
+        /* width: auto; */
+    }
+    .vehicles_list {
+        margin-bottom: 50px;
+    }
  }
  @media(min-width: 575px) and (max-width: 768px){
     .hero .hero_image img{
         width: 100%;
+    }
+    .connected_us .container .section-title {
+        font-size: 40px;
+    }
+    .vehicles_list {
+        margin-bottom: 50px;
     }
  }
  @media(max-width: 575px){
@@ -69,6 +81,12 @@
     .hero .hero_image img{
         width: 100%;
     }
+    .connected_us .container .section-title {
+        font-size: 40px;
+    }
+    .vehicles_list {
+        margin-bottom: 0px;
+    }
    
  }
  @media(max-width: 425px){
@@ -80,13 +98,12 @@
     .hero .title h2 {
         padding-top: 0px;
     }
-    /* .vehicles_list .card {
-        width: 180px;
-        margin-bottom: 20px;
-    } */
+    .connected_us .container .section-title {
+        font-size: 28px;
+    }
  }
  @media(max-width: 375px){
-    /* .vehicles_list .card {
-        width: 157px;
-    } */
+    .form-select {
+        padding: .375rem 1.25rem .375rem .75rem;
+    }
  }
