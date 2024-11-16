@@ -332,270 +332,12 @@
         text-align: center;
         justify-content: center;
     }
-    .car-image {
-        padding: 0px;
-        margin-bottom: 50px;
-    }
-    .feature-box {
-        position: static;
-        width: 100%;
-        margin-bottom: 100px;
-    }
-    .icon-circle-1{
-        position: absolute;
-        display: inline-block;
-        width: 35px;
-        height: 35px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: #FFFFFF;
-        color: #FF4040;
-        border-radius: 50%;
-        font-family: "Manrope", sans-serif;
-        font-size: 25.24px;
-        font-weight: 800;
-        border: 4px solid #FF4040;
-        padding: 20px;
-        overflow: visible;
-        top: 390px;
-        left: 5px;
-    }
-    .icon-circle-2{
-        position: absolute;
-        display: inline-block;
-        width: 35px;
-        height: 35px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: #FFFFFF;
-        color: #FF4040;
-        border-radius: 50%;
-        font-family: "Manrope", sans-serif;
-        font-size: 25.24px;
-        font-weight: 800;
-        border: 4px solid #FF4040;
-        padding: 20px;
-        overflow: visible;
-        top: 580px;
-        left: 5px;
-    }
-    .icon-circle-3{
-        position: absolute;
-        display: inline-block;
-        width: 35px;
-        height: 35px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: #FFFFFF;
-        color: #FF4040;
-        border-radius: 50%;
-        font-family: "Manrope", sans-serif;
-        font-size: 25.24px;
-        font-weight: 800;
-        border: 4px solid #FF4040;
-        padding: 20px;
-        overflow: visible;
-        top: 740px;
-        left: 5px;
-    }
-    .icon-circle-4{
-        position: absolute;
-        display: inline-block;
-        width: 35px;
-        height: 35px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: #FFFFFF;
-        color: #FF4040;
-        border-radius: 50%;
-        font-family: "Manrope", sans-serif;
-        font-size: 25.24px;
-        font-weight: 800;
-        border: 4px solid #FF4040;
-        padding: 20px;
-        overflow: visible;
-        top: 930px;
-        left: 5px;
-    }
-    .icon-circle-5{
-        position: absolute;
-        display: inline-block;
-        width: 35px;
-        height: 35px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: #FFFFFF;
-        color: #FF4040;
-        border-radius: 50%;
-        font-family: "Manrope", sans-serif;
-        font-size: 25.24px;
-        font-weight: 800;
-        border: 4px solid #FF4040;
-        padding: 20px;
-        overflow: visible;
-        top: 1080px;
-        left: 5px;
-    }
-    .icon-circle-1::before {
-        content: "";
-        position: absolute;
-        width: 14px;
-        height: 9px;
-        top: 10px;
-        left: 80%;
-        transform: skewX(-54deg);
-        background-color: #FFF;
-    }
-    .icon-circle-1::after {
-        content: "";
-        position: absolute;
-        width: 10px;
-        height: 7px;
-        top: 9px;
-        left: -15%;
-        transform: skewY(170deg);
-        background-color: #fff;
-    }
-    .icon-circle-2::before {
-        content: "";
-        position: absolute;
-        width: 14px;
-        height: 9px;
-        top: 10px;
-        left: 80%;
-        transform: skewX(-54deg);
-        background-color: #FFF;
-    }
-    .icon-circle-2::after {
-        content: "";
-        position: absolute;
-        width: 10px;
-        height: 7px;
-        top: 9px;
-        left: -15%;
-        transform: skewY(170deg);
-        background-color: #fff;
-    }
-    .icon-circle-3::before {
-        content: "";
-        position: absolute;
-        width: 14px;
-        height: 9px;
-        top: 10px;
-        left: 80%;
-        transform: skewX(-54deg);
-        background-color: #FFF;
-    }
-    .icon-circle-3::after {
-        content: "";
-        position: absolute;
-        width: 10px;
-        height: 7px;
-        top: 9px;
-        left: -15%;
-        transform: skewY(170deg);
-        background-color: #fff;
-    }
-    .icon-circle-4::before {
-        content: "";
-        position: absolute;
-        width: 14px;
-        height: 9px;
-        top: 10px;
-        left: 80%;
-        transform: skewX(-54deg);
-        background-color: #FFF;
-    }
-    .icon-circle-4::after {
-        content: "";
-        position: absolute;
-        width: 10px;
-        height: 7px;
-        top: 9px;
-        left: -15%;
-        transform: skewY(170deg);
-        background-color: #fff;
-    }
-    .icon-circle-5::before {
-        content: "";
-        position: absolute;
-        width: 14px;
-        height: 9px;
-        top: 10px;
-        left: 80%;
-        transform: skewX(-54deg);
-        background-color: #FFF;
-    }
-    .icon-circle-5::after {
-        content: "";
-        position: absolute;
-        width: 10px;
-        height: 7px;
-        top: 9px;
-        left: -15%;
-        transform: skewY(170deg);
-        background-color: #fff;
-    }
-    
- }
- @media(max-width: 575px){
-    .hero .hero_image img{
-        width: 100%;
-    }
-    .hero .title h3 {
-        color: #141F39;
-        font-family: "Hind Siliguri";
-        font-size: 34px;
-        font-weight: 700;
-        text-align: center;
-        text-underline-position: from-font;
-        text-decoration-skip-ink: none;
-    }
-    .hero .title h2 {
-        font-size: 54px;
-        text-align: center;
-    }
-    .hero .title p {
-        font-size: 18px;
-        text-align: center;
-    }
-    .hero .hero_image img{
-        width: 100%;
-    }
-    .connected_us .container .section-title {
-        font-size: 40px;
-    }
-    .vehicles_list {
-        margin-bottom: 0px;
-    }
-    .search_section .container {
-        padding: 20px 20px;
-    }
-    .search_section .text h2{
+    .help_us .help_us_headr .title h2 {
         font-size: 32px;
-        padding-left: 0px;
-    }
-    .search_section .col-12 {
-        text-align: center;
-        justify-content: center;
-    }
-    .justify-content-sm-center {
-        -ms-flex-pack: center !important;
-        justify-content: center !important;
-    }
-    .search_section .search {
-        margin-bottom: 20px;
-    }
-    .search_section .me-2{
-        margin-right: 0rem !important;
+        line-height: 40px;
     }
     .car-image {
-        padding: 0px;
+        padding: 0px !important;
         margin-bottom: 50px;
     }
     .feature-box {
@@ -805,6 +547,277 @@
     }
     
  }
+ @media(max-width: 575px){
+    .hero .hero_image img{
+        width: 100%;
+    }
+    .hero .title h3 {
+        color: #141F39;
+        font-family: "Hind Siliguri";
+        font-size: 34px;
+        font-weight: 700;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+    .hero .title h2 {
+        font-size: 54px;
+        text-align: center;
+    }
+    .hero .title p {
+        font-size: 18px;
+        text-align: center;
+    }
+    .hero .hero_image img{
+        width: 100%;
+    }
+    .connected_us .container .section-title {
+        font-size: 40px;
+    }
+    .vehicles_list {
+        margin-bottom: 0px;
+    }
+    .search_section .container {
+        padding: 20px 20px;
+    }
+    .search_section .text h2{
+        font-size: 32px;
+        padding-left: 0px;
+    }
+    .search_section .col-12 {
+        text-align: center;
+        justify-content: center;
+    }
+    .justify-content-sm-center {
+        -ms-flex-pack: center !important;
+        justify-content: center !important;
+    }
+    .search_section .search {
+        margin-bottom: 20px;
+    }
+    .search_section .me-2{
+        margin-right: 0rem !important;
+    }
+    /* .search_section .form{
+        width: 100% !important;
+    } */
+    .help_us .help_us_headr .title h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .car-image {
+        padding: 0px;
+        margin-bottom: 50px;
+    }
+    
+      
+    .feature-box {
+        position: static;
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    .icon-circle-1{
+        position: absolute;
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFFFFF;
+        color: #FF4040;
+        border-radius: 50%;
+        font-family: "Manrope", sans-serif;
+        font-size: 25.24px;
+        font-weight: 800;
+        border: 4px solid #FF4040;
+        padding: 20px;
+        overflow: visible;
+        top: 375px;
+        left: 5px;
+    }
+    .icon-circle-2{
+        position: absolute;
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFFFFF;
+        color: #FF4040;
+        border-radius: 50%;
+        font-family: "Manrope", sans-serif;
+        font-size: 25.24px;
+        font-weight: 800;
+        border: 4px solid #FF4040;
+        padding: 20px;
+        overflow: visible;
+        top: 565px;
+        left: 5px;
+    }
+    .icon-circle-3{
+        position: absolute;
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFFFFF;
+        color: #FF4040;
+        border-radius: 50%;
+        font-family: "Manrope", sans-serif;
+        font-size: 25.24px;
+        font-weight: 800;
+        border: 4px solid #FF4040;
+        padding: 20px;
+        overflow: visible;
+        top: 725px;
+        left: 5px;
+    }
+    .icon-circle-4{
+        position: absolute;
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFFFFF;
+        color: #FF4040;
+        border-radius: 50%;
+        font-family: "Manrope", sans-serif;
+        font-size: 25.24px;
+        font-weight: 800;
+        border: 4px solid #FF4040;
+        padding: 20px;
+        overflow: visible;
+        top: 915px;
+        left: 5px;
+    }
+    .icon-circle-5{
+        position: absolute;
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFFFFF;
+        color: #FF4040;
+        border-radius: 50%;
+        font-family: "Manrope", sans-serif;
+        font-size: 25.24px;
+        font-weight: 800;
+        border: 4px solid #FF4040;
+        padding: 20px;
+        overflow: visible;
+        top: 1105px;
+        left: 5px;
+    }
+    .icon-circle-1::before {
+        content: "";
+        position: absolute;
+        width: 14px;
+        height: 9px;
+        top: 10px;
+        left: 80%;
+        transform: skewX(-54deg);
+        background-color: #FFF;
+    }
+    .icon-circle-1::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 7px;
+        top: 9px;
+        left: -15%;
+        transform: skewY(170deg);
+        background-color: #fff;
+    }
+    .icon-circle-2::before {
+        content: "";
+        position: absolute;
+        width: 14px;
+        height: 9px;
+        top: 10px;
+        left: 80%;
+        transform: skewX(-54deg);
+        background-color: #FFF;
+    }
+    .icon-circle-2::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 7px;
+        top: 9px;
+        left: -15%;
+        transform: skewY(170deg);
+        background-color: #fff;
+    }
+    .icon-circle-3::before {
+        content: "";
+        position: absolute;
+        width: 14px;
+        height: 9px;
+        top: 10px;
+        left: 80%;
+        transform: skewX(-54deg);
+        background-color: #FFF;
+    }
+    .icon-circle-3::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 7px;
+        top: 9px;
+        left: -15%;
+        transform: skewY(170deg);
+        background-color: #fff;
+    }
+    .icon-circle-4::before {
+        content: "";
+        position: absolute;
+        width: 14px;
+        height: 9px;
+        top: 10px;
+        left: 80%;
+        transform: skewX(-54deg);
+        background-color: #FFF;
+    }
+    .icon-circle-4::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 7px;
+        top: 9px;
+        left: -15%;
+        transform: skewY(170deg);
+        background-color: #fff;
+    }
+    .icon-circle-5::before {
+        content: "";
+        position: absolute;
+        width: 14px;
+        height: 9px;
+        top: 10px;
+        left: 80%;
+        transform: skewX(-54deg);
+        background-color: #FFF;
+    }
+    .icon-circle-5::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 7px;
+        top: 9px;
+        left: -15%;
+        transform: skewY(170deg);
+        background-color: #fff;
+    }
+    
+ }
  @media(max-width: 425px){
     .hero .title p {
         font-size: 18px;
@@ -824,6 +837,221 @@
         font-size: 32px;
         padding-left: 0px;
     }
+    .help_us .help_us_headr .title h2 {
+        text-align: start;
+    }
+    .help_us .help_us_headr .desc p {
+        text-align: start;
+    }
+    .car-image {
+        padding: 0px;
+        margin-bottom: 50px;
+    }
+    .feature-box {
+        position: static;
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    .icon-circle-1{
+        position: absolute;
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFFFFF;
+        color: #FF4040;
+        border-radius: 50%;
+        font-family: "Manrope", sans-serif;
+        font-size: 25.24px;
+        font-weight: 800;
+        border: 4px solid #FF4040;
+        padding: 20px;
+        overflow: visible;
+        top: 275px;
+        left: 5px;
+    }
+    .icon-circle-2{
+        position: absolute;
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFFFFF;
+        color: #FF4040;
+        border-radius: 50%;
+        font-family: "Manrope", sans-serif;
+        font-size: 25.24px;
+        font-weight: 800;
+        border: 4px solid #FF4040;
+        padding: 20px;
+        overflow: visible;
+        top: 465px;
+        left: 5px;
+    }
+    .icon-circle-3{
+        position: absolute;
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFFFFF;
+        color: #FF4040;
+        border-radius: 50%;
+        font-family: "Manrope", sans-serif;
+        font-size: 25.24px;
+        font-weight: 800;
+        border: 4px solid #FF4040;
+        padding: 20px;
+        overflow: visible;
+        top: 655px;
+        left: 5px;
+    }
+    .icon-circle-4{
+        position: absolute;
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFFFFF;
+        color: #FF4040;
+        border-radius: 50%;
+        font-family: "Manrope", sans-serif;
+        font-size: 25.24px;
+        font-weight: 800;
+        border: 4px solid #FF4040;
+        padding: 20px;
+        overflow: visible;
+        top: 875px;
+        left: 5px;
+    }
+    .icon-circle-5{
+        position: absolute;
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFFFFF;
+        color: #FF4040;
+        border-radius: 50%;
+        font-family: "Manrope", sans-serif;
+        font-size: 25.24px;
+        font-weight: 800;
+        border: 4px solid #FF4040;
+        padding: 20px;
+        overflow: visible;
+        top: 1065px;
+        left: 5px;
+    }
+    .icon-circle-1::before {
+        content: "";
+        position: absolute;
+        width: 14px;
+        height: 9px;
+        top: 10px;
+        left: 80%;
+        transform: skewX(-54deg);
+        background-color: #FFF;
+    }
+    .icon-circle-1::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 7px;
+        top: 9px;
+        left: -15%;
+        transform: skewY(170deg);
+        background-color: #fff;
+    }
+    .icon-circle-2::before {
+        content: "";
+        position: absolute;
+        width: 14px;
+        height: 9px;
+        top: 10px;
+        left: 80%;
+        transform: skewX(-54deg);
+        background-color: #FFF;
+    }
+    .icon-circle-2::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 7px;
+        top: 9px;
+        left: -15%;
+        transform: skewY(170deg);
+        background-color: #fff;
+    }
+    .icon-circle-3::before {
+        content: "";
+        position: absolute;
+        width: 14px;
+        height: 9px;
+        top: 10px;
+        left: 80%;
+        transform: skewX(-54deg);
+        background-color: #FFF;
+    }
+    .icon-circle-3::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 7px;
+        top: 9px;
+        left: -15%;
+        transform: skewY(170deg);
+        background-color: #fff;
+    }
+    .icon-circle-4::before {
+        content: "";
+        position: absolute;
+        width: 14px;
+        height: 9px;
+        top: 10px;
+        left: 80%;
+        transform: skewX(-54deg);
+        background-color: #FFF;
+    }
+    .icon-circle-4::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 7px;
+        top: 9px;
+        left: -15%;
+        transform: skewY(170deg);
+        background-color: #fff;
+    }
+    .icon-circle-5::before {
+        content: "";
+        position: absolute;
+        width: 14px;
+        height: 9px;
+        top: 10px;
+        left: 80%;
+        transform: skewX(-54deg);
+        background-color: #FFF;
+    }
+    .icon-circle-5::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 7px;
+        top: 9px;
+        left: -15%;
+        transform: skewY(170deg);
+        background-color: #fff;
+    }
  }
  @media(max-width: 375px){
     .form-select {
@@ -832,5 +1060,42 @@
     .search_section .text h2{
         font-size: 32px;
         padding-left: 0px;
+    }
+    .icon-circle-1{
+        top: 244px;
+        left: 16px;
+    }
+    .icon-circle-2{
+        top: 464px;
+        left: 16px;
+    }
+    .icon-circle-3{
+        top: 654px;
+        left: 16px;
+    }
+    .icon-circle-4{
+        top: 874px;
+        left: 16px;
+    }
+    .icon-circle-5{
+        top: 1094px;
+        left: 16px;
+    }
+ }
+ @media(max-width: 320px){
+    .icon-circle-1 {
+        top: 208px;
+    }
+    .icon-circle-2 {
+        top: 428px;
+    }
+    .icon-circle-3 {
+        top: 618px;
+    }
+    .icon-circle-4 {
+        top: 868px;
+    }
+    .icon-circle-5 {
+        top: 1088px;
     }
  }
