@@ -1079,6 +1079,9 @@
         transform: skewY(170deg);
         background-color: #fff;
     }
+    .faq-question {
+        padding: 15px 25px;
+    }
  }
  @media(max-width: 375px){
     .form-select {
