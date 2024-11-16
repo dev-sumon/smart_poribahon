@@ -304,6 +304,7 @@
         transform: skewY(170deg);
         background-color: #fff;
     }
+
  }
  @media(min-width: 575px) and (max-width: 768px){
     .hero .hero_image img{
@@ -545,7 +546,16 @@
         transform: skewY(170deg);
         background-color: #fff;
     }
-    
+    .bd_smart_vehicle_part .heading_section {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0.2px;
+    color: #141F39;
+    width: 613px;
+    height: 56px;
+}
  }
  @media(max-width: 575px){
     .hero .hero_image img{
