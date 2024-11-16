@@ -738,10 +738,8 @@
     color: #051E38;
     line-height: 34px;
     padding: 15px 35px;
-    font-size: 1em;
     cursor: pointer;
     position: relative;
-    font-weight: bold;
 }
 .faq-question::after {
     content: "+";
