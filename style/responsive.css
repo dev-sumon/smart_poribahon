@@ -1131,6 +1131,9 @@
     .bd_smart_vehicle_part .heading_section {
         font-size: 36px;
     }
+    .faq-question {
+        padding: 15px 25px;
+    }
  }
  @media(max-width: 320px){
     .icon-circle-1 {
