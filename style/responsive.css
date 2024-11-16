@@ -832,6 +832,18 @@
     .head-text{
         margin-bottom: 50px;
     }
+    .faq-title {
+        font-size: 32px;
+        text-align: left;
+        line-height: 40px;
+    }
+    .faq-question {
+        font-size: 14px;
+        padding: 15px 20px;
+    }
+    .faq-answer {
+        font-size: 16px;
+    }
  }
  @media(max-width: 425px){
     .hero .title p {
