@@ -593,42 +593,42 @@
 .bd_smart_vehicle_part {
     color: #000000;
 }
-.post_card .post_content {
+.bd_smart_vehicle_part .post_card .post_content {
     color: #000000;
-    padding-left: 15px;
+    padding: 15px;
 }
 .bd_smart_vehicle_part .post_card .post_title{
     font-weight: 600;      
     font-size: 20px;         
-    line-height: 120%;
-    letter-spacing: 0%;
+    line-height: 24px;
     color: #000000;
 }
 .bd_smart_vehicle_part .post_card .post_date{
     font-family: 'Hind Siliguri', sans-serif;
     font-weight: 400;
     font-size: 16px;
-    width: 330px;
-    line-height: 150%;
+    /* width: 330px; */
+    line-height: 24px;
     color: #000000;
 }
 .bd_smart_vehicle_part .post_card .post_description{
     font-family: 'Hind Siliguri', sans-serif;
     font-weight: 400;
     font-size: 16px;
-    width: 330px;
-    height: 69px;
-    line-height: 150%;
+    /* width: 330px;
+    height: 69px; */
+    line-height: 24px;
     color: #000000;
 }
 .bd_smart_vehicle_part .heading_section {
     font-family: 'Hind Siliguri', sans-serif;
-    font-weight: 600; /* Semibold weight */
+    font-weight: 600;
     font-size: 48px;
     line-height: 56px;
     letter-spacing: 0.2px;
     color: #141F39;
-    width: 613px; height: 56px;
+    /* width: 613px; 
+    height: 56px; */
 }
 .bd_smart_vehicle_part .btn_section .gradient-border-button{
     position: relative;
@@ -667,31 +667,33 @@
     font-size: 20px;
     color: #FF4040;
 }
-.sub_text {
+.bd_smart_vehicle_part .sub_text {
     font-family: 'Hind Siliguri', sans-serif;
-    font-weight: 400; /* rebular weight */
+    font-weight: 400;
     font-size: 18px;
     line-height: 28px;
     letter-spacing: 0.2px;
     color: #141F39;
   }
-.post_card {
-    width: 370px;
-    height: 440px;
+.bd_smart_vehicle_part .post_card {
+    /* width: 370px; */
+    height: 100%;
+    max-height: 100%;
+    object-fit: cover;
     border: 1px solid #e0e0e0;
     border-radius: 12px;
     transition: transform 0.3s;
 }
-.post_card:hover {
+.bd_smart_vehicle_part .post_card:hover {
     transform: translateY(-5px);
 }
-.post_image {
+.bd_smart_vehicle_part .post_image {
     width: 100%;
     height: auto;
     margin-bottom: 15px;
     background-color: #fef5f5;
 }
-.btn_section{
+.bd_smart_vehicle_part .btn_section{
     font-family: 'Hind Siliguri', sans-serif;
     font-weight: 500;
     font-size: 16px;
