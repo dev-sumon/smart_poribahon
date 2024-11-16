@@ -1082,6 +1082,23 @@
         left: 16px;
     }
  }
+ @media(max-width: 360px){
+    .icon-circle-1{
+        top: 234px !important;
+    }
+    .icon-circle-2{
+        top: 454px !important;
+    }
+    .icon-circle-3{
+        top: 644px !important;
+    }
+    .icon-circle-4{
+        top: 894px !important;
+    }
+    .icon-circle-5{
+        top: 1114px !important;
+    }
+ }
  @media(max-width: 320px){
     .icon-circle-1 {
         top: 208px;
