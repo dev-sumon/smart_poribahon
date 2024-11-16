@@ -334,7 +334,7 @@
         justify-content: center;
     }
     .help_us .help_us_headr .title h2 {
-        font-size: 32px;
+        font-size: 28px;
         line-height: 40px;
     }
     .car-image {
@@ -553,8 +553,8 @@
     line-height: 40px;
     letter-spacing: 0.2px;
     color: #141F39;
-    width: 613px;
-    height: 56px;
+    /* width: 613px;
+    height: 56px; */
 }
  }
  @media(max-width: 575px){
@@ -826,7 +826,12 @@
         transform: skewY(170deg);
         background-color: #fff;
     }
-    
+    .car-container {
+        padding-bottom: 50px;
+    }
+    .head-text{
+        margin-bottom: 50px;
+    }
  }
  @media(max-width: 425px){
     .hero .title p {
@@ -1108,21 +1113,24 @@
     .icon-circle-5{
         top: 1114px !important;
     }
+    .bd_smart_vehicle_part .heading_section {
+        font-size: 36px;
+    }
  }
  @media(max-width: 320px){
     .icon-circle-1 {
-        top: 208px;
+        top: 208px !important;
     }
     .icon-circle-2 {
-        top: 428px;
+        top: 428px !important;
     }
     .icon-circle-3 {
-        top: 618px;
+        top: 618px !important;
     }
     .icon-circle-4 {
-        top: 868px;
+        top: 868px !important;
     }
     .icon-circle-5 {
-        top: 1088px;
+        top: 1088px !important;
     }
  }
