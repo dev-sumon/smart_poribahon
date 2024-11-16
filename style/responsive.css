@@ -1132,7 +1132,7 @@
         font-size: 36px;
     }
     .faq-question {
-        padding: 15px 25px;
+        padding: 15px 25px !important;
     }
  }
  @media(max-width: 320px){
