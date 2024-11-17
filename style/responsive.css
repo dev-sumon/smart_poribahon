@@ -850,6 +850,14 @@
     .footer_gray .left_footer .mobile_app_link .app_store{
         margin-top: 10px;
     }
+    .notice .all_notice_button{
+        text-align: start !important;
+        margin-top: 20px;
+        margin-left: 5px;
+    }
+    .notice .advisement{
+        margin-top: 50px !important;
+    }
  }
  @media(max-width: 425px){
     .hero .title p {
