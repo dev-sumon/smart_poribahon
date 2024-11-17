@@ -885,7 +885,7 @@
     }
 
     .location_item .dropdown::after {
-        display: none; 
+        display: none;  
     }
  }
  @media(max-width: 425px){
@@ -1181,10 +1181,7 @@
         padding: 15px 25px !important;
     }
     .location_item .dropdown {
-        padding: 8px 0px;
-    }
-    .location_item .dropdown::after {
-        right: 5px;
+        padding: 5px;
     }
  }
  @media(max-width: 320px){
