@@ -867,6 +867,9 @@
     .location_item .dropdown::after {
         right: 20px;
     }
+    .dealist .btn {
+        width: 100%;
+    }
     .dealist .location_item .advisement{
         display: none;
     }
@@ -1165,6 +1168,12 @@
     }
     .faq-question {
         padding: 15px 25px !important;
+    }
+    .location_item .dropdown {
+        padding: 8px 0px;
+    }
+    .location_item .dropdown::after {
+        right: 5px;
     }
  }
  @media(max-width: 320px){
