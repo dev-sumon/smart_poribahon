@@ -876,6 +876,17 @@
     .dealist .cover_advisement{
         display: none;
     }
+    .location_item .dropdown select {
+        appearance: auto;
+        -webkit-appearance: auto;
+        -moz-appearance: auto;
+        background: #fff;
+        cursor: pointer;
+    }
+
+    .location_item .dropdown::after {
+        display: none; 
+    }
  }
  @media(max-width: 425px){
     .hero .title p {
