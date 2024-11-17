@@ -844,6 +844,12 @@
     .faq-answer {
         font-size: 16px;
     }
+    .footer_gray .left_footer .mobile_app_link{
+        display: block !important;
+    }
+    .footer_gray .left_footer .mobile_app_link .app_store{
+        margin-top: 10px;
+    }
  }
  @media(max-width: 425px){
     .hero .title p {
