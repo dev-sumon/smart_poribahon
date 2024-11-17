@@ -880,10 +880,7 @@
     line-height: auto;
     margin-top: 1rem;
 }
-
-
-
-  .location_item .dropdown {
+.location_item .dropdown {
     position: relative;
     display: flex;
     align-items: center;
@@ -896,9 +893,8 @@
     cursor: pointer;
     width: 70%;
     margin-bottom: 50px;
-  }
-
-  .location_item .dropdown option{
+}
+.location_item .dropdown option{
     font-family: 'Hind Siliguri';
     font-weight: 500;
     font-size: 16px;
@@ -906,24 +902,25 @@
     color: #061E38;
     border-color: #FF4040;
     text-align: center;
-  }
+}
 
-  .location_item .dropdown select {
+.location_item .dropdown select {
     font-family: 'Hind Siliguri';
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     color: #061E38;
     border-color: #FF4040;
+    text-align: center;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none;
+    border: none;
+    background: none;
+    width: 100%;
+    cursor: pointer;
   }
-  /* .hero select {
-    font-family: 'Hind Siliguri';
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: #061E38;
-    border-color: #FF4040;
-} */
   .location_item .dropdown::after {
         content: "\f107";
         font-family: "Font Awesome 5 Free";
@@ -931,7 +928,6 @@
         position: absolute;
         right: 100px;
         color: #061E38;
-
     }
 
     /* .location_item .dropdown select {
