@@ -57,6 +57,9 @@
         bottom: 20%;
         left: 50%;
     }
+    .location_item .dropdown::after {
+        right: 85px;
+    }
  }
  @media(min-width: 768px) and (max-width: 992px){
     .hero{
@@ -858,6 +861,18 @@
     .notice .advisement{
         margin-top: 50px !important;
     }
+    .location_item .dropdown {
+        width: 100%;
+    }
+    .location_item .dropdown::after {
+        right: 20px;
+    }
+    .dealist .location_item .advisement{
+        display: none;
+    }
+    .dealist .cover_advisement{
+        display: none;
+    }
  }
  @media(max-width: 425px){
     .hero .title p {
@@ -1095,6 +1110,9 @@
     }
     .faq-question {
         padding: 15px 25px;
+    }
+    .location_item .dropdown::after {
+        right: 12px;
     }
  }
  @media(max-width: 375px){
