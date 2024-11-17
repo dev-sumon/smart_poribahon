@@ -915,19 +915,15 @@
     line-height: 24px;
     color: #061E38;
     border-color: #FF4040;
-    text-align: center;
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    outline: none;
-    border: none;
-    background: none;
-    color: inherit;
-    font-size: inherit;
-    width: 100%;
-    cursor: pointer;
   }
-
+  /* .hero select {
+    font-family: 'Hind Siliguri';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #061E38;
+    border-color: #FF4040;
+} */
   .location_item .dropdown::after {
         content: "\f107";
         font-family: "Font Awesome 5 Free";
