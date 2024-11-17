@@ -558,7 +558,10 @@
     color: #141F39;
     /* width: 613px;
     height: 56px; */
-}
+    }
+    .dealist .location_item {
+        margin-top: 20px;
+    }
  }
  @media(max-width: 575px){
     .hero .hero_image img{
@@ -886,6 +889,9 @@
 
     .location_item .dropdown::after {
         display: none;  
+    }
+    .dealist .location_item {
+        margin-top: 20px;
     }
  }
  @media(max-width: 425px){
