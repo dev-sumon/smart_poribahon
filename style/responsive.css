@@ -307,6 +307,9 @@
         transform: skewY(170deg);
         background-color: #fff;
     }
+    .dealist .location_item {
+        margin-top: 50px;
+    }
 
  }
  @media(min-width: 575px) and (max-width: 768px){
