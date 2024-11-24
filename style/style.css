@@ -929,6 +929,12 @@
         right: 100px;
         color: #061E38;
     }
+.dealist .content_nav{
+    /* width: 780px;
+    height: 105px; */
+    top: 852px;
+    left: 601px;
+}
 
     /* .location_item .dropdown select {
         font-family: 'Hind Siliguri';
@@ -1048,7 +1054,7 @@
     color: #141F39;
     font-family: 'Hind Siliguri';
     font-size: 24px;
-    font-family: 700;
+    font-weight: 700;
     line-height: 46px;
     letter-spacing: 0.2px;
 }
@@ -1073,7 +1079,7 @@
 /* deatils section css start */
 .dealist .profile-card {
     position: relative;
-    width: 224px;
+    width: 100%;
     padding: 20px;
     border-radius: 10px;
     background-color: white;
@@ -1083,7 +1089,7 @@
 .dealist .badge {
     position: absolute;
     top: 15px;
-    left: 15px;
+    left: 30px;
     font-family: 'Hind Siliguri';
     font-size: 16px;
     font-weight: 600;
@@ -1092,7 +1098,6 @@
     background: linear-gradient(90.56deg, #FF2626 0.49%, #FF5858 99.81%);
     color: white;
     border-radius: 50%;
-    font-size: 14px;
     width: 94px;
     height: 94px;
     display: flex;
@@ -1122,17 +1127,77 @@
     letter-spacing: 0.2px;
     color: #212529;
 }
+.stant_location_item .dropdown {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #ff3b3f;
+    border-radius: 8px;
+    padding: 8px;
+    background-color: white;
+    color: #333;
+    cursor: pointer;
+    width: 70%;
+    margin-bottom: 50px;
+}
+.stant_location_item .dropdown option{
+    font-family: 'Hind Siliguri';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #061E38;
+    border-color: #FF4040;
+    text-align: center;
+}
+
+.stant_location_item .dropdown select {
+    font-family: 'Hind Siliguri';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #061E38;
+    border-color: #FF4040;
+    text-align: center;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none;
+    border: none;
+    background: none;
+    width: 100%;
+    cursor: pointer;
+  }
+.stant_location_item .dropdown::after {
+    content: "\f107";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    right: 75px;
+    color: #061E38;
+}
+.dealist .community_advisement .advisement{
+    margin-top: 150px;
+}
 /* deatils section css end */
 /* stand commuity page css end */
 
 /* CNG owner page css start */
 /* dealist section css start */
-.dealist .owner_list .profile-card{
+.dealist .owner_list li a{
+    text-decoration: none;
+    font-family: 'Hind Siliguri';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #1F1E1E;
+}
+/* .dealist .owner_list .profile-card{
     padding: 0px;
-}
-.dealist .owner_list .profile-card img{
+} */
+/* .dealist .owner_list .profile-card img{
     width: 100%;
-}
+} */
 .dealist .owner_list .profile-card .profile-details{
     text-align: left;
     padding: 0px 15px;
@@ -1221,6 +1286,57 @@
     height: 45px;
     width: 45px;
     background-color: #F1F5F8;
+}
+
+
+.cng_owner_location_item .dropdown {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #ff3b3f;
+    border-radius: 8px;
+    padding: 8px;
+    background-color: white;
+    color: #333;
+    cursor: pointer;
+    width: 70%;
+    margin-bottom: 50px;
+}
+.cng_owner_location_item .dropdown option{
+    font-family: 'Hind Siliguri';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #061E38;
+    border-color: #FF4040;
+    text-align: center;
+}
+
+.cng_owner_location_item .dropdown select {
+    font-family: 'Hind Siliguri';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #061E38;
+    border-color: #FF4040;
+    text-align: center;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none;
+    border: none;
+    background: none;
+    width: 100%;
+    cursor: pointer;
+}
+.cng_owner_location_item .dropdown::after {
+    content: "\f107";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    right: 45px;
+    color: #061E38;
 }
 /* dealist section css end */
 /* CNG owner page css end */

@@ -33,10 +33,13 @@
 
     <!-- Custom css link -->
     <link rel="stylesheet" href="style/style.css">
+
+    <!-- Responxive css link -->
+     <link rel="stylesheet" href="style/responsive.css">
   </head>
   <body>
     <!-- nav section start -->
-    <nav class="navbar navbar-expand-lg">
+    <!-- <nav class="navbar navbar-expand-lg">
         <div class="container">
           <div class="logo me-2">
               <a class="navbar-brand" href="index.html">
@@ -94,7 +97,7 @@
               </div>
           </div>
         </div>
-      </nav>
+    </nav> -->
     <!-- nav section end -->
     <!-- president and members section start-->
     <section class="president_and_members pt-5 pb-4">
@@ -113,7 +116,7 @@
     <section class="notice">
         <div class="container py-5">
             <div class="row">
-                <div class="col-9">
+                <div class="col-md-12 col-lg-9">
                     <div class="title pt-2">
                         <h5>নোটিশ বোর্ড</h5>
                     </div>
@@ -158,9 +161,13 @@
                     </div>
                                        
                 </div>
-                <div class="col-3">
-                    <div class="lost_notification">
-
+                <div class="col-md-12 col-lg-3 mt-sm-5 mt-md-5 custom-margin">
+                    <div class="advisement text-center">
+                      <div class="add_image">
+                        <a href="#">
+                          <img class="text-center" src="images/add_banner.jpg" alt="add banner">
+                        </a>
+                      </div>
                     </div>
                 </div>
             </div>
@@ -171,8 +178,78 @@
     <section class="dealist pb-5">
         <div class="container">
             <div class="row d-flex align-content-center">
-                <div class="col-4 d-flex flex-column align-items-center text-center location_item">
-                    <select class="form-select text-center">
+                <div class="col-sm-12 col-lg-3 d-flex flex-column align-items-center text-center cng_owner_location_item">
+                    <div class="row g-2">
+                        <!-- Dropdown 1 -->
+                        <div class="col-4 col-sm-12 d-flex flex-column align-items-center text-center">
+                            <div class="dropdown">
+                                <select>
+                                    <option value="1">বিভাগ</option>
+                                    <option value="2">বিভাগ</option>
+                                    <option value="3">বিভাগ</option>
+                                    <option value="4">বিভাগ</option>
+                                    <option value="5">বিভাগ</option>
+                                    <option value="6">বিভাগ</option>
+                                    <option value="7">বিভাগ</option>
+                                    <option value="8">বিভাগ</option>
+                                </select>
+                            </div>
+                        </div>
+                         <!-- Dropdown 2 -->
+                         <div class="col-4 col-sm-12 d-flex flex-column align-items-center text-center">
+                            <div class="dropdown">
+                                <select>
+                                    <option>জেলা</option>
+                                    <option value="1">জেলা</option>
+                                    <option value="2">জেলা</option>
+                                </select>
+                            </div>
+                        </div>
+                        <!-- Dropdown 3 -->
+                        <div class="col-4 col-sm-12 d-flex flex-column align-items-center text-center">
+                            <div class="dropdown">
+                                <select>
+                                    <option>থানা</option>
+                                    <option value="1">থানা</option>
+                                    <option value="2">থানা</option>
+                                </select>
+                            </div>
+                        </div>
+                        <!-- Dropdown 4 -->
+                        <div class="col-4 col-sm-12 d-flex flex-column align-items-center text-center">
+                            <div class="dropdown">
+                                <select>
+                                    <option>ইউনিয়ন</option>
+                                    <option value="1">ইউনিয়ন</option>
+                                    <option value="2">ইউনিয়ন</option>
+                                </select>
+                            </div>
+                        </div>
+                         <!-- Dropdown 5 -->
+                         <div class="col-4 col-sm-12 d-flex flex-column align-items-center text-center">
+                            <div class="dropdown">
+                                <select>
+                                    <option>স্ট্যান্ড</option>
+                                    <option value="1">স্ট্যান্ড</option>
+                                    <option value="2">স্ট্যান্ড</option>
+                                </select>
+                            </div>
+                        </div>
+                        <!-- Dropdown 6 -->
+                        <div class="col-4 col-sm-12 d-flex flex-column align-items-center text-center">
+                            <div class="dropdown">
+                                <select>
+                                    <option>গাড়ি</option>
+                                    <option value="1">গাড়ি</option>
+                                    <option value="2">গাড়ি</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <button class="btn btn-outline-success mt-3 mb-5" type="submit">ক্লিক করুন</button>
+                        </div>
+                    </div>
+                    <!-- <select class="form-select text-center">
                         <option class="option">বিভাগ</option>
                         <option class="option">ঢাকা </option>
                         <option class="option">চট্টগ্রাম </option>
@@ -213,11 +290,50 @@
                         <option class="option">গাড়ি</option>
                         <option class="option">গাড়ি</option>
                     </select>
-                    <button class="btn btn-outline-success" type="submit">ক্লিক করুন</button>
+                    <button class="btn btn-outline-success" type="submit">ক্লিক করুন</button> -->
                 </div>
-                <div class="col-8">
+                <div class="col-12 col-lg-9">
                     <div class="row owner_list">
-                        <div class="col-4 mb-5">
+                            <!-- <div class="content_nav mb-3">
+                                <div class="nav1">
+                                    <ul class="d-flex flex-row gap-5 p-0 m-0 list-unstyled">
+                                        <li><a href="stand_intro.html">স্ট্যান্ডের পরিচিতি</a></li>
+                                        <li><a href="stand_map.html">মানচিত্রে স্ট্যান্ড</a></li>
+                                        <li><a href="#">সভাপতি ও সদস্য বৃন্দ তালিকা</a></li>
+                                        <li><a href="#">বাইক মালিক এর তালিকা</a></li>
+                                    </ul>
+                                </div>
+                                <div class="nav2 pt-4">
+                                    <ul class="d-flex flex-row gap-5 p-0 m-0 list-unstyled">
+                                        <li><a href="#">বাইক ড্রাইভার এর তালিকা </a></li>
+                                        <li><a href="#">স্ট্যান্ড এর বার্ষিক বাজেট উন্নয়ন পরিকল্পনা ও আর্থিক বিবরণী </a></li>
+                                    </ul>
+                                </div>
+                            </div> -->
+                            <!-- <div class="content_nav mb-3"> -->
+                                <!-- First Navigation -->
+                                <!-- <div class="nav1">
+                                    <ul class="d-flex flex-wrap justify-content-center gap-3 p-0 m-0 list-unstyled">
+                                        <li><a href="stand_intro.html">স্ট্যান্ডের পরিচিতি</a></li>
+                                        <li><a href="stand_map.html">মানচিত্রে স্ট্যান্ড</a></li>
+                                        <li><a href="#">সভাপতি ও সদস্য বৃন্দ তালিকা</a></li>
+                                        <li><a href="#">বাইক মালিক এর তালিকা</a></li>
+                                    </ul>
+                                </div> -->
+                                <!-- Second Navigation -->
+                                <!-- <div class="nav2 pt-4">
+                                    <ul class="d-flex flex-wrap justify-content-center gap-3 p-0 m-0 list-unstyled">
+                                        <li><a href="#">বাইক ড্রাইভার এর তালিকা</a></li>
+                                        <li>
+                                            <a href="#">
+                                                স্ট্যান্ড এর বার্ষিক বাজেট উন্নয়ন পরিকল্পনা ও আর্থিক বিবরণী
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div> -->
+                            <!-- </div> -->
+                            
+                        <div class="col-12 col-md-6 col-lg-6 col-xl-4 mb-5">
                             <div class="profile-card">
                                 <img src="images/Rectangle 3848.png" alt="Profile Image" class="profile-image mb-3">
                                 <div class="profile-details">
@@ -229,7 +345,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4 mb-5">
+                        <div class="col-12 col-md-6 col-lg-6 col-xl-4 mb-5">
                             <div class="profile-card">
                                 <img src="images/Rectangle 3848.png" alt="Profile Image" class="profile-image mb-3">
                                 <div class="profile-details">
@@ -241,7 +357,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4 mb-5">
+                        <div class="col-12 col-md-6 col-lg-6 col-xl-4 mb-5">
                             <div class="profile-card">
                                 <img src="images/Rectangle 3848.png" alt="Profile Image" class="profile-image mb-3">
                                 <div class="profile-details">
@@ -253,7 +369,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4 mb-5">
+                        <div class="col-12 col-md-6 col-lg-6 col-xl-4 mb-5">
                             <div class="profile-card">
                                 <img src="images/Rectangle 3848.png" alt="Profile Image" class="profile-image mb-3">
                                 <div class="profile-details">
@@ -265,7 +381,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4 mb-5">
+                        <div class="col-12 col-md-6 col-lg-6 col-xl-4 mb-5">
                             <div class="profile-card">
                                 <img src="images/Rectangle 3848.png" alt="Profile Image" class="profile-image mb-3">
                                 <div class="profile-details">
@@ -277,7 +393,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4 mb-5">
+                        <div class="col-12 col-md-6 col-lg-6 col-xl-4 mb-5">
                             <div class="profile-card">
                                 <img src="images/Rectangle 3848.png" alt="Profile Image" class="profile-image mb-3">
                                 <div class="profile-details">
@@ -289,7 +405,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4 mb-5">
+                        <div class="col-12 col-md-6 col-lg-6 col-xl-4 mb-5">
                             <div class="profile-card">
                                 <img src="images/Rectangle 3848.png" alt="Profile Image" class="profile-image mb-3">
                                 <div class="profile-details">
@@ -301,7 +417,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4 mb-5">
+                        <div class="col-12 col-md-6 col-lg-6 col-xl-4 mb-5">
                             <div class="profile-card">
                                 <img src="images/Rectangle 3848.png" alt="Profile Image" class="profile-image mb-3">
                                 <div class="profile-details">
@@ -313,7 +429,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4 mb-5">
+                        <div class="col-12 col-md-6 col-lg-6 col-xl-4 mb-5">
                             <div class="profile-card">
                                 <img src="images/Rectangle 3848.png" alt="Profile Image" class="profile-image mb-3">
                                 <div class="profile-details">
@@ -325,7 +441,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4 mb-5">
+                        <div class="col-12 col-md-6 col-lg-6 col-xl-4 mb-5">
                             <div class="profile-card">
                                 <img src="images/Rectangle 3848.png" alt="Profile Image" class="profile-image mb-3">
                                 <div class="profile-details">
@@ -337,7 +453,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4 mb-5">
+                        <div class="col-12 col-md-6 col-lg-6 col-xl-4 mb-5">
                             <div class="profile-card">
                                 <img src="images/Rectangle 3848.png" alt="Profile Image" class="profile-image mb-3">
                                 <div class="profile-details">
@@ -349,7 +465,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4 mb-5">
+                        <div class="col-12 col-md-6 col-lg-6 col-xl-4 mb-5">
                             <div class="profile-card">
                                 <img src="images/Rectangle 3848.png" alt="Profile Image" class="profile-image mb-3">
                                 <div class="profile-details">
@@ -361,7 +477,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4 mb-5">
+                        <div class="col-12 col-md-6 col-lg-6 col-xl-4 mb-5">
                             <div class="profile-card">
                                 <img src="images/Rectangle 3848.png" alt="Profile Image" class="profile-image mb-3">
                                 <div class="profile-details">
@@ -373,7 +489,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4 mb-5">
+                        <div class="col-12 col-md-6 col-lg-6 col-xl-4 mb-5">
                             <div class="profile-card">
                                 <img src="images/Rectangle 3848.png" alt="Profile Image" class="profile-image mb-3">
                                 <div class="profile-details">
@@ -385,7 +501,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4 mb-5">
+                        <div class="col-12 col-md-6 col-lg-6 col-xl-4 mb-5">
                             <div class="profile-card">
                                 <img src="images/Rectangle 3848.png" alt="Profile Image" class="profile-image mb-3">
                                 <div class="profile-details">
@@ -397,7 +513,7 @@
                                 </div>
                             </div>
                         </div>
-                    <div class="next_page d-flex align-items-center  text-center">
+                    <div class="next_page d-flex align-items-center justify-content-md-center text-center">
                         <div class="left_arrow">
                             <a href="#"><i class="fa-solid fa-angles-left"></i></a>
                         </div>
