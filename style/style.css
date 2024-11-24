@@ -2,7 +2,7 @@
 /* nav section css start */
 .navbar .menu_bar .menu{
     color: #051E38;
-    font-family: "Hind Siliguri";
+    font-family: "Hind Siliguri", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -10,7 +10,7 @@
 }
 .navbar .language .menu{
     color: #051E38;
-    font-family: "Hind Siliguri";
+    font-family: "Hind Siliguri", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -19,7 +19,7 @@
 .login_register button{
     padding: 16px 20px;
     color: #051E38;
-    font-family: "Hind Siliguri";
+    font-family: "Hind Siliguri", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -37,14 +37,14 @@
 
 .hero .title h3{
     color: #141F39;
-    font-family: "Hind Siliguri";
+    font-family: "Hind Siliguri", sans-serif;
     font-size: 42px;
     font-weight: bold;
     line-height: 46px;
     letter-spacing: 0.2px;
 }
 .hero .title h2{
-    font-family: 'Hind Siliguri';
+    font-family: "Hind Siliguri", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 68px;
@@ -58,7 +58,7 @@
     background-clip: text;
 }
 .hero .title p{
-    font-family: 'Hind Siliguri';
+    font-family: "Hind Siliguri", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
@@ -70,7 +70,7 @@
 }
 .hero .select_iteam{
     border: 1px solid #FF2727;
-    font-family: 'Hind Siliguri';
+    font-family: "Hind Siliguri", sans-serif;
 }
 .hero .select_iteam option{
     font-style: normal;
@@ -248,7 +248,7 @@
 .vehicles_list a{
     text-decoration: none;
     color: #000000;
-    font-family: 'Hind Siliguri';
+    font-family: "Hind Siliguri", sans-serif;
     font-size: 18px;
     line-height: 32px;
     font-weight: 500;
@@ -269,7 +269,7 @@
 }
 .vehicles_list .deatils p{
    color: #000000;
-   font-family: 'Hind Siliguri';
+   font-family: "Hind Siliguri", sans-serif;
    font-size: 18px;
    line-height: 32px;
    font-weight: 500;
@@ -357,7 +357,7 @@
     margin-bottom: 50px;
 }
 .search_section .text{
-    font-family: 'Hind Siliguri';
+    font-family: "Hind Siliguri", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 28px;
@@ -368,14 +368,14 @@
 }
 .search_section .btn{
     color: #FFFFFF;
-    font-family: 'Hind Siliguri';
+    font-family: "Hind Siliguri", sans-serif;
     padding: 15px 30px;
     font-weight: 500;
     background: linear-gradient(91.25deg, #FF2727 -4.4%, #FF5454 101.68%);
     border: none;
 }
 .search_section .search{
-    font-family: 'Hind Siliguri';
+    font-family: "Hind Siliguri", sans-serif;
     font-size: 20px;
     line-height: 28px;
     font-weight: 400;
@@ -402,7 +402,7 @@
 }
 .help_us .help_us_headr .desc p{
     color: #141F39;
-    font-family: 'Hind Siliguri';
+    font-family: "Hind Siliguri", sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
@@ -452,7 +452,7 @@
 .feature-box {
     color: #000000;
     background: white;
-    font-family: 'Hind Siliguri';
+    font-family: "Hind Siliguri", sans-serif;
     font-size: 20px;
     font-weight: 600;
     line-height: auto;
@@ -465,7 +465,7 @@
 .feature-text {
     color: #000000;
     background: white;
-    font-family: 'Hind Siliguri';
+    font-family: "Hind Siliguri", sans-serif;
     font-size: 20px;
     font-weight: 600;
     line-height: auto;
@@ -503,7 +503,7 @@
 .feature-box {
     color: #000000;
     background: white;
-    font-family: 'Hind Siliguri';
+    font-family: "Hind Siliguri", sans-serif;
     font-size: 20px;
     font-weight: 600;
     line-height: auto;
@@ -604,7 +604,7 @@
     overflow: hidden;
 }
 .faq-title {
-    font-family: 'Hind Siliguri';
+    font-family: "Hind Siliguri", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 52px;
@@ -621,7 +621,7 @@
     padding-bottom: 10px;
 }
 .faq-question {
-    font-family: 'Hind Siliguri';
+    font-family: "Hind Siliguri", sans-serif;
     font-size: 24px;
     font-weight: 500;
     background-color: #FFE5E5;
@@ -649,7 +649,7 @@
     color: #FF2929;
 }
 .faq-answer {
-    font-family: 'Hind Siliguri';
+    font-family: "Hind Siliguri", sans-serif;
     font-size: 20px;
     line-height: 30px;
     font-weight: 500;
@@ -670,7 +670,7 @@
 /* noptice section CSS start */
 .notice .title{
     color: #000000;
-    font-family: 'Hind Siliguri';
+    font-family: "Hind Siliguri", sans-serif;
     font-size: 20px;
     line-height: 28px;
     letter-spacing: 0.2px;
@@ -695,7 +695,7 @@
     border-radius: 3px;
 } */
 .notice .all_notice_button a span{
-    font-family: 'Hind Siliguri';
+    font-family: "Hind Siliguri", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -762,7 +762,7 @@
 }
 .notice .notice_list p{
     color: #000000;
-    font-family: 'Hind Siliguri';
+    font-family: "Hind Siliguri", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: auto;
@@ -790,7 +790,7 @@
 .dealist .right_side .card a p{
     text-decoration: none;
     color: #000000;
-    font-family: 'Hind Siliguri';
+    font-family: "Hind Siliguri", sans-serif;
     font-size: 24px;
     font-weight: 600;
     line-height: 28px;
@@ -813,7 +813,7 @@
     text-align-last: center;
 }
 .dealist select{
-    font-family: 'Hind Siliguri';
+    font-family: "Hind Siliguri", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -829,7 +829,7 @@
 }
 
 .dealist .option{
-    font-family: 'Hind Siliguri';
+    font-family: "Hind Siliguri", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -842,7 +842,7 @@
 
 .dealist .btn{
     color: #FFFFFF;
-    font-family: 'Hind Siliguri';
+    font-family: "Hind Siliguri", sans-serif;
     font-size: 16px;
     line-height: 24px;
     padding: 8px 10px;
@@ -852,7 +852,7 @@
     width: 50%;
 }
 .dealist .search{
-    font-family: 'Hind Siliguri';
+    font-family: "Hind Siliguri", sans-serif;
     font-size: 20px;
     line-height: 28px;
     font-weight: 400;
@@ -943,7 +943,7 @@ div .adds2{
     margin: 80px 0 80px 0;
 }
 .banner_container {
-    font-family: 'Hind Siliguri';
+    font-family: "Hind Siliguri", sans-serif;
     background-color: rgba(255, 237, 237, 0.5);
     width: 100%;              
     max-width: 1170px;        
@@ -966,7 +966,7 @@ div .adds2{
 }
 
 .banner_title {
-    font-family: 'Hind Siliguri';
+    font-family: "Hind Siliguri", sans-serif;
     font-weight: 700;
     font-size: 68px;
     line-height: 1;            
@@ -976,14 +976,14 @@ div .adds2{
     color: transparent;
     margin-top: 10px;            
 }
-div .content_nav{
+.dealist .content_nav{
     width: 780px;
     height: 105px;
     top: 852px;
     left: 601px;
 }
 .nav1 ul li a{
-    font-family: 'Hind Siliguri';
+    font-family: "Hind Siliguri", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;  
@@ -991,7 +991,7 @@ div .content_nav{
     text-decoration: none;
 }
 .nav2 ul li a{
-    font-family: 'Hind Siliguri';
+    font-family: "Hind Siliguri", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -1000,7 +1000,7 @@ div .content_nav{
 }
 /* Header Section */
 .banner_container {
-    font-family: 'Hind Siliguri';
+    font-family: "Hind Siliguri", sans-serif;
     background-color: rgba(255, 237, 237, 0.5);
     text-align: center;
     padding: 20px;
@@ -1026,7 +1026,7 @@ div .content_nav{
     font-weight: 700;
     padding: 10px 0;
     border-bottom: 2px solid #E0E0E0;
-    font-family: 'Hind Siliguri';
+    font-family: "Hind Siliguri", sans-serif;
 }
 .nav_menu a {
     color: #141F39;
@@ -1061,7 +1061,7 @@ div .content_nav{
     color: #FF2626;
 }
 .content_text .bold_content{
-    font-family: 'Hind Siliguri';
+    font-family: "Hind Siliguri", sans-serif;
     font-size: 24px;
     font-weight: 700;
     line-height: 34px;
@@ -1069,12 +1069,10 @@ div .content_nav{
     text-align: left;
 }
 .content_text .normal_content{
-    font-family: 'Hind Siliguri';
+    font-family: "Hind Siliguri", sans-serif;
     font-size: 22px;
     font-weight: 400;
     line-height: 30px;
-    letter-spacing: 0.20000000298023224px;
-    text-align: left;
 }
 
 /* stand_intro section End! */
@@ -1094,7 +1092,7 @@ div .content_nav{
     object-fit: cover;
 }
 .gallery_section h3{
-    font-family: 'Hind Siliguri';
+    font-family: 'Hind Siliguri', sans-serif;
     font-size: 24px;
     font-weight: 700;
     line-height: 34px;
@@ -1103,71 +1101,23 @@ div .content_nav{
     color: #141F39;
 }
 .gallery_section p{
-    font-family: Hind Siliguri;
+    font-family: "Hind Siliguri" , sans-serif;
     font-size: 22px;
     font-weight: 400;
     line-height: 30px;
-    letter-spacing: 0.20000000298023224px;
-    text-align: left;
 }
-/* Gallery section css end */
-
-/* Blog_section start*/
-
-/* .stand_intro{
-    background: #fde5e6;
-}
-
-.blog_container{
-    font-family: 'Hind Siliguri';
-    
-    display: block;            
-    flex-direction: column;   
-    justify-content: center;  
-    align-items: center;      
-    text-align: center;       
-    margin: 0 auto;        
-}
-
-.blog_container .banner_head{
-    font-weight: 700;
-    font-size: 68px;
-    background: linear-gradient(90.56deg, #FF2626 0.49%, #FF5858 99.81%);
-    -webkit-background-clip: text;
-    color: transparent;
-    margin-top: 10px;
-    text-align: left;
-
-}
-.blog_container .banner_title{
-    font-family: Hind Siliguri;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 28px;
-    letter-spacing: 0.20000000298023224px;
-    text-align: left;
-    padding: 0;
-    margin: 0;
-}
-.blog_img{
-    
-} */
-
-
 
 /* Blog Section Styling */
+
 .stand_intro {
     background: #fde5e6;
 }
-
 .blog_container {
     font-family: 'Hind Siliguri', sans-serif;
     display: block;
     text-align: left;
     margin: 0;
-
 }
-
 .blog_container .banner_head {
     font-weight: 700;
     font-size: 68px;
@@ -1177,7 +1127,7 @@ div .content_nav{
     margin-top: 10px;
 }
 .blog_container .banner_title {
-    font-family: Hind Siliguri;
+    font-family: "Hind Siliguri", sans-serif;
     font-size: 20px;
     font-weight: 500;
     line-height: 28px;
@@ -1188,13 +1138,226 @@ div .content_nav{
     text-decoration-skip-ink: none;
 
 }
-
 .blog_img img {
     max-width: 100%;
     height: auto;
 }
 
+/* Blog & Inner card & form start */
+        
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+       
+.blog_card_form .card {
+    border: none;
+    background-color: #FEF3F3;
+    border-radius: 12px;
+}
+.blog_card_form .card-body{
+    background: #FEF3F3;
+}
+.blog_card_form .card img {
+    border-radius: 12px 12px 0 0;
+}
+.blog_card_form .card_link{
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #898888;
+}
+.blog_card_form .card_link i{
+    color: #EA1827;
+}
+.blog_card_form .card_link {
+    font-family: "Hind Siliguri", sans-serif;
+}
+.blog_card_form .card-body h1 {
+    font-family: "Exo", sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.blog_card_form .search-bar h6 {
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #000000;
+}
+.blog_card_form .search-bar .input-container::placeholder{
+    color: red;
+}
+.blog_card_form .card-body .card_text{
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000000; 
+}
 
+        /* btn css */
+.blog_card_form .custom_btn{
+    background-color: #FEF3F3;
+    border: 2px solid red;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.blog_card_form .custom_btn i{
+    color: #FF4040;
+    font-size: 20px;
+    padding-left: 10px;
+}
+        /* form start */
+.blog_card_form .search-bar input{
+    border: none;
+    border-radius: 18px;
+}
+.blog_card_form .search-bar{
+    padding: 20px 40px;
+    background: #FEF3F3;
+}
+.blog_card_form .blog_hr {
+    border: none;
+    border-top: 2px solid #FFC2C2;
+    height: 2px; 
+    background-color: #FFC2C2;
+}
+.blog_hr:hover {
+    border-top: 2px solid #EA1827;
+}
+.search{
+    align-items: end;
+}
+.blog_card_form .input-container input::placeholder{
+    color: #ACACAC;
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.blog_card_form .new_blog{
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #000000;
+}
+.blog_card_form .new_blog_text{
+    font-family: "Exo", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #000000;
+}
+.blog_card_form .date{
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.blog_card_form .date i{
+    color: rgba(255, 73, 73, 1);
+}
+.blog_card_form .popular_a{
+    background: rgba(255, 255, 255, 1);
+    width: 104px;
+    height: 39px;
+    border-radius: 8px;
+    border: none;
+    color: rgba(120, 120, 120, 1);
+    ;
 
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+  }
+.blog_card_form .popular_a:hover {
+    background: #dc3545;
+    color: #fff;
+  }
+.left_card .second_part .tag{
+    font-family:"Hind Siliguri", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+}
+.left_card .second_part .a_bike{
+    background: rgba(255, 255, 255, 1);
+    border-radius: 8px;
+    border: none;
+    color: rgba(120, 120, 120, 1);
+    padding: 10px 20px;
+
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-decoration: none;
+}
+.left_card .second_part .a_bike:hover {
+    background: #dc3545;
+    color: #fff;
+  }
+.left_card .second_part .inner_buttom .inner_icon{
+    width: 18px;
+    height: 18px;    
+    font-size: 20px;
+    padding-bottom: 26px;
+    color: rgba(5, 30, 56, 1);
+}
+        /* form End! */
+
+.input-container {
+    position: relative;
+    width: 100%;
+}
+.search-input {
+    width: 100%;
+    padding-right: 2rem; 
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+.search-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #EA1827;
+    font-size: 1rem;
+    cursor: pointer;
+}
+        /* card & form End! */
 
 /* Blog_section end */
+
+/* Inner card & form start */
+
+.left_card h1{
+    font-family: "Exo", sans-serif;
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 55.2px;
+}
+.inner_video{
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 8px solid rgba(255, 255, 255, 1);
+    border-radius: 15px;
+}
+.inner_video #video {
+    width: 100%;
+    height: 50vh;
+    border-radius: 15px;
+}
+
+/* Inner card & form End! */
