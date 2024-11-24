@@ -980,6 +980,9 @@
     .dealist .badge {
         left: 130px;
     }
+    .community_advisement{
+        display: none;
+    }
  }
  @media(max-width: 425px){
     .hero .title p {
