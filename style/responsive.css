@@ -60,6 +60,15 @@
     .location_item .dropdown::after {
         right: 85px;
     }
+    .cng_owner_location_item .dropdown::after {
+        right: 55px;
+    }
+    .dealist .owner_list .profile-card .profile-details {
+        padding: 0px 40px;
+    }
+    .stant_location_item .dropdown::after {
+        right: 55px;
+    }
  }
  @media(min-width: 768px) and (max-width: 992px){
     .hero{
@@ -310,7 +319,18 @@
     .dealist .location_item {
         margin-top: 50px;
     }
-
+    .cng_owner_location_item .dropdown::after {
+        right: 60px;
+    }
+    .dealist .profile-card{
+        width: 100%;
+    }
+    .dealist .owner_list .profile-card .profile-details {
+        padding: 0px 45px !important;
+    }
+    .stant_location_item .dropdown::after {
+        right: 100px;
+    }
  }
  @media(min-width: 575px) and (max-width: 768px){
     .hero .hero_image img{
@@ -564,6 +584,22 @@
     }
     .dealist .location_item {
         margin-top: 20px;
+    }
+    .cng_owner_location_item .dropdown::after {
+        right: 130px;
+    }
+    .dealist .profile-card{
+        width: 100%;
+    }
+    .dealist .owner_list .profile-card .profile-details {
+        padding: 0px 135px;
+    }
+    .president_and_members .member_list_title h2 {
+        font-size: 46px;
+        line-height: 54px;
+    }
+    .dealist .badge {
+        left: 110px;
     }
  }
  @media(max-width: 575px){
@@ -896,6 +932,54 @@
     .dealist .location_item {
         margin-top: 20px;
     }
+    .president_and_members .stand_location h5 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .president_and_members .member_list_title h2 {
+        font-size: 46px;
+        line-height: 54px;
+        text-align: left;
+    }
+    .cng_owner_location_item .dropdown {
+        width: 100%;
+    }
+    .cng_owner_location_item .dropdown::after {
+        display: none;
+    }
+    .stant_location_item .dropdown{
+        width: 100%;
+    }
+    .stant_location_item .dropdown select {
+        appearance: auto;
+        -webkit-appearance: auto;
+        -moz-appearance: auto;
+        background: #fff;
+        cursor: pointer;
+    }
+    .stant_location_item .dropdown::after {
+        display: none;
+    }
+    .dealist .profile-card{
+        width: 100%;
+    }
+    .dealist .owner_list .profile-card .profile-details {
+        padding: 0px 90px;
+    }
+    .president_and_members .stand_location h5 {
+        line-height: 28px;
+        text-align: left;
+    }
+    .location_item .dropdown select {
+        appearance: auto;
+        -webkit-appearance: auto;
+        -moz-appearance: auto;
+        background: #fff;
+        cursor: pointer;
+    }
+    .dealist .badge {
+        left: 130px;
+    }
  }
  @media(max-width: 425px){
     .hero .title p {
@@ -1137,6 +1221,15 @@
     .location_item .dropdown::after {
         right: 12px;
     }
+    .cng_owner_location_item .dropdown {
+        width: 100%;
+    }
+    .dealist .owner_list .profile-card .profile-details {
+        padding: 0px 75px;
+    }
+    .dealist .badge {
+        left: 55px;
+    }
  }
  @media(max-width: 375px){
     .form-select {
@@ -1165,6 +1258,12 @@
     .icon-circle-5{
         top: 1094px;
         left: 16px;
+    }
+    .dealist .owner_list .profile-card .profile-details {
+        padding: 0px 50px;
+    }
+    .dealist .badge {
+        left: 45px;
     }
  }
  @media(max-width: 360px){
@@ -1208,5 +1307,8 @@
     }
     .icon-circle-5 {
         top: 1088px !important;
+    }
+    .dealist .badge {
+        left: 35px;
     }
  }

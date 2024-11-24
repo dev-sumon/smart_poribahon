@@ -33,10 +33,13 @@
 
     <!-- Custom css link -->
     <link rel="stylesheet" href="style/style.css">
+
+    <!-- Responsive css start -->
+     <link rel="stylesheet" href="style/responsive.css">
   </head>
   <body>
     <!-- nav section start -->
-    <nav class="navbar navbar-expand-lg">
+    <!-- <nav class="navbar navbar-expand-lg">
         <div class="container">
           <div class="logo me-2">
               <a class="navbar-brand" href="index.html">
@@ -94,7 +97,7 @@
               </div>
           </div>
         </div>
-      </nav>
+    </nav> -->
     <!-- nav section end -->
     <!-- president and members section start-->
     <section class="president_and_members pt-5 pb-4">
@@ -114,7 +117,7 @@
     <section class="notice">
         <div class="container py-5">
             <div class="row">
-                <div class="col-9">
+                <div class="col-md-12 col-lg-9">
                     <div class="title pt-2">
                         <h5>নোটিশ বোর্ড</h5>
                     </div>
@@ -159,9 +162,13 @@
                     </div>
                                        
                 </div>
-                <div class="col-3">
-                    <div class="lost_notification">
-
+                <div class="col-md-12 col-lg-3 mt-sm-5 mt-md-5 custom-margin">
+                    <div class="advisement text-center">
+                      <div class="add_image">
+                        <a href="#">
+                          <img class="text-center" src="images/add_banner.jpg" alt="add banner">
+                        </a>
+                      </div>
                     </div>
                 </div>
             </div>
@@ -172,124 +179,201 @@
     <section class="dealist pb-5">
         <div class="container">
             <div class="row d-flex align-content-center">
-                <div class="col-5 d-flex flex-column align-items-center text-center location_item">
-                    <select class="form-select text-center">
-                        <option class="option">বিভাগ</option>
-                        <option class="option">ঢাকা </option>
-                        <option class="option">চট্টগ্রাম </option>
-                        <option class="option">রাজশাহী </option>
-                        <option class="option">খুলনা </option>
-                        <option class="option">বরিশাল </option>
-                        <option class="option">সিলেট </option>
-                        <option class="option">রংপুর </option>
-                        <option class="option">ময়মনসিংহ </option>
-                    </select>
-                    <select class="form-select text-center">
-                        <option class="option">জেলা</option>
-                        <option class="option">জেলা</option>
-                        <option class="option">জেলা</option>
-                        <option class="option">জেলা</option>
-                    </select>
-                    <select class="form-select text-center">
-                        <option class="option">থানা</option>
-                        <option class="option">থানা</option>
-                        <option class="option">থানা</option>
-                        <option class="option">থানা</option>
-                    </select>
-                    <select class="form-select text-center">
-                        <option class="option">ইউনিয়ন</option>
-                        <option class="option">ইউনিয়ন</option>
-                        <option class="option">ইউনিয়ন</option>
-                        <option class="option">ইউনিয়ন</option>
-                    </select>
-                    <select class="form-select text-center">
-                        <option class="option">স্ট্যান্ড</option>
-                        <option class="option">স্ট্যান্ড</option>
-                        <option class="option">স্ট্যান্ড</option>
-                        <option class="option">স্ট্যান্ড</option>
-                    </select>
-                    <select class="form-select text-center">
-                        <option class="option">গাড়ি</option>
-                        <option class="option">গাড়ি</option>
-                        <option class="option">গাড়ি</option>
-                        <option class="option">গাড়ি</option>
-                    </select>
-                    <button class="btn btn-outline-success" type="submit">ক্লিক করুন</button>
+                <div class="col-sm-12 col-lg-4 d-flex flex-column align-items-center text-center stant_location_item">
+                    <div class="row g-2">
+                        <!-- Dropdown 1 -->
+                        <div class="col-4 col-sm-12 d-flex flex-column align-items-center text-center">
+                            <div class="dropdown">
+                                <select>
+                                    <option value="1">বিভাগ</option>
+                                    <option value="2">বিভাগ</option>
+                                    <option value="3">বিভাগ</option>
+                                    <option value="4">বিভাগ</option>
+                                    <option value="5">বিভাগ</option>
+                                    <option value="6">বিভাগ</option>
+                                    <option value="7">বিভাগ</option>
+                                    <option value="8">বিভাগ</option>
+                                </select>
+                            </div>
+                        </div>
+                        <!-- Dropdown 2 -->
+                        <div class="col-4 col-sm-12 d-flex flex-column align-items-center text-center">
+                            <div class="dropdown">
+                                <select>
+                                    <option>জেলা</option>
+                                    <option value="1">জেলা</option>
+                                    <option value="2">জেলা</option>
+                                </select>
+                            </div>
+                        </div>
+                        <!-- Dropdown 3 -->
+                        <div class="col-4 col-sm-12 d-flex flex-column align-items-center text-center">
+                            <div class="dropdown">
+                                <select>
+                                    <option>থানা</option>
+                                    <option value="1">থানা</option>
+                                    <option value="2">থানা</option>
+                                </select>
+                            </div>
+                        </div>
+                        <!-- Dropdown 4 -->
+                        <div class="col-4 col-sm-12 d-flex flex-column align-items-center text-center">
+                            <div class="dropdown">
+                                <select>
+                                    <option>ইউনিয়ন</option>
+                                    <option value="1">ইউনিয়ন</option>
+                                    <option value="2">ইউনিয়ন</option>
+                                </select>
+                            </div>
+                        </div>
+                        <!-- Dropdown 5 -->
+                        <div class="col-4 col-sm-12 d-flex flex-column align-items-center text-center">
+                            <div class="dropdown">
+                                <select>
+                                    <option>স্ট্যান্ড</option>
+                                    <option value="1">স্ট্যান্ড</option>
+                                    <option value="2">স্ট্যান্ড</option>
+                                </select>
+                            </div>
+                        </div>
+                        <!-- Dropdown 6 -->
+                        <div class="col-4 col-sm-12 d-flex flex-column align-items-center text-center">
+                            <div class="dropdown">
+                                <select>
+                                    <option>গাড়ি</option>
+                                    <option value="1">গাড়ি</option>
+                                    <option value="2">গাড়ি</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                      <button class="btn btn-outline-success mt-3 mb-5" type="submit">ক্লিক করুন</button>
+                    <div class="mt-5 d-lg-block d-md-none d-sm-none community_advisement">
+                        <div class="advisement">
+                            <div class="add_image">
+                                <a href="#">
+                                    <img class="" src="images/add_banner.jpg" alt="add banner">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-5 d-lg-block d-md-none d-sm-none community_advisement">
+                        <div class="advisement">
+                            <div class="add_image">
+                                <a href="#">
+                                    <img class="" src="images/add_banner.jpg" alt="add banner">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-5 d-lg-block d-md-none d-sm-none community_advisement">
+                        <div class="advisement">
+                            <div class="add_image">
+                                <a href="#">
+                                    <img class="" src="images/add_banner.jpg" alt="add banner">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-7">
+                <div class="col-md-12 col-lg-8">
                     <div class="row d-flex justify-content-between">
-                        <div class="profile-card">
-                            <img src="images/Rectangle 3845.png" alt="Profile Image" class="profile-image mb-3">
-                            <div class="badge">সভাপতি</div>
-                            <div class="profile-details">
-                                <h3>মুহাম্মদ নজরুল ইসলাম</h3>
-                                <p>nzrul@degmail.com</p>
-                                <p>+880 1777000000</p>
+                        <div class="col-md-6 col-12 pb-5">
+                            <div class="profile-card">
+                                <img src="images/Rectangle 3845.png" alt="Profile Image" class="profile-image mb-3">
+                                <div class="badge">সভাপতি</div>
+                                <div class="profile-details">
+                                    <h3>মুহাম্মদ নজরুল ইসলাম</h3>
+                                    <p>nzrul@degmail.com</p>
+                                    <p>+880 1777000000</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="profile-card">
-                            <img src="images/Rectangle 3845.png" alt="Profile Image" class="profile-image mb-3">
-                            <div class="badge">সাধারণ <br> সম্পাদক</div>
-                            <div class="profile-details">
-                                <h3>মুহাম্মদ নজরুল ইসলাম</h3>
-                                <p>nzrul@degmail.com</p>
-                                <p>+880 1777000000</p>
+                        
+                        <div class="col-md-6 col-12 pb-5">
+                            <div class="profile-card">
+                                <img src="images/Rectangle 3845 (2).png" alt="Profile Image" class="profile-image mb-3">
+                                <div class="badge">সাধারণ <br> সম্পাদক</div>
+                                <div class="profile-details">
+                                    <h3>মুহাম্মদ নজরুল ইসলাম</h3>
+                                    <p>nzrul@degmail.com</p>
+                                    <p>+880 1777000000</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="profile-card">
-                            <img src="images/Rectangle 3845.png" alt="Profile Image" class="profile-image mb-3">
-                            <div class="badge">সদস্য</div>
-                            <div class="profile-details">
-                                <h3>মুহাম্মদ নজরুল ইসলাম</h3>
-                                <p>nzrul@degmail.com</p>
-                                <p>+880 1777000000</p>
+                        
+                        <div class="col-md-6 col-12 pb-5">
+                            <div class="profile-card">
+                                <img src="images/Rectangle 3845.png" alt="Profile Image" class="profile-image mb-3">
+                                <div class="badge">সাধারণ <br> সম্পাদক</div>
+                                <div class="profile-details">
+                                    <h3>মুহাম্মদ নজরুল ইসলাম</h3>
+                                    <p>nzrul@degmail.com</p>
+                                    <p>+880 1777000000</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="profile-card">
-                            <img src="images/Rectangle 3845.png" alt="Profile Image" class="profile-image mb-3">
-                            <div class="badge">সভাপতি</div>
-                            <div class="profile-details">
-                                <h3>মুহাম্মদ নজরুল ইসলাম</h3>
-                                <p>nzrul@degmail.com</p>
-                                <p>+880 1777000000</p>
+
+                        <div class="col-md-6 col-12 pb-5">
+                            <div class="profile-card">
+                                <img src="images/Rectangle 3845.png" alt="Profile Image" class="profile-image mb-3">
+                                <div class="badge">সাধারণ <br> সম্পাদক</div>
+                                <div class="profile-details">
+                                    <h3>মুহাম্মদ নজরুল ইসলাম</h3>
+                                    <p>nzrul@degmail.com</p>
+                                    <p>+880 1777000000</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="profile-card">
-                            <img src="images/Rectangle 3845.png" alt="Profile Image" class="profile-image mb-3">
-                            <div class="badge">সভাপতি</div>
-                            <div class="profile-details">
-                                <h3>মুহাম্মদ নজরুল ইসলাম</h3>
-                                <p>nzrul@degmail.com</p>
-                                <p>+880 1777000000</p>
+
+                        <div class="col-md-6 col-12 pb-5">
+                            <div class="profile-card">
+                                <img src="images/Rectangle 3845.png" alt="Profile Image" class="profile-image mb-3">
+                                <div class="badge">সাধারণ <br> সম্পাদক</div>
+                                <div class="profile-details">
+                                    <h3>মুহাম্মদ নজরুল ইসলাম</h3>
+                                    <p>nzrul@degmail.com</p>
+                                    <p>+880 1777000000</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="profile-card">
-                            <img src="images/Rectangle 3845.png" alt="Profile Image" class="profile-image mb-3">
-                            <div class="badge">সভাপতি</div>
-                            <div class="profile-details">
-                                <h3>মুহাম্মদ নজরুল ইসলাম</h3>
-                                <p>nzrul@degmail.com</p>
-                                <p>+880 1777000000</p>
+
+                        <div class="col-md-6 col-12 pb-5">
+                            <div class="profile-card">
+                                <img src="images/Rectangle 3845.png" alt="Profile Image" class="profile-image mb-3">
+                                <div class="badge">সাধারণ <br> সম্পাদক</div>
+                                <div class="profile-details">
+                                    <h3>মুহাম্মদ নজরুল ইসলাম</h3>
+                                    <p>nzrul@degmail.com</p>
+                                    <p>+880 1777000000</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="profile-card">
-                            <img src="images/Rectangle 3845.png" alt="Profile Image" class="profile-image mb-3">
-                            <div class="badge">সভাপতি</div>
-                            <div class="profile-details">
-                                <h3>মুহাম্মদ নজরুল ইসলাম</h3>
-                                <p>nzrul@degmail.com</p>
-                                <p>+880 1777000000</p>
+
+                        <div class="col-md-6 col-12 pb-5">
+                            <div class="profile-card">
+                                <img src="images/Rectangle 3845.png" alt="Profile Image" class="profile-image mb-3">
+                                <div class="badge">সাধারণ <br> সম্পাদক</div>
+                                <div class="profile-details">
+                                    <h3>মুহাম্মদ নজরুল ইসলাম</h3>
+                                    <p>nzrul@degmail.com</p>
+                                    <p>+880 1777000000</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="profile-card">
-                            <img src="images/Rectangle 3845.png" alt="Profile Image" class="profile-image mb-3">
-                            <div class="badge">সভাপতি</div>
-                            <div class="profile-details">
-                                <h3>মুহাম্মদ নজরুল ইসলাম</h3>
-                                <p>nzrul@degmail.com</p>
-                                <p>+880 1777000000</p>
+
+                        <div class="col-md-6 col-12 pb-5">
+                            <div class="profile-card">
+                                <img src="images/Rectangle 3845.png" alt="Profile Image" class="profile-image mb-3">
+                                <div class="badge">সাধারণ <br> সম্পাদক</div>
+                                <div class="profile-details">
+                                    <h3>মুহাম্মদ নজরুল ইসলাম</h3>
+                                    <p>nzrul@degmail.com</p>
+                                    <p>+880 1777000000</p>
+                                </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -298,11 +382,11 @@
     <!-- deatils section start -->
 
     <!-- Footer part Start! -->
-    <footer class="footer_gray pt-5 pb-4">
-    <div class="container">
-        <div class="row">
+    <!-- <footer class="footer_gray pt-5 pb-4"> -->
+    <!-- <div class="container"> -->
+        <!-- <div class="row"> -->
             <!-- Logo and Contact Section -->
-            <div class="col-md-6 mb-4 left_footer">
+            <!-- <div class="col-md-6 mb-4 left_footer">
                 <img src="images/footer_logo.png" alt="Logo" class="mb-3 logo">
                 <p class="mb-3">Phasellus pulvinar porta turpis sit amet facilis sapien bibendum eu praesent massa.</p>
                 <p ><i class="fas fa-phone-alt me-2"></i><a class="contact" href="tel:+880 1308282653"> +880 1308282653, +880 1308282688</a></p>
@@ -311,10 +395,10 @@
                     <a href="#" class="me-2"><img class="btb" src="images/image 30.png" alt="google_img"></a>
                     <a href="#" class="mr-3"><img src="images/image 31.png" alt="apple_img"></a>
                 </div>
-            </div>
+            </div> -->
 
             <!-- Useful Links -->
-            <div class="col-md-2 mb-4 mt-5">
+            <!-- <div class="col-md-2 mb-4 mt-5">
                 <h6 class="text-capitalize footer_text">Useful Links</h6>
                 <ul class="list-unstyled">
                     <li><a href="#" class="footer_gray text-decoration-none">Features</a></li>
@@ -322,10 +406,10 @@
                     <li><a href="#" class="footer_gray text-decoration-none">Service</a></li>
                     <li><a href="#" class="footer_gray text-decoration-none">Team</a></li>
                 </ul>
-            </div>
+            </div> -->
 
             <!-- Help & Support -->
-            <div class="col-md-2 mb-4 mt-5">
+            <!-- <div class="col-md-2 mb-4 mt-5">
                 <h6 class="text-capitalize footer_text">Help & Support</h6>
                 <ul class="list-unstyled">
                     <li><a href="#" class="footer_gray text-decoration-none">FAQ</a></li>
@@ -333,10 +417,10 @@
                     <li><a href="#" class="footer_gray text-decoration-none">Contact Us</a></li>
                     <li><a href="#" class="footer_gray text-decoration-none">Support</a></li>
                 </ul>
-            </div>
+            </div> -->
 
             <!-- Resources -->
-            <div class="col-md-2 mb-4 mt-5">
+            <!-- <div class="col-md-2 mb-4 mt-5">
                 <h6 class="text-capitalize footer_text">Resources</h6>
                 <ul class="list-unstyled">
                     <li><a href="#" class="footer_gray text-decoration-none">Guides and resources</a></li>
@@ -344,12 +428,12 @@
                     <li><a href="#" class="footer_gray text-decoration-none">Tools</a></li>
                     <li><a href="#" class="footer_gray text-decoration-none">Support</a></li>
                 </ul>
-            </div>
+            </div> -->
         </div>
 
           <!-- Social Links -->
 
-        <div class="d-flex justify-content-between align-items-center mt-4">
+        <!-- <div class="d-flex justify-content-between align-items-center mt-4">
           <p class="mb-0 copy_right">&copy; All Right Reserved</p>
           <div class="d-flex gap-3">
             <a href="#" class="footer_gray"><i class="fab fa-facebook-f"></i></a>
@@ -357,7 +441,7 @@
             <a href="#" class="footer_gray"><i class="fab fa-twitter"></i></a>
             <a href="#" class="footer_gray"><i class="fab fa-linkedin-in"></i></a>
           </div>
-        </div>
+        </div> -->
     </div>
     </footer>
   <!-- Footer part End! -->
