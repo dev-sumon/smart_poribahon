@@ -1942,19 +1942,26 @@ footer .footer_text{
     line-height: 20px;
     color: #FFFFFF;
 }
-footer .footer_gray{
+footer .footer_gray h6{
     font-family: "Chivo", serif;
-    font-weight: 500 ;
+    font-weight: 400 ;
     font-size: 16px;
     line-height: 26px;
     color: #B4B6C4;
 }
-footer .footer_gray i{
+.footer_gray a{
+    font-family: "Chivo", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
     color: #B4B6C4;
-    width: 18px;
-    height: 18px;
-    opacity: 100%;
 }
+footer .footer_gray i{
+    font-size: 25px;
+    margin-right: 10px;
+}
+
 footer .copy_right{
     font-family: "Chivo", serif;
     font-weight: 500 ;

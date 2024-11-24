@@ -601,6 +601,28 @@
     .dealist .badge {
         left: 110px;
     }
+    .certified_social {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+      }
+    
+      .certified, .social {
+        display: block;
+        width: 100%;
+        text-align: center;
+      }
+    
+      .social {
+        margin-top: 10px;
+      }
+      footer .copy_right {
+        padding-top: 10px;
+        text-align: start;
+    }
+    .hero .column_reverse{
+        flex-direction: column-reverse;
+    }
  }
  @media(max-width: 575px){
     .hero .hero_image img{
@@ -982,6 +1004,28 @@
     }
     .community_advisement{
         display: none;
+    }
+    .certified_social {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+      }
+    
+      .certified, .social {
+        display: block;
+        width: 100%;
+        text-align: center;
+      }
+    
+      .social {
+        margin-top: 10px;
+      }
+      footer .copy_right {
+        padding-top: 10px;
+        text-align: start;
+    }
+    .hero .column_reverse{
+        flex-direction: column-reverse;
     }
  }
  @media(max-width: 425px){
