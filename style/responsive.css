@@ -1067,6 +1067,15 @@
     }
  }
  @media(max-width: 425px){
+    .navbar .navbar-brand{
+        width: 50%;
+      }
+      .navbar .navbar-brand img{
+        width: 100%;
+      }
+      .navbar .navbar-toggler{
+        padding: 0;
+      }
     .hero .title p {
         font-size: 18px;
         text-align: center;
