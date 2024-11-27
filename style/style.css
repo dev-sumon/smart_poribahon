@@ -100,6 +100,8 @@
   }
   .navbar .nav_bar .language_button:focus{
       background-color: transparent !important;
+      box-shadow: none; 
+      outline: none; 
   }
   .navbar .responsive_menu .btn-login {
       border: none;
@@ -113,6 +115,14 @@
       justify-content: center;
       align-items: center;
       column-gap: 5px;
+  }
+  .navbar .responsive_menu .login:focus{
+    box-shadow: none; 
+    outline: none; 
+  }
+  .navbar .responsive_menu .signUp{
+    box-shadow: none; 
+    outline: none; 
   }
   .navbar .responsive_menu i{
       color: #EA1827;
@@ -1138,7 +1148,10 @@
 /* CNG Page design end */
 
 /* stand_intro  section */
-   
+
+.stand_intro .banner_container{
+    background: #FFEDED80;
+}
 section .adds_section{
     margin-top: 80px;
     margin-bottom: 80px;
@@ -1977,7 +1990,7 @@ div .adds2{
 
 /* Blog Section Styling */
 
-.stand_intro {
+.blog_hero {
     background: linear-gradient(-220deg, #fcebeb 0%, white 50%, #efdede 100%);
 
 }
