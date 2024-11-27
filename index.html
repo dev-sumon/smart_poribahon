@@ -7,6 +7,7 @@
 
     <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Google Fonts - Hind Siliguri -->
       <link
@@ -32,6 +33,8 @@
 
     <!-- Custom css link -->
     <link rel="stylesheet" href="style/style.css">
+
+    <!-- responsive css link  -->
     <link rel="stylesheet" href="style/responsive.css">
   </head>
   <body>
@@ -42,7 +45,7 @@
 
 
 
-    <header>
+    <!-- <header>
       <nav class="navbar navbar-expand-lg">
         <div class="container">
           <div class="logo me-2">
@@ -53,7 +56,7 @@
          
           <nav class="navbar navbar-expand-lg bg-body-tertiary">
 
-              <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+              
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -111,7 +114,77 @@
           </div>
         </div>
       </nav>
+    </header> -->
+
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light border-bottom">
+            <div class="container">
+              <!-- Logo -->
+              <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="Logo" >
+              </a>
+        
+              <!-- Login Button and Menu Icon (Responsive Mode) -->
+              <div class="d-flex d-lg-none align-items-center justify-content-center responsive_menu">
+                <a href="#" class="btn btn-outline-danger btn-sm btn-login"><i class="fas fa-user-circle"></i> লগ ইন</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class=""><i class="fa-solid fa-bars"></i></span>
+                </button>
+              </div>
+        
+              <!-- Menu Items (Collapsible) -->
+              <div class="collapse navbar-collapse justify-content-between nav_bar" id="navbarContent">
+                <!-- Left-aligned menu items -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">হোম</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      সার্ভিস সমূহ
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                      <li><a class="dropdown-item" href="#">সার্ভিস ১</a></li>
+                      <li><a class="dropdown-item" href="#">সার্ভিস ২</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">সম্পর্কিত</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">খেল</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">ব্লগ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">যোগাযোগ</a>
+                  </li>
+                </ul>
+        
+                <!-- Right-aligned Language Selector and Buttons -->
+                <div class="d-flex align-items-center">
+                  <div class="dropdown me-3">
+                    <a class="btn btn-outline-secondary dropdown-toggle language_button" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="images/icon _language_.svg" alt="">
+                       বাংলা
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+                      <li><a class="dropdown-item" href="#">English</a></li>
+                      <li><a class="dropdown-item" href="#">বাংলা</a></li>
+                    </ul>
+                  </div>
+                  <a href="#" class="btn btn-outline-danger me-2 d-none d-lg-block login">লগ ইন</a>
+                  <a href="#" class="btn btn-outline-danger d-none d-lg-block signUp">সাইন আপ</a>
+                </div>
+              </div> 
+            </div>
+          </nav>
     </header>
+
+
+
 
   
     <!-- nav section end -->
@@ -119,7 +192,7 @@
     <!-- hero section end -->
     <section class="hero">
       <div class="container">
-        <div class="row d-flex align-items-center col-flex-column-reverse">
+        <div class="row d-flex align-items-center column_reverse">
           <div class="col-12 mb-5 col-md-5">
             <div class="title">
               <h3>আপনার নিরাপদ যাত্রার</h3>
@@ -524,10 +597,12 @@
     <div class="row">
       <!-- Logo and Contact Section -->
         <div class="col-md-12 col-lg-6 mb-4 left_footer">
-            <img src="images/footer_logo.png" alt="Logo" class="mb-3 logo">
+            <a href="index.html">
+              <img src="images/footer_logo.png" alt="Logo" class="mb-3 logo">
+            </a>
             <p class="mb-3">Phasellus pulvinar porta turpis sit amet <br> facilis sapien bibendum eu praesent massa.</p>
             <p ><i class="fas fa-phone-alt me-2"></i>
-              <a class="contact" href="tel:+880 1308282653"> +880 1308282653,</a>
+              <a class="contact" href="tel:+880 1308282653">+880 1308282653,</a>
               <a class="contact" href="tel:+880 1308282688">+880 1308282688</a>
             </p>
             <p ><i class="fas fa-envelope me-2"></i><a class="contact" href="mailto:bangladeshsmartparibahan@gmail.com">bangladeshsmartparibahan@gmail.com</a></p>
@@ -576,15 +651,15 @@
 
           <!-- Social Links -->
 
-      <div class="d-flex justify-content-between align-items-center mt-4">
+      <div class="d-flex justify-content-between align-items-center mt-4 certified_social">
         <div class="certified">
           <p class="mb-0 copy_right">© All Right Reserved</p>
         </div>
-        <div class="d-flex gap-3">
-          <a href="#" class="footer_gray"><i class="fab fa-facebook-f"></i></a>
-          <a href="#" class="footer_gray"><i class="fab fa-instagram"></i></a>
+        <div class="d-flex gap-3 social">
+          <a href="#" class="footer_gray"><i class="fab fa-facebook-square"></i></a>
+          <a href="#" class="footer_gray"><i class="fa-brands fa-square-instagram"></i></a>
           <a href="#" class="footer_gray"><i class="fab fa-twitter"></i></a>
-          <a href="#" class="footer_gray"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" class="footer_gray"><i class="fa-brands fa-linkedin"></i></a>
         </div>
       </div>
     </div>

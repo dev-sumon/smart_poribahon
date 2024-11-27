@@ -70,6 +70,11 @@
         right: 55px;
     }
  }
+ @media(max-width: 1199.98px){
+    .dealist .driver_list .profile .beage {
+        transform: translate(380%, -150%) !important;
+    }
+ }
  @media(min-width: 768px) and (max-width: 992px){
     .hero{
         margin-bottom: 50px;
@@ -331,6 +336,9 @@
     .stant_location_item .dropdown::after {
         right: 100px;
     }
+    .dealist .driver_list .profile .beage {
+        transform: translate(420%, -150%) !important;
+    }
  }
  @media(min-width: 575px) and (max-width: 768px){
     .hero .hero_image img{
@@ -573,14 +581,14 @@
         background-color: #fff;
     }
     .bd_smart_vehicle_part .heading_section {
-    font-family: 'Hind Siliguri', sans-serif;
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 40px;
-    letter-spacing: 0.2px;
-    color: #141F39;
-    /* width: 613px;
-    height: 56px; */
+        font-family: 'Hind Siliguri', sans-serif;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 40px;
+        letter-spacing: 0.2px;
+        color: #141F39;
+        /* width: 613px;
+        height: 56px; */
     }
     .dealist .location_item {
         margin-top: 20px;
@@ -600,6 +608,31 @@
     }
     .dealist .badge {
         left: 110px;
+    }
+    .certified_social {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+      }
+    
+      .certified, .social {
+        display: block;
+        width: 100%;
+        text-align: center;
+      }
+    
+      .social {
+        margin-top: 10px;
+      }
+      footer .copy_right {
+        padding-top: 10px;
+        text-align: start;
+    }
+    .hero .column_reverse{
+        flex-direction: column-reverse;
+    }
+    .dealist .driver_list .profile .beage {
+        transform: translate(600%, -150%) !important;
     }
  }
  @media(max-width: 575px){
@@ -983,8 +1016,66 @@
     .community_advisement{
         display: none;
     }
+    .certified_social {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+      }
+    
+      .certified, .social {
+        display: block;
+        width: 100%;
+        text-align: center;
+      }
+    
+      .social {
+        margin-top: 10px;
+      }
+      footer .copy_right {
+        padding-top: 10px;
+        text-align: start;
+    }
+    .hero .column_reverse{
+        flex-direction: column-reverse;
+    }
+    .profile_section .profile_image img {
+        width: 100%;
+        height: auto;
+    }
+    .profile_section .profile_deatils{
+        display: block !important;
+    }
+    .profile_section .profile_deatils .profile_info{
+        margin-top: 100px;
+    }
+    .profile_section .profile_deatils .profile_info h3 {
+        font-size: 42px;
+        line-height: 50px;
+    }
+    .profile_section .profile_deatils .profile_info .pt-3{
+        padding-top: 0px !important;
+    }
+    .dealist .driver_list .profile .beage {
+        transform: translate(645%, -150%) !important;
+    }
+    .cng_owner_location_item .dropdown select {
+        appearance: auto;
+        -webkit-appearance: auto;
+        -moz-appearance: auto;
+        background: #fff;
+        cursor: pointer;
+    }
  }
  @media(max-width: 425px){
+    .navbar .navbar-brand{
+        width: 50%;
+      }
+      .navbar .navbar-brand img{
+        width: 100%;
+      }
+      .navbar .navbar-toggler{
+        padding: 0;
+      }
     .hero .title p {
         font-size: 18px;
         text-align: center;
@@ -1233,6 +1324,101 @@
     .dealist .badge {
         left: 55px;
     }
+
+
+    .profile_section .profile_deatils .profile_info .deatils .designation {
+        font-family: 'Hind Siliguri';
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 38px;
+        letter-spacing: 0.2px;
+        text-align: left;
+        color: #141F39;
+    }
+    .profile_section .profile_deatils .profile_info .deatils .designation_name {
+        font-family: 'Kohinoor Bangla';
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 38px;
+        letter-spacing: 0.2px;
+        text-align: left;
+        color: #141F39;
+    }
+    .profile_section .profile_deatils .profile_info .deatils .email {
+        font-family: 'Hind Siliguri';
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 38px;
+        letter-spacing: 0.2px;
+        text-align: left;
+        color: #141F39;
+    }
+    .profile_section .profile_deatils .profile_info .deatils .email_address {
+        font-family: 'Hind Siliguri';
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 38px;
+        letter-spacing: 0.2px;
+        text-align: left;
+        color: #141F39;
+    }
+    .profile_section .profile_deatils .profile_info .deatils .phone{
+        font-family: 'Hind Siliguri';
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 38px;
+        letter-spacing: 0.2px;
+        text-align: left;
+        color: #141F39;
+    }
+    .profile_section .profile_deatils .profile_info .deatils .number{
+        font-family: 'Hind Siliguri';
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 38px;
+        letter-spacing: 0.2px;
+        text-align: left;
+        color: #141F39;
+    }
+    .profile_section .profile_deatils .profile_info .deatils .car{
+        font-family: 'Hind Siliguri';
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 38px;
+        letter-spacing: 0.2px;
+        text-align: left;
+        color: #141F39;
+    }
+    .profile_section .profile_deatils .profile_info .deatils .car_number{
+        font-family: 'Kohinoor Bangla';
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 38px;
+        letter-spacing: 0.2px;
+        text-align: left;
+        color: #141F39;
+    }
+    .profile_section .profile_deatils .profile_info .deatils .blood{
+        font-family: 'Hind Siliguri';
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 38px;
+        letter-spacing: 0.2px;
+        text-align: left;
+        color: #141F39;
+    }
+    .profile_section .profile_deatils .profile_info .deatils .blood_group{
+        font-family: 'Kohinoor Bangla';
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 38px;
+        letter-spacing: 0.2px;
+        text-align: left;
+        color: #141F39;
+    }
+    .dealist .driver_list .profile .beage {
+        transform: translate(510%, -150%) !important;
+    }
  }
  @media(max-width: 375px){
     .form-select {
@@ -1294,6 +1480,9 @@
     .location_item .dropdown {
         padding: 5px;
     }
+    .dealist .driver_list .profile .beage {
+        transform: translate(450%, -150%) !important;
+    }
  }
  @media(max-width: 320px){
     .icon-circle-1 {
@@ -1313,5 +1502,8 @@
     }
     .dealist .badge {
         left: 35px;
+    }
+    .dealist .driver_list .profile .beage {
+        transform: translate(390%, -150%) !important;
     }
  }
