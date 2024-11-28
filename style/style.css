@@ -116,11 +116,11 @@
       align-items: center;
       column-gap: 5px;
   }
-  .navbar .responsive_menu .login:focus{
+  .navbar .login:focus{
     box-shadow: none; 
     outline: none; 
   }
-  .navbar .responsive_menu .signUp{
+  .navbar .signUp{
     box-shadow: none; 
     outline: none; 
   }
@@ -128,16 +128,6 @@
       color: #EA1827;
       font-size: 25px;
   }
-
-
-
-
-
-
-
-
-
-
 
 /* nav section css end */
 /* hero section css start */
@@ -194,14 +184,6 @@
     line-height: 24px;
     color: #061E38;
 }
-/* .hero .submit{
-    color: #FFFFFF;
-    font-style: normal;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    
-} */
 .hero .submit .btn-custom{
     color: #FFFFFF;
     font-style: normal;
@@ -231,7 +213,6 @@
     font-weight: 500;
 }
 .vehicles_list .card{
-    /* max-width: 174px; */
     height: 150px;
     object-fit: cover;
     display: flex;
@@ -304,11 +285,10 @@
 }
 .connected_us{
     background-color: #FEF3F3;
-    /* background-color: #d31212; */
 }
 .connected_us .container .section-title {
     font-family: 'Hind Siliguri', sans-serif; 
-    font-weight: 600; /* Semibold weight */
+    font-weight: 600;
     font-size: 48px; 
     line-height: 56px;
     letter-spacing: 0.2px; 
@@ -316,20 +296,19 @@
 }
 .connected_us .container .card-text {
     font-family: 'Hind Siliguri', sans-serif;
-    font-weight: 500; /* medium font */
+    font-weight: 500;
     font-size: 20px;
     line-height: 28px;
     letter-spacing: 0.2px;
 }
 .connected_us .container .price {
     font-family: 'Hind Siliguri', sans-serif;
-    font-weight: 600; /* Semibold weight */
+    font-weight: 600;
     font-size: 28px;
     line-height: 38px;
     letter-spacing: 0.2px;
 }
 /* Connected with us section End! */
-
 /* search_section css start  */
 
 .search_section{
@@ -537,7 +516,6 @@
     top: -40px;
     left: 0px;
 }
-/*  */
 .icon-circle-1::before {
     content: "";
     position: absolute;
@@ -710,7 +688,6 @@
     font-family: 'Hind Siliguri', sans-serif;
     font-weight: 400;
     font-size: 16px;
-    /* width: 330px; */
     line-height: 24px;
     color: #000000;
 }
@@ -718,8 +695,6 @@
     font-family: 'Hind Siliguri', sans-serif;
     font-weight: 400;
     font-size: 16px;
-    /* width: 330px;
-    height: 69px; */
     line-height: 24px;
     color: #000000;
 }
@@ -730,8 +705,6 @@
     line-height: 56px;
     letter-spacing: 0.2px;
     color: #141F39;
-    /* width: 613px; 
-    height: 56px; */
 }
 .bd_smart_vehicle_part .btn_section .gradient-border-button{
     position: relative;
@@ -779,7 +752,6 @@
     color: #141F39;
   }
 .bd_smart_vehicle_part .post_card {
-    /* width: 370px; */
     height: 100%;
     max-height: 100%;
     object-fit: cover;
@@ -827,7 +799,6 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-
 }
 .faq-item {
     border-bottom: 1px solid #FFFFFF;
@@ -870,13 +841,9 @@
     color: #051E38;
     border: 1px solid #EA1827;
 }
-
 .faq-item.open .faq-answer {
     display: block;
 }
-/* .last-faq{
-    padding-bottom: 2px;
-} */
 /* FAQ section css end */
 /* home page css start */
 
@@ -902,13 +869,6 @@
     border-radius: 5px;
     background: linear-gradient(270deg, #FF2424 0%, #FF5656 100%);
 }
-/* .notice .all_notice_button button{
-    border: 1px solid; 
-    border-image: linear-gradient(270deg, #FF5656 0%, #FF2424  100%) 1;
-    color: #141F39;
-    background: linear-gradient(270deg, #FF5656 0%, #FF2424  100%) 1;
-    border-radius: 3px;
-} */
 .notice .all_notice_button  span{
     font-family: 'Hind Siliguri';
     font-size: 16px;
@@ -1024,30 +984,18 @@
     width: 100%;
     cursor: pointer;
   }
-  .location_item .dropdown::after {
-        content: "\f107";
-        font-family: "Font Awesome 5 Free";
-        font-weight: 900;
-        position: absolute;
-        right: 100px;
-        color: #061E38;
-    }
+.location_item .dropdown::after {
+    content: "\f107";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    right: 75px;
+    color: #061E38;
+}
 .dealist .content_nav{
-    /* width: 780px;
-    height: 105px; */
     top: 852px;
     left: 601px;
 }
-
-    /* .location_item .dropdown select {
-        font-family: 'Hind Siliguri';
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 24px;
-        color: #061E38;
-        border-color: #FF4040;
-        text-align: center;
-    } */
 
 /* notice section CSS End */
 /* dealist section design start */
@@ -1056,12 +1004,12 @@
     margin-top: 130px;
 }
 .dealist .form-select{
-    width: 70% ;
+    width: 70%;
     margin-bottom: 40px !important;
 }
 .dealist .right_side .card{
-    width: 300px;
-    height: 300px;
+    width: 100%;
+
 }
 .dealist .right_side .card a{
     text-decoration: none;
@@ -1076,7 +1024,7 @@
     letter-spacing: 0.2px;
 }
 .dealist .right_side .card{
-    padding: 30px;
+    padding: 45px;
 }
 .dealist .right_side .card:hover{
     border: 1px solid #FF4040;
@@ -1086,7 +1034,6 @@
     justify-content: center;
     align-items: center;
 }
-
 .dealist .form-select {
     text-align: center;
     text-align-last: center;
@@ -1117,7 +1064,6 @@
 .dealist .form-select option:hover{
     background-color: #FF2121;
 }
-
 .dealist .btn{
     color: #FFFFFF;
     font-family: 'Hind Siliguri';
@@ -1141,14 +1087,10 @@
     font-weight: 400;
     color: rgba(0, 0, 0, 0.5);
 }
-
-
-
 /* dealist section design end */
 /* CNG Page design end */
 
 /* stand_intro  section */
-
 .stand_intro .banner_container{
     background: #FFEDED80;
 }
@@ -1178,7 +1120,6 @@ div .adds2{
     text-align: center;       
     margin: 0 auto;           
 }
-
 .location_text {
     font-weight: 700;
     font-size: 24px;
@@ -1186,8 +1127,7 @@ div .adds2{
     letter-spacing: 0.2px;
     color: #141F39 !important;
 }
-
-.banner_title {
+.stand_intro .banner_title {
     font-family: "Hind Siliguri", sans-serif;
     font-weight: 700;
     font-size: 68px;
@@ -1442,7 +1382,7 @@ div .adds2{
     color: #061E38;
 }
 .dealist .community_advisement .advisement{
-    margin-top: 150px;
+    margin-top: 30px;
 }
 /* deatils section css end */
 /* stand commuity page css end */
