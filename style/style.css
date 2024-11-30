@@ -1091,6 +1091,35 @@
 /* CNG Page design end */
 
 /* stand_intro  section */
+/* inner page hero section css start */
+.inner_page_hero .hero_details{
+    background: #FFEDED80;
+    padding: 60px 0px;
+}
+.inner_page_hero .title h2{
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 700;
+    font-size: 68px;
+    line-height: 70px;
+    letter-spacing: 0.2px;
+    background: linear-gradient(90.56deg, #FF2626 0.49%, #FF5858 99.81%);
+    -webkit-background-clip: text;
+    color: transparent;
+    padding-top: 10px;
+    text-align: center;
+}
+.inner_page_hero .desc h5{
+    color: #141F39;
+    font-family: 'Hind Siliguri';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+
+
+/* inner page hero section css end */
 .stand_intro .banner_container{
     background: #FFEDED80;
 }
@@ -1217,19 +1246,29 @@ div .adds2{
     font-weight: bold;
     color: #FF2626;
 }
-.content_text .bold_content{
+.content_text .bold_content h2{
     font-family: "Hind Siliguri", sans-serif;
     font-size: 24px;
     font-weight: 700;
     line-height: 34px;
     letter-spacing: 0.2px;
     text-align: left;
+    color: #141F39;
+
 }
-.content_text .normal_content{
+/* .content_text .normal_content{
     font-family: "Hind Siliguri", sans-serif;
     font-size: 22px;
     font-weight: 400;
     line-height: 30px;
+} */
+.content_text .normal_content p{
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #141F39;
+
 }
 /* dealist section css start  */
 .dealist .content_nav .nav1 .active-link{
@@ -1490,7 +1529,10 @@ div .adds2{
     background-color: #F1F5F8;
 }
 
-
+.cng_owner_location_item{
+    padding-top: 40px;
+    /* background: #FBFCFD; */
+}
 .cng_owner_location_item .dropdown {
     position: relative;
     display: flex;
@@ -1931,6 +1973,18 @@ div .adds2{
     background: linear-gradient(-220deg, #fcebeb 0%, white 50%, #efdede 100%);
 
 }
+.blog_hero .banner_head h2{
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 700;
+    font-size: 68px;
+    line-height: 70px;
+    letter-spacing: 0.2px;
+    background: linear-gradient(90.56deg, #FF2626 0.49%, #FF5858 99.81%);
+    -webkit-background-clip: text;
+    color: transparent;
+    padding-top: 10px;
+    text-align: left !important;
+}
 .stand_intro .banner_head h2{
     font-family: "Hind Siliguri", sans-serif;
     font-weight: 700;
@@ -1941,6 +1995,15 @@ div .adds2{
     -webkit-background-clip: text;
     color: transparent;
     padding-top: 10px;
+    text-align: left !important;
+}
+.blog_hero .banner_title p{
+    font-family: 'Hind Siliguri';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #000000;
     text-align: left !important;
 }
 .stand_intro .banner_title p{
