@@ -58,7 +58,7 @@
         left: 50%;
     }
     .location_item .dropdown::after {
-        right: 85px;
+        right: 55px;
     }
     .cng_owner_location_item .dropdown::after {
         right: 55px;
@@ -73,6 +73,9 @@
  @media(max-width: 1199.98px){
     .dealist .driver_list .profile .beage {
         transform: translate(380%, -150%) !important;
+    }
+    .dealist .right_side .card {
+        padding: 20px;
     }
  }
  @media(min-width: 768px) and (max-width: 992px){
@@ -339,6 +342,9 @@
     .dealist .driver_list .profile .beage {
         transform: translate(420%, -150%) !important;
     }
+    .location_item .dropdown::after {
+        right: 115px;
+    }
  }
  @media(min-width: 575px) and (max-width: 768px){
     .hero .hero_image img{
@@ -596,6 +602,9 @@
     .cng_owner_location_item .dropdown::after {
         right: 130px;
     }
+    .location_item .dropdown::after {
+        right: 115px;
+    }
     .dealist .profile-card{
         width: 100%;
     }
@@ -686,9 +695,6 @@
     .search_section .me-2{
         margin-right: 0rem !important;
     }
-    /* .search_section .form{
-        width: 100% !important;
-    } */
     .help_us .help_us_headr .title h2 {
         font-size: 32px;
         line-height: 40px;
@@ -697,8 +703,6 @@
         padding: 0px;
         margin-bottom: 50px;
     }
-    
-      
     .feature-box {
         position: static;
         width: 100%;
@@ -1065,6 +1069,9 @@
         background: #fff;
         cursor: pointer;
     }
+    .dealist .right_side .card {
+        padding: 45px 140px;
+    }
  }
  @media(max-width: 425px){
     .navbar .navbar-brand{
@@ -1324,8 +1331,6 @@
     .dealist .badge {
         left: 55px;
     }
-
-
     .profile_section .profile_deatils .profile_info .deatils .designation {
         font-family: 'Hind Siliguri';
         font-size: 22px;
@@ -1419,6 +1424,9 @@
     .dealist .driver_list .profile .beage {
         transform: translate(510%, -150%) !important;
     }
+    .dealist .right_side .card {
+        padding: 45px 62px;
+    }
  }
  @media(max-width: 375px){
     .form-select {
@@ -1453,6 +1461,9 @@
     }
     .dealist .badge {
         left: 45px;
+    }
+    .dealist .right_side .card {
+        padding: 45px 37px;
     }
  }
  @media(max-width: 360px){
@@ -1505,5 +1516,8 @@
     }
     .dealist .driver_list .profile .beage {
         transform: translate(390%, -150%) !important;
+    }
+    .dealist .right_side .card {
+        padding: 45px 12px;
     }
  }
