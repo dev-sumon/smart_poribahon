@@ -1465,6 +1465,17 @@
     .dealist .right_side .card {
         padding: 45px 37px;
     }
+    .blog_hero{
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+    .blog_hero .banner_head h2 {
+        font-size: 46px;
+        line-height: 54px;
+    }
+    .blog_hero .banner_title p {
+        font-size: 16px !important;
+    }
  }
  @media(max-width: 360px){
     .icon-circle-1{
