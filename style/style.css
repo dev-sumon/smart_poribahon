@@ -992,10 +992,10 @@
     right: 75px;
     color: #061E38;
 }
-.dealist .content_nav{
+/* .dealist .content_nav{
     top: 852px;
     left: 601px;
-}
+} */
 
 /* notice section CSS End */
 /* dealist section design start */
@@ -1149,12 +1149,12 @@ div .adds2{
     text-align: center;       
     margin: 0 auto;           
 }
-.dealist .content_nav{
+/* .dealist .content_nav{
     width: 780px;
     height: 105px;
     top: 852px;
     left: 601px;
-}
+} */
 .nav1 ul li a{
     font-family: "Hind Siliguri", sans-serif;
     font-weight: 500;
