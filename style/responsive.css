@@ -638,8 +638,11 @@
     .hero .column_reverse{
         flex-direction: column-reverse;
     }
-    .dealist .driver_list .profile .beage {
+    /* .dealist .driver_list .profile .beage {
         transform: translate(600%, -150%) !important;
+    } */
+    .dealist .driver_list .profile .beage {
+        transform: translate(430%, -150%) !important;
     }
  }
   @media(max-width: 767.98px){
@@ -1489,6 +1492,9 @@
     }
     .blog_hero .banner_title p {
         font-size: 16px !important;
+    }
+    .dealist .driver_list .profile .beage {
+        transform: translate(460%, -150%) !important;
     }
  }
  @media(max-width: 360px){
