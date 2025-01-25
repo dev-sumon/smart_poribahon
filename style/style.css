@@ -1310,8 +1310,8 @@ div .adds2{
 .president_and_members .member_list_title h2{
     font-family: 'Hind Siliguri';
     font-weight: 700;
-    font-size: 68px;
-    line-height: 70px;
+    font-size: 64px;
+    line-height: 80px;
     text-align: center;
     letter-spacing: 0.2px;
     padding-top: 10px;
@@ -1866,6 +1866,7 @@ div .adds2{
     letter-spacing: 0.2px;
     text-align: left;
     color: #000000;
+    border: 1px solid #EA1827;
 }
 .notice_bord_section .select_option .notice_type select{
     font-family: 'Kohinoor Bangla';
@@ -1875,6 +1876,7 @@ div .adds2{
     letter-spacing: 0.2px;
     text-align: left;
     color: #000000;
+    border: 1px solid #EA1827;
 }
 .table{
     border: none;
