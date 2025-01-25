@@ -615,9 +615,7 @@
         font-size: 46px;
         line-height: 54px;
     }
-    .dealist .badge {
-        left: 110px;
-    }
+    
     .certified_social {
         display: flex;
         flex-direction: column-reverse;
@@ -644,6 +642,11 @@
         transform: translate(600%, -150%) !important;
     }
  }
+  @media(max-width: 767.98px){
+    .dealist .badge {
+        left: 110px;
+    }
+  }
  @media(max-width: 575px){
     .hero .hero_image img{
         width: 100%;
