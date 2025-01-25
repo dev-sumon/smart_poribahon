@@ -1427,6 +1427,17 @@
     .dealist .right_side .card {
         padding: 45px 62px;
     }
+    .inner_page_hero .desc h5 {
+        font-size: 20px;
+        line-height: 28px;
+        padding: 0px 15px;
+    }
+    .inner_page_hero .title h2 {
+        font-size: 46px;
+    }
+    .inner_page_hero .hero_details {
+        padding: 20px 0px;
+    }
  }
  @media(max-width: 375px){
     .form-select {
