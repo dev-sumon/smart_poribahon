@@ -1284,6 +1284,11 @@ div .adds2{
 .stand_map{
     border-radius: 30px;
 }
+.gallery_image img {
+    border-radius: 8px; 
+    object-fit: cover;
+}
+
 /* Map_intro section End! */
 
 /* stand commuity page css start */
