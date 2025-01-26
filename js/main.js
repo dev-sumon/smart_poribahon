@@ -38,7 +38,7 @@ window.addEventListener('scroll', function() {
                 element.innerText = originalValue;
             });
         }
-    }, 200);
+    }, 500);
 });
 
 window.addEventListener('scroll', function() {
