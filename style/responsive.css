@@ -1078,6 +1078,16 @@
     .dealist .right_side .card {
         padding: 45px 140px;
     }
+    .blog_hero .banner_head h2 {
+        font-size: 48px;
+        line-height: 54px;
+    }
+    .left_card h1 {
+        font-family: "Exo", sans-serif;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 43.2px;
+    }
  }
  @media(max-width: 425px){
     .navbar .navbar-brand{
