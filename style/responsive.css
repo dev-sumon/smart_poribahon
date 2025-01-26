@@ -1088,6 +1088,28 @@
         font-weight: 600;
         line-height: 43.2px;
     }
+    .contact_deatils  .column_reverse{
+        flex-direction: column-reverse;
+    }
+    .contact_deatils .details .conatact_info h3{
+        font-family: "Hind Siliguri";
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 44px;
+        letter-spacing: 0.20px;
+        text-align: left;
+        margin-top: 30px;
+        color: #000000;
+    }
+    .contact_deatils .details .conatact_info p{
+        font-family: "Hind Siliguri";
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0.20px;
+        text-align: left;
+        color: #000000;
+    }
  }
  @media(max-width: 425px){
     .navbar .navbar-brand{

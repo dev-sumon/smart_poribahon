@@ -1941,6 +1941,9 @@ div .adds2{
     letter-spacing: 0.2px;
     color: #000000
 }
+.contact_deatils .details .map img{
+    width: 100%;
+}
 /* contact deatils section css end */
 /* contact section css start  */
 .contact h4{
