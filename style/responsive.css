@@ -1469,6 +1469,11 @@
     .table td, .table th {
         padding: .5rem;
     }
+    .profile_section .profile_image img {
+        width: 100% !important;
+        height: auto;
+        object-fit: cover;
+    }
  }
  @media(max-width: 375px){
     .form-select {
