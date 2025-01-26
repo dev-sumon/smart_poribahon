@@ -64,7 +64,7 @@
         right: 55px;
     }
     .dealist .owner_list .profile-card .profile-details {
-        padding: 0px 40px;
+        padding: 0px 0px;
     }
     .stant_location_item .dropdown::after {
         right: 55px;
@@ -334,7 +334,7 @@
         width: 100%;
     }
     .dealist .owner_list .profile-card .profile-details {
-        padding: 0px 45px !important;
+        padding: 0px 0px !important;
     }
     .stant_location_item .dropdown::after {
         right: 100px;
@@ -609,7 +609,7 @@
         width: 100%;
     }
     .dealist .owner_list .profile-card .profile-details {
-        padding: 0px 135px;
+        padding: 0px 0px;
     }
     .president_and_members .member_list_title h2 {
         font-size: 46px;
@@ -1007,7 +1007,7 @@
         width: 100%;
     }
     .dealist .owner_list .profile-card .profile-details {
-        padding: 0px 90px;
+        padding: 0px 0px;
     }
     .president_and_members .stand_location h5 {
         line-height: 28px;
@@ -1342,7 +1342,7 @@
         width: 100%;
     }
     .dealist .owner_list .profile-card .profile-details {
-        padding: 0px 75px;
+        padding: 0px 0px;
     }
     .dealist .badge {
         left: 55px;
@@ -1504,7 +1504,7 @@
         left: 16px;
     }
     .dealist .owner_list .profile-card .profile-details {
-        padding: 0px 50px;
+        padding: 0px 0px;
     }
     .dealist .badge {
         left: 45px;
