@@ -2531,7 +2531,42 @@ div .adds2{
 } */
 /* register section css end */
 /* singnup page css end */
+/* chatbox  css start */
 
+
+.chatbox .card{
+    max-width: 300px;
+    width: 100%;
+}
+
+.chatbox .card .message {
+    text-align: center;
+    background: linear-gradient(90deg, #FF2E2E 0%, #FF5353 100%);
+    padding: 10px 20px 0px 20px;
+    border-radius: 5px;
+}
+.chatbox .card .icon i{
+    font-size: 30px;
+    color: #fff;
+}
+.chatbox .card .text p{
+    color: #fff;
+    font-family: "Hind Siliguri";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+
+
+
+
+
+/* chatbox  css end */
 /* Footer start */
 footer {
     background-color: #051E38;
