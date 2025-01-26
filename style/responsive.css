@@ -1444,6 +1444,18 @@
     .inner_page_hero .hero_details {
         padding: 20px 0px;
     }
+    .notice_bord_section .head .title h3 {
+        font-size: 24px;
+        line-height: 32px;
+        text-align: left !important;
+    }
+    .custom-header th {
+        font-size: 10px;
+        line-height: 10px;
+    }
+    .table td {
+        font-size: 10px;
+    }
  }
  @media(max-width: 375px){
     .form-select {
