@@ -1456,6 +1456,9 @@
     .table td {
         font-size: 10px;
     }
+    .table td, .table th {
+        padding: .5rem;
+    }
  }
  @media(max-width: 375px){
     .form-select {
