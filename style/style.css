@@ -1369,6 +1369,7 @@ div .adds2{
     transform: translate(-40%, 250%);
 }
 .dealist .profile-image {
+    width: 100%;
     border-radius: 6px;
     object-fit: cover;
 }
@@ -1488,8 +1489,8 @@ div .adds2{
     width: 100%;
 } */
 .dealist .owner_list .profile-card .profile-details{
-    text-align: left;
-    padding: 0px 15px;
+    text-align: center;
+    padding: 0px 0px;
 }
 .dealist .owner_list .profile-card h3{
     font-family: 'Hind Siliguri';
