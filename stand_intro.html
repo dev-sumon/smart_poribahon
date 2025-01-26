@@ -30,6 +30,7 @@
 
     <!-- Custom css link -->
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/responsive.css">
   </head>
   <body>
     <!-- nav section start -->
@@ -121,7 +122,7 @@
     <section class="notice">
         <div class="container py-5">
             <div class="row">
-                <div class="col-8">
+                <div class="col-md-12 col-lg-9">
                     <div class="title pt-2">
                         <h5>নোটিশ বোর্ড</h5>
                     </div>
@@ -165,9 +166,9 @@
                     </div>
                                         
                 </div>
-                <div class="col-4">
+                <div class="col-md-12 col-lg-3 mt-sm-5 mt-md-5 custom-margin">
                     <div class="advisement">
-                        <div class="add_image">
+                        <div class="add_image text-center">
                             <a href="#">
                                 <img class="" src="images/add_banner.jpg" alt="add banner">
                             </a>
@@ -264,12 +265,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-7">
-                    <div class="row">
-                        <div class="col-md-6 col-lg-9">
+                <div class="col-sm-12 col-lg-8">
+                    <div class="row d-flex justify-content-between">
+                        <div class="col-md-12 col-lg-12 pb-5">
                             <div class="content_nav">
                                 <div class="nav1">
-                                    <ul class="d-flex flex-row gap-5 p-0 m-0 list-unstyled">
+                                    <ul class="d-flex flex-md-row flex-column gap-3 p-0 m-0 list-unstyled">
                                         <li><a href="stand_intro.html" class="active-link">স্ট্যান্ডের পরিচিতি</a></li>
                                         <li><a href="stand_map.html">মানচিত্রে স্ট্যান্ড</a></li>
                                         <li><a href="stand_community.html">সভাপতি ও সদস্য বৃন্দ তালিকা</a></li>
@@ -277,20 +278,23 @@
                                     </ul>
                                 </div>
                                 <div class="nav2 pt-4">
-                                    <ul class="d-flex flex-row gap-5 p-0 m-0 list-unstyled">
+                                    <ul class="d-flex flex-md-row flex-column gap-3 p-0 m-0 list-unstyled">
                                         <li><a href="cng_driver_list.html">বাইক ড্রাইভার এর তালিকা </a></li>
                                         <li><a href="notice_page.html">স্ট্যান্ড এর বার্ষিক বাজেট উন্নয়ন পরিকল্পনা ও আর্থিক বিবরণী </a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
-                        <hr style="border: 1px solid #E5E5E5; height: 1px; background-color: #E5E5E5;">
+                        <!-- <hr style="border: 1px solid #E5E5E5; height: 1px; background-color: #E5E5E5;"> -->
                         <!-- video section -->
-                        <div>
+                        <!-- <div>
                             <div class="video-container">
                                 <iframe width="725" height="408" src="https://www.youtube.com/embed/eHJnEHyyN1Y?si=tYCENquNCQV1e60P" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                             </div>
-                        </div>
+                        </div> -->
+                        <div class="video-responsive">
+                            <iframe width="725" height="408" src="https://www.youtube.com/embed/eHJnEHyyN1Y?si=tYCENquNCQV1e60P" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>                        
                         <!-- Content Description start-->
                        
                         <div class="content_text ">
@@ -303,7 +307,7 @@
                                 </div>
                                 <div class="col-md-8 col-12">
                                     <div class="normal_content text-start">
-                                        নিজবাহাদুরপুর সি এন জি স্ট্যান্ড
+                                        <p>নিজবাহাদুরপুর সি এন জি স্ট্যান্ড</p>
                                     </div>
                                 </div>
                             </div>
@@ -316,7 +320,7 @@
                                 </div>
                                 <div class="col-md-8 col-12">
                                     <div class="normal_content text-start">
-                                        সিলেট নামের উৎপত্তি নিয়ে নানা মতবাদ রয়েছে। প্রাচীন গৌড়ের রাজা ‘গুহক’ তার কন্যা শীলাদেবীর নামে একটি হাট স্থাপন করেন। এ কারণে ‘শীলাহাট’ থেকে সিলট বা সিলেট নামের পরিচিতি হতে পারে বলে অনেকে মনে করেন। এছাড়াও অনেকের মতে হিন্দু পুরাণ মতে সতীদেবীর হাড় বা হড্ড উপমহাদেশের ৫১ টি স্থানে পতিত হয়েছিল। সতীর দু’টি হাড় সিলেটেও পড়েছিল। সতীর অপর নাম ‘শ্রী’; তাই ‘শ্রী + হড্ড’ থেকে শ্রীহট্ট নাম হতে পারে। হযরত শাহজালাল (রঃ) কর্তৃক ‘সিল হট্ যাহ্’ আদেশ থেকে ‘সিল্হট্’ নামের উৎপত্তি বলেও অনেকে মনে করেন।
+                                        <p>সিলেট নামের উৎপত্তি নিয়ে নানা মতবাদ রয়েছে। প্রাচীন গৌড়ের রাজা ‘গুহক’ তার কন্যা শীলাদেবীর নামে একটি হাট স্থাপন করেন। এ কারণে ‘শীলাহাট’ থেকে সিলট বা সিলেট নামের পরিচিতি হতে পারে বলে অনেকে মনে করেন। এছাড়াও অনেকের মতে হিন্দু পুরাণ মতে সতীদেবীর হাড় বা হড্ড উপমহাদেশের ৫১ টি স্থানে পতিত হয়েছিল। সতীর দু’টি হাড় সিলেটেও পড়েছিল। সতীর অপর নাম ‘শ্রী’; তাই ‘শ্রী + হড্ড’ থেকে শ্রীহট্ট নাম হতে পারে। হযরত শাহজালাল (রঃ) কর্তৃক ‘সিল হট্ যাহ্’ আদেশ থেকে ‘সিল্হট্’ নামের উৎপত্তি বলেও অনেকে মনে করেন।</p>
                                     </div>
                                 </div>
                             </div>
@@ -328,7 +332,7 @@
                                 </div>
                                 <div class="col-md-8 col-12">
                                     <div class="normal_content text-start">
-                                        সিলেট নামের উৎপত্তি নিয়ে নানা মতবাদ রয়েছে। প্রাচীন গৌড়ের রাজা ‘গুহক’ তার কন্যা শীলাদেবীর নামে একটি হাট স্থাপন করেন। 
+                                        <p>সিলেট নামের উৎপত্তি নিয়ে নানা মতবাদ রয়েছে। প্রাচীন গৌড়ের রাজা ‘গুহক’ তার কন্যা শীলাদেবীর নামে একটি হাট স্থাপন করেন। </p>
                                     </div>
                                 </div>
                             </div>
@@ -340,7 +344,7 @@
                                 </div>
                                 <div class="col-md-8 col-12">
                                     <div class="normal_content text-start">
-                                        সিলেট নামের উৎপত্তি নিয়ে নানা মতবাদ রয়েছে। প্রাচীন গৌড়ের রাজা ‘গুহক’ তার কন্যা শীলাদেবীর নামে একটি হাট স্থাপন করেন। 
+                                        <p>সিলেট নামের উৎপত্তি নিয়ে নানা মতবাদ রয়েছে। প্রাচীন গৌড়ের রাজা ‘গুহক’ তার কন্যা শীলাদেবীর নামে একটি হাট স্থাপন করেন। </p>
                                     </div>
                                 </div>
                             </div>
@@ -352,7 +356,7 @@
                                 </div>
                                 <div class="col-md-8 col-12">
                                     <div class="normal_content text-start">
-                                        সিলেট নামের উৎপত্তি নিয়ে নানা মতবাদ রয়েছে। প্রাচীন গৌড়ের রাজা ‘গুহক’ তার কন্যা শীলাদেবীর নামে একটি হাট স্থাপন করেন। 
+                                        <p>সিলেট নামের উৎপত্তি নিয়ে নানা মতবাদ রয়েছে। প্রাচীন গৌড়ের রাজা ‘গুহক’ তার কন্যা শীলাদেবীর নামে একটি হাট স্থাপন করেন। </p>
                                     </div>
                                 </div>
                             </div>
@@ -364,7 +368,7 @@
                                 </div>
                                 <div class="col-md-8 col-12">
                                     <div class="normal_content text-start">
-                                        সিলেট নামের উৎপত্তি নিয়ে নানা মতবাদ রয়েছে। প্রাচীন গৌড়ের রাজা ‘গুহক’ তার কন্যা শীলাদেবীর নামে একটি হাট স্থাপন করেন। 
+                                        <p>সিলেট নামের উৎপত্তি নিয়ে নানা মতবাদ রয়েছে। প্রাচীন গৌড়ের রাজা ‘গুহক’ তার কন্যা শীলাদেবীর নামে একটি হাট স্থাপন করেন। </p>
                                     </div>
                                 </div>
                             </div>

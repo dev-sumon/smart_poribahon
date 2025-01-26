@@ -27,6 +27,7 @@
 
     <!-- Custom css link -->
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/responsive.css">
   </head>
   <body>
     <!-- nav section start -->
@@ -157,7 +158,6 @@
                     <div class="all_notice_button text-end">
                         <a href="notice_page.html" class="gradient-border-button">
                             <span>সকল</span>
-                            <!-- <span class="arrow">&rarr;</span> -->
                             <i class="fa-solid fa-arrow-right arrow"></i>
                           </a>
                     </div>
@@ -262,12 +262,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-7">
-                    <div class="row">
-                        <div class="col-md-6 col-lg-9">
+                <div class="col-sm-12 col-lg-8">
+                    <div class="row d-flex justify-content-between">
+                        <div class="col-md-12 col-lg-12 pb-5">
                             <div class="content_nav">
                                 <div class="nav1">
-                                    <ul class="d-flex flex-row gap-5 p-0 m-0 list-unstyled">
+                                    <ul class="d-flex flex-md-row flex-column gap-3 p-0 m-0 list-unstyled">
                                         <li><a href="stand_intro.html" class="active-link">স্ট্যান্ডের পরিচিতি</a></li>
                                         <li><a href="stand_map.html">মানচিত্রে স্ট্যান্ড</a></li>
                                         <li><a href="stand_community.html">সভাপতি ও সদস্য বৃন্দ তালিকা</a></li>
@@ -275,14 +275,14 @@
                                     </ul>
                                 </div>
                                 <div class="nav2 pt-4">
-                                    <ul class="d-flex flex-row gap-5 p-0 m-0 list-unstyled">
+                                    <ul class="d-flex flex-md-row flex-column gap-3 p-0 m-0 list-unstyled">
                                         <li><a href="cng_driver_list.html">বাইক ড্রাইভার এর তালিকা </a></li>
                                         <li><a href="notice_page.html">স্ট্যান্ড এর বার্ষিক বাজেট উন্নয়ন পরিকল্পনা ও আর্থিক বিবরণী </a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
-                        <hr style="border: 1px solid #E5E5E5; height: 1px; background-color: #E5E5E5;">
+                        <!-- <hr style="border: 1px solid #E5E5E5; height: 1px; background-color: #E5E5E5;"> -->
                         <div class="content_text">
                             <div class="row">
                                 <div class="col-md-4 col-12">
@@ -297,19 +297,15 @@
                                 </div>
                             </div>
                         </div>
-                        
-                        <!-- map -->
                         <div class="container mt-4">
                             <div class="row">
-                                <div class="ratio ratio-16x9">
-                                    <iframe class="stand_map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509207!2d144.95373631590477!3d-37.81627974257151!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf5773e92707ab4f0!2sMelbourne%20Central!5e0!3m2!1sen!2sau!4v1635515338986!5m2!1sen!2sau"  width="780" height="440" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                <div class="map">
+                                    <div class="ratio ratio-16x9">
+                                        <iframe class="stand_map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509207!2d144.95373631590477!3d-37.81627974257151!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf5773e92707ab4f0!2sMelbourne%20Central!5e0!3m2!1sen!2sau!4v1635515338986!5m2!1sen!2sau"  width="780" height="440" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <!-- map! -->
-
-                        <!-- Content Description start-->
-                       
                         <div class="content_text mt-5">
                             <div class="row">
                                 <div class="col-md-4 col-12">
@@ -395,7 +391,6 @@
                                 </div>
                             </div>
                         </div>
-                         <!-- Content Description End-->
                     </div>
                 </div>
             </div>
@@ -403,79 +398,49 @@
     </section>
     <!-- dealist section design start -->
 
-      <!-- stand_intro section End!-->
-
 
     <!-- gallery section start -->
-    <!-- <section class="gallery_section">
-        <div class="container pt-1 pb-5">
-           <div class="d-flex mb-3">
-            <h3>ইমেজ গ্যালারী - </h3>
-            <p class="ml-4">মৌলভীবাজার জেলা - বড়লেখা থানা -নিজবাহাদুরপুর ইউনিয়ন সি এন জি স্ট্যান্ড এর </p> 
-           </div>
-            <div class="row">
-               <div class="gallery_image d-flex justify-content-between column-gap-3">
-                    <div class="">
-                        <img src="images/Rectangle 3836.png" alt="">
-                    </div>
-                    <div class="">
-                        <img src="images/Rectangle 3837.png" alt="">
-                    </div>
-                    <div class="">
-                        <img src="images/Rectangle 3838.png" alt="">
-                    </div>
-               </div>
-            </div>
-            <div class="row pt-3">
-                <div class="gallery_image d-flex justify-content-between column-gap-3">
-                     <div class="">
-                         <img src="images/Rectangle 3839.png" alt="">
-                     </div>
-                     <div class="">
-                         <img src="images/Rectangle 3840.png" alt="">
-                     </div>
-                     <div class="">
-                         <img src="images/Rectangle 3841.png" alt="">
-                     </div>
-                </div>
-             </div>
-        </div>
-      </section> -->
-      <section class="gallery_section">
+    <section class="gallery_section">
         <div class="container pt-5 pb-5">
             <div class="row">
-                <div class="d-flex mb-3">
+                <div class="d-none d-sm-flex mb-3">
                     <h3>ইমেজ গ্যালারী - </h3>
                     <p class="ml-4">মৌলভীবাজার জেলা - বড়লেখা থানা -নিজবাহাদুরপুর ইউনিয়ন সি এন জি স্ট্যান্ড এর </p> 
                 </div>
-                <div class="gallery_image d-flex justify-content-between column-gap-3">
-                    <div class="">
-                        <img src="images/Rectangle 3842.png" alt="">
+                
+                <div class="row gallery_image g-3">
+                    <div class="col-6 col-md-4">
+                        <div class="">
+                            <img src="images/Rectangle 3842.png" alt="" class="img-fluid">
+                        </div>
                     </div>
-                    <div class="">
-                        <img src="images/Rectangle 3844.png" alt="">
+                    <div class="col-6 col-md-4">
+                        <div class="">
+                            <img src="images/Rectangle 3844.png" alt="" class="img-fluid">
+                        </div>
                     </div>
-                    <div class="">
-                        <img src="images/Rectangle 3846.png" alt="">
+                    <div class="col-12 col-md-4">
+                        <div class=""></div>
+                        <img src="images/Rectangle 3846.png" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
             <div class="row pt-3">
-                <div class="gallery_image d-flex justify-content-between column-gap-3">
-                      <div class="">
-                          <img src="images/Rectangle 3847.png" alt="">
-                      </div>
-                      <div class="">
-                          <img src="images/Rectangle 3843.png" alt="">
-                      </div>
-                      <div class="">
-                          <img src="images/Rectangle 3845 (1).png" alt="">
-                      </div>
+                <div class="row gallery_image g-3">
+                    <div class="col-6 col-md-4">
+                        <img src="images/Rectangle 3847.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <img src="images/Rectangle 3843.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <img src="images/Rectangle 3845 (1).png" alt="" class="img-fluid">
+                    </div>
                 </div>
-              </div>
+            </div>
         </div>
-      </section>
-       <!-- gallery section end -->
+    </section>
+    <!-- gallery section end -->
 
   <!-- Footer Part start -->
 

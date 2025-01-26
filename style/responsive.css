@@ -615,9 +615,7 @@
         font-size: 46px;
         line-height: 54px;
     }
-    .dealist .badge {
-        left: 110px;
-    }
+    
     .certified_social {
         display: flex;
         flex-direction: column-reverse;
@@ -640,10 +638,18 @@
     .hero .column_reverse{
         flex-direction: column-reverse;
     }
-    .dealist .driver_list .profile .beage {
+    /* .dealist .driver_list .profile .beage {
         transform: translate(600%, -150%) !important;
+    } */
+    .dealist .driver_list .profile .beage {
+        transform: translate(430%, -150%) !important;
     }
  }
+  @media(max-width: 767.98px){
+    .dealist .badge {
+        left: 110px;
+    }
+  }
  @media(max-width: 575px){
     .hero .hero_image img{
         width: 100%;
@@ -1427,6 +1433,29 @@
     .dealist .right_side .card {
         padding: 45px 62px;
     }
+    .inner_page_hero .desc h5 {
+        font-size: 20px;
+        line-height: 28px;
+        padding: 0px 15px;
+    }
+    .inner_page_hero .title h2 {
+        font-size: 46px;
+    }
+    .inner_page_hero .hero_details {
+        padding: 20px 0px;
+    }
+    .notice_bord_section .head .title h3 {
+        font-size: 24px;
+        line-height: 32px;
+        text-align: left !important;
+    }
+    .custom-header th {
+        font-size: 10px;
+        line-height: 10px;
+    }
+    .table td {
+        font-size: 10px;
+    }
  }
  @media(max-width: 375px){
     .form-select {
@@ -1464,6 +1493,20 @@
     }
     .dealist .right_side .card {
         padding: 45px 37px;
+    }
+    .blog_hero{
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+    .blog_hero .banner_head h2 {
+        font-size: 46px;
+        line-height: 54px;
+    }
+    .blog_hero .banner_title p {
+        font-size: 16px !important;
+    }
+    .dealist .driver_list .profile .beage {
+        transform: translate(460%, -150%) !important;
     }
  }
  @media(max-width: 360px){

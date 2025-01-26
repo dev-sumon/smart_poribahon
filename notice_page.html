@@ -7,6 +7,7 @@
 
     <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Google Fonts - Hind Siliguri -->
       <link
@@ -35,6 +36,7 @@
 
     <!-- Custom css link -->
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/responsive.css">
   </head>
   <body>
     <!-- nav section start -->
@@ -122,7 +124,7 @@
     <section class="notice">
         <div class="container py-5">
             <div class="row">
-                <div class="col-9">
+                <div class="col-md-12 col-lg-9">
                     <div class="title pt-2">
                         <h5>নোটিশ বোর্ড</h5>
                     </div>
@@ -167,11 +169,15 @@
                     </div>
                                         
                 </div>
-                <div class="col-3">
-                    <div class="advisement">
-
+                <div class="col-md-12 col-lg-3 mt-sm-5 mt-md-5 custom-margin">
+                  <div class="advisement text-center">
+                    <div class="add_image">
+                      <a href="#">
+                        <img class="text-center" src="images/add_banner.jpg" alt="add banner">
+                      </a>
                     </div>
-                </div>
+                  </div>
+              </div>
             </div>
         </div>
     </section>
@@ -181,19 +187,19 @@
       <div class="container">
         <div class="head">
           <div class="row">
-            <div class="col-8">
+            <div class="col-md-12 col-lg-8">
               <div class="title">
-                <h3>বার্ষিক বাজেট উন্নয়ন পরিকল্পনা ও আর্থিক বিবরণী </h3>
+                <h3 class="text-center text-lg-start">বার্ষিক বাজেট উন্নয়ন পরিকল্পনা ও আর্থিক বিবরণী</h3>
               </div>
-              <div class="select_option d-flex">
-                <div class="year col-6">
+              <div class="select_option row g-2 mt-3">
+                <div class="year col-12 col-md-6">
                   <select name="" id="" class="form-select">
                     <option value="">২০২১-২০২২</option>
                     <option value="">২০২১-২০২২</option>
                     <option value="">২০২১-২০২২</option>
                   </select>
                 </div>
-                <div class="notice_type col-6">
+                <div class="notice_type col-12 col-md-6">
                   <select name="" id="" class="form-select">
                     <option value="">উন্নয়ন পলিকল্পনা</option>
                     <option value="">উন্নয়ন পলিকল্পনা</option>
@@ -202,145 +208,85 @@
                 </div>
               </div>
             </div>
-        </div>
+          </div>
         </div>
         <div class="notice_board pt-5">
-          <table class="table table-bordered text-center">
-            <thead class="custom-header">
-              <tr>
-                <th>সিরিয়াল নাম্বার</th>
-                <th>শিরোনাম</th>
-                <th>বছর</th>
-                <th>শ্রেণী</th>
-                <th>ফাইল</th>
-              </tr>
-            </thead>
-            <tbody>
-              <!-- Row 1 -->
-              <tr>
+          <div class="table-responsive">
+            <table class="table table text-center">
+              <thead class="custom-header">
+                <tr>
+                  <th>সিরিয়াল নাম্বার</th>
+                  <th>শিরোনাম</th>
+                  <th>বছর</th>
+                  <th>শ্রেণী</th>
+                  <th>ফাইল</th>
+                </tr>
+              </thead>
+              <tbody>
+                
+                <tr>
                   <td>১</td>
                   <td>বার্ষিক বাজেট উন্নয়ন পরিকল্পনা</td>
                   <td>২০২১-২০২২</td>
                   <td>বাজেট</td>
-                  <td><a href="AFS_00_E.pdf" target="_blank">
-                      <img src="https://img.icons8.com/color/48/000000/pdf.png" alt="PDF Icon" style="width: 24px;">
-                  </a></td>
-              </tr>
-              <!-- Repeat rows as needed -->
-              <tr>
+                  <td>
+                    <a href="AFS_00_E.pdf" target="_blank">
+                      <img src="images/Group.png" alt="PDF Icon" style="width: 24px;">
+                    </a>
+                  </td>
+                </tr>
+                <tr>
                   <td>২</td>
                   <td>বার্ষিক বাজেট উন্নয়ন পরিকল্পনা</td>
                   <td>২০২১-২০২২</td>
                   <td>বাজেট</td>
-                  <td><a href="AFS_00_E.pdf" target="_blank">
-                      <img src="https://img.icons8.com/color/48/000000/pdf.png" alt="PDF Icon" style="width: 24px;">
-                  </a></td>
-              </tr>
-              <tr>
+                  <td>
+                    <a href="AFS_00_E.pdf" target="_blank">
+                      <img src="images/Group.png" alt="PDF Icon" style="width: 24px;">
+                    </a>
+                  </td>
+                </tr>
+                <tr>
                   <td>৩</td>
                   <td>বার্ষিক বাজেট উন্নয়ন পরিকল্পনা</td>
                   <td>২০২১-২০২২</td>
                   <td>বাজেট</td>
-                  <td><a href="AFS_00_E.pdf" target="_blank">
-                      <img src="https://img.icons8.com/color/48/000000/pdf.png" alt="PDF Icon" style="width: 24px;">
-                  </a></td>
-              </tr>
-              <tr>
+                  <td>
+                    <a href="AFS_00_E.pdf" target="_blank">
+                      <img src="images/Group.png" alt="PDF Icon" style="width: 24px;">
+                    </a>
+                  </td>
+                </tr>
+                <tr>
                   <td>৪</td>
                   <td>বার্ষিক বাজেট উন্নয়ন পরিকল্পনা</td>
                   <td>২০২১-২০২২</td>
                   <td>বাজেট</td>
-                  <td><a href="AFS_00_E.pdf" target="_blank">
-                      <img src="https://img.icons8.com/color/48/000000/pdf.png" alt="PDF Icon" style="width: 24px;">
-                  </a></td>
-              </tr>
-              <tr>
+                  <td>
+                    <a href="AFS_00_E.pdf" target="_blank">
+                      <img src="images/Group.png" alt="PDF Icon" style="width: 24px;">
+                    </a>
+                  </td>
+                </tr>
+                <tr>
                   <td>৫</td>
                   <td>বার্ষিক বাজেট উন্নয়ন পরিকল্পনা</td>
                   <td>২০২১-২০২২</td>
                   <td>বাজেট</td>
-                  <td><a href="AFS_00_E.pdf" target="_blank">
-                      <img src="https://img.icons8.com/color/48/000000/pdf.png" alt="PDF Icon" style="width: 24px;">
-                  </a></td>
-              </tr>
-              <tr>
-                  <td>৬</td>
-                  <td>বার্ষিক বাজেট উন্নয়ন পরিকল্পনা</td>
-                  <td>২০২১-২০২২</td>
-                  <td>বাজেট</td>
-                  <td><a href="AFS_00_E.pdf" target="_blank">
-                      <img src="https://img.icons8.com/color/48/000000/pdf.png" alt="PDF Icon" style="width: 24px;">
-                  </a></td>
-              </tr>
-              <tr>
-                  <td>৭</td>
-                  <td>বার্ষিক বাজেট উন্নয়ন পরিকল্পনা</td>
-                  <td>২০২১-২০২২</td>
-                  <td>বাজেট</td>
-                  <td><a href="AFS_00_E.pdf" target="_blank">
-                      <img src="https://img.icons8.com/color/48/000000/pdf.png" alt="PDF Icon" style="width: 24px;">
-                  </a></td>
-              </tr>
-              <tr>
-                  <td>৮</td>
-                  <td>বার্ষিক বাজেট উন্নয়ন পরিকল্পনা</td>
-                  <td>২০২১-২০২২</td>
-                  <td>বাজেট</td>
-                  <td><a href="AFS_00_E.pdf" target="_blank">
-                      <img src="https://img.icons8.com/color/48/000000/pdf.png" alt="PDF Icon" style="width: 24px;">
-                  </a></td>
-              </tr>
-              <tr>
-                  <td>৯</td>
-                  <td>বার্ষিক বাজেট উন্নয়ন পরিকল্পনা</td>
-                  <td>২০২১-২০২২</td>
-                  <td>বাজেট</td>
-                  <td><a href="AFS_00_E.pdf" target="_blank">
-                      <img src="https://img.icons8.com/color/48/000000/pdf.png" alt="PDF Icon" style="width: 24px;">
-                  </a></td>
-              </tr>
-              <tr>
-                  <td>১০</td>
-                  <td>বার্ষিক বাজেট উন্নয়ন পরিকল্পনা</td>
-                  <td>২০২১-২০২২</td>
-                  <td>বাজেট</td>
-                  <td><a href="AFS_00_E.pdf" target="_blank">
-                      <img src="https://img.icons8.com/color/48/000000/pdf.png" alt="PDF Icon" style="width: 24px;">
-                  </a></td>
-              </tr>
-              <tr>
-                  <td>১১</td>
-                  <td>বার্ষিক বাজেট উন্নয়ন পরিকল্পনা</td>
-                  <td>২০২১-২০২২</td>
-                  <td>বাজেট</td>
-                  <td><a href="AFS_00_E.pdf" target="_blank">
-                      <img src="https://img.icons8.com/color/48/000000/pdf.png" alt="PDF Icon" style="width: 24px;">
-                  </a></td>
-              </tr>
-              <tr>
-                  <td>১২</td>
-                  <td>বার্ষিক বাজেট উন্নয়ন পরিকল্পনা</td>
-                  <td>২০২১-২০২২</td>
-                  <td>বাজেট</td>
-                  <td><a href="AFS_00_E.pdf" target="_blank">
-                      <img src="https://img.icons8.com/color/48/000000/pdf.png" alt="PDF Icon" style="width: 24px;">
-                  </a></td>
-              </tr>
-              <tr>
-                  <td>১৩</td>
-                  <td>বার্ষিক বাজেট উন্নয়ন পরিকল্পনা</td>
-                  <td>২০২১-২০২২</td>
-                  <td>বাজেট</td>
-                  <td><a href="AFS_00_E.pdf" target="_blank">
-                      <img src="https://img.icons8.com/color/48/000000/pdf.png" alt="PDF Icon" style="width: 24px;">
-                  </a></td>
-              </tr>
-              <!-- Add more rows as needed -->
-            </tbody>
-          </table>
+                  <td>
+                    <a href="AFS_00_E.pdf" target="_blank">
+                      <img src="images/Group.png" alt="PDF Icon" style="width: 24px;">
+                    </a>
+                  </td>
+                </tr>
+                
+              </tbody>
+            </table>
+          </div>
         </div>
       </div>
     </section>
+    
 
     <!-- Footer part Start! -->
     <footer class="footer_gray pt-5 pb-4">
