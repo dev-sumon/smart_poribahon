@@ -39,6 +39,10 @@
             height: 90%;
             background-color: #f5f5f5;
           }
+          .container {
+            height: 100%;
+            position: relative;
+          }
      </style>
   </head>
   <body>
@@ -53,7 +57,7 @@
       
             <!-- Login Button and Menu Icon (Responsive Mode) -->
             <div class="d-flex d-lg-none align-items-center justify-content-center responsive_menu">
-              <a href="#" class="btn btn-outline-danger btn-sm btn-login"><i class="fas fa-user-circle"></i> লগ ইন</a>
+              <a href="login.html" class="btn btn-outline-danger btn-sm btn-login"><i class="fas fa-user-circle"></i> লগ ইন</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class=""><i class="fa-solid fa-bars"></i></span>
               </button>
@@ -79,7 +83,7 @@
                   <a class="nav-link" href="#">সম্পর্কিত</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">হেল্প</a>
+                  <a class="nav-link" href="chat_box.html">হেল্প</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="blog.html">ব্লগ</a>
@@ -119,14 +123,14 @@
         </div>
         <div class="chat-box" id="chatBox">
           <div class="close-btn" onclick="toggleChatBox()">&times;</div>
-          <div class="header">
-            👋<br>
+          <div class="header"><i class="fa-solid fa-hands-clapping"></i>
+            <br>
             যেকোনো জিজ্ঞাসায় সরাসরি<br>আমাদের সাথে
           </div>
           <div class="options">
-            <button class="live-chat">লাইভ চ্যাট করুন</button>
-            <button class="whatsapp">WhatsApp-মেসেজ করুন</button>
-            <button class="call">কল করুন<br>01777 000000 নম্বরে</button>
+            <button class="live-chat"><i class="fa-regular fa-comment-dots"></i> লাইভ চ্যাট করুন</button>
+            <button class="whatsapp"><i class="fa-brands fa-whatsapp"></i> WhatsApp-মেসেজ করুন</button>
+            <button class="call"><i class="fa-solid fa-phone-volume"></i> কল করুন<br>01777 000000 নম্বরে</button>
           </div>
         </div>
         <div class="floating-btn" onclick="toggleChatBox()">
