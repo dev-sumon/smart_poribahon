@@ -77,6 +77,9 @@
     .dealist .right_side .card {
         padding: 20px;
     }
+    .dealist .badge {
+        top: 20px;
+    }
  }
  @media(min-width: 768px) and (max-width: 992px){
     .hero{
@@ -93,9 +96,6 @@
     }
     .hero .title p {
         font-size: 21px;
-    }
-    .custom-card {
-        /* width: auto; */
     }
     .vehicles_list {
         margin-bottom: 50px;
@@ -345,6 +345,9 @@
     .location_item .dropdown::after {
         right: 115px;
     }
+    .dealist .badge {
+        top: 60px;
+    }
  }
  @media(min-width: 575px) and (max-width: 768px){
     .hero .hero_image img{
@@ -593,8 +596,6 @@
         line-height: 40px;
         letter-spacing: 0.2px;
         color: #141F39;
-        /* width: 613px;
-        height: 56px; */
     }
     .dealist .location_item {
         margin-top: 20px;
@@ -638,9 +639,6 @@
     .hero .column_reverse{
         flex-direction: column-reverse;
     }
-    /* .dealist .driver_list .profile .beage {
-        transform: translate(600%, -150%) !important;
-    } */
     .dealist .driver_list .profile .beage {
         transform: translate(430%, -150%) !important;
     }
@@ -1496,6 +1494,10 @@
         height: auto;
         object-fit: cover;
     }
+    .dealist .badge {
+        left: 32px;
+        top: 130px;
+    }
  }
  @media(max-width: 375px){
     .form-select {
@@ -1529,7 +1531,8 @@
         padding: 0px 0px;
     }
     .dealist .badge {
-        left: 45px;
+        left: 35px;
+        top: 90px;
     }
     .dealist .right_side .card {
         padding: 45px 37px;
