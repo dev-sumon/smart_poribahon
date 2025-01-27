@@ -2439,6 +2439,10 @@ div .adds2{
     cursor: pointer;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     margin-bottom: 10px;
+    font-family: 'Hind Siliguri';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25.87px;
   }
 
   .chat-header i {
