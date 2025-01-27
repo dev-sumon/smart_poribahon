@@ -1,45 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
 /* home page css start */
 /* nav section css start */
-/* .navbar .menu_bar .menu{
-    color: #051E38;
-    font-family: "Hind Siliguri";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 16px;
-}
-.navbar .language .menu{
-    color: #051E38;
-    font-family: "Hind Siliguri";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 16px;
-}
-.navbar .login_register button{
-    padding: 16px 20px;
-    color: #051E38;
-    font-family: "Hind Siliguri";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 16px;
-    border: 1px solid #FF2727;
-    transition:  0.5s;
-}
-.navbar .login_register button:focus{
-    outline: none;
-    box-shadow: none;
-}
-.navbar .login_register button:hover{
-    color: #FFFFFF;
-    background: linear-gradient(94.75deg, #FF2121 0.75%, #FF6060 106.31%);
-} */
-
-
-
-
-
 .navbar-toggler {
     border: none;
     outline: none;
@@ -992,10 +953,6 @@
     right: 75px;
     color: #061E38;
 }
-/* .dealist .content_nav{
-    top: 852px;
-    left: 601px;
-} */
 
 /* notice section CSS End */
 /* dealist section design start */
@@ -1149,12 +1106,6 @@ div .adds2{
     text-align: center;       
     margin: 0 auto;           
 }
-/* .dealist .content_nav{
-    width: 780px;
-    height: 105px;
-    top: 852px;
-    left: 601px;
-} */
 .nav1 ul li a{
     font-family: "Hind Siliguri", sans-serif;
     font-weight: 500;
@@ -1183,11 +1134,6 @@ div .adds2{
     font-size: 24px;
     color: #141F39 !important;
 }
-/* .location_text {
-    font-weight: 700;
-    font-size: 24px;
-    color: #141F39 !important;
-} */
 .stand_intro .banner_container .banner_title h2{
     font-weight: 700;
     font-size: 68px;
@@ -1196,14 +1142,6 @@ div .adds2{
     color: transparent;
     margin-top: 10px;
 }
-/* .banner_title {
-    font-weight: 700;
-    font-size: 68px;
-    background: linear-gradient(90.56deg, #FF2626 0.49%, #FF5858 99.81%);
-    -webkit-background-clip: text;
-    color: transparent;
-    margin-top: 10px;
-} */
 /* Navigation Menu */
 .nav_menu {
     display: flex;
@@ -1256,12 +1194,6 @@ div .adds2{
     color: #141F39;
 
 }
-/* .content_text .normal_content{
-    font-family: "Hind Siliguri", sans-serif;
-    font-size: 22px;
-    font-weight: 400;
-    line-height: 30px;
-} */
 .content_text .normal_content p{
     font-family: "Hind Siliguri", sans-serif;
     font-size: 22px;
@@ -1328,8 +1260,6 @@ div .adds2{
     width: 100%;
     padding: 20px;
     border-radius: 10px;
-    /* background-color: white; */
-    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
     text-align: center;
 }
 .dealist .profile-card h3{
@@ -1454,7 +1384,7 @@ div .adds2{
 } 
 .video-responsive {
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    padding-bottom: 56.25%;
     height: 0;
     overflow: hidden;
     max-width: 100%;
@@ -1482,12 +1412,6 @@ div .adds2{
     line-height: 24px;
     color: #1F1E1E;
 }
-/* .dealist .owner_list .profile-card{
-    padding: 0px;
-} */
-/* .dealist .owner_list .profile-card img{
-    width: 100%;
-} */
 .dealist .owner_list .profile-card .profile-details{
     text-align: center;
     padding: 0px 0px;
@@ -1520,7 +1444,6 @@ div .adds2{
 .dealist .owner_list .profile-card a{
     text-decoration: none;
     color: #FF2424;
-    /* margin-top: 5px; */
     font-family: 'Hind Siliguri';
     font-size: 16px;
     font-weight: 500;
@@ -1580,7 +1503,6 @@ div .adds2{
 
 .cng_owner_location_item{
     padding-top: 40px;
-    /* background: #FBFCFD; */
 }
 .cng_owner_location_item .dropdown {
     position: relative;
@@ -2017,10 +1939,6 @@ div .adds2{
 /* contact section css end */
 /* contact page css end */
 
-
-
-
-
 /* Blog Section Styling */
 
 .blog_hero {
@@ -2069,9 +1987,6 @@ div .adds2{
     color: #000000;
     text-align: left !important;
 }
-.stand_intro .banner_image{
-    
-}
 .blog_container {
     font-family: 'Hind Siliguri', sans-serif;
     display: block;
@@ -2103,10 +2018,7 @@ div .adds2{
     height: auto;
 }
 
-/* Blog & Inner card & form start */
-        
-@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
-       
+/* Blog & Inner card & form start */      
 .blog_card_form .card {
     border: none;
     background-color: #FEF3F3;
@@ -2292,16 +2204,11 @@ div .adds2{
     font-size: 1rem;
     cursor: pointer;
 }
-        /* card & form End! */
-
+/* card & form End! */
 /* Blog_section end */
 
 
-
-
-
 /* Inner card & form start */
-
 .left_card h1{
     font-family: "Exo", sans-serif;
     font-size: 46px;
@@ -2323,12 +2230,7 @@ div .adds2{
     height: 50vh;
     border-radius: 15px;
 }
-
 /* Inner card & form End! */
-
-
-
-
 
 /* login page css start  */
 /* login section css start  */
@@ -2469,13 +2371,6 @@ div .adds2{
     color: #8E8E8E;
     padding-left: 10px;
 }
-/* .register_section p{
-    font-family: 'Hind Siliguri';
-    font-size: 18px;
-    font-weight: 300;
-    line-height: 24px;
-    color: #000000;
-} */
 .register_section .divider{
     display: flex;
     align-items: center;
@@ -2522,49 +2417,131 @@ div .adds2{
 .register_section .iti{
     display: block;
 }
-/* .iti__flag-box{
-    font-family: 'Hind Siliguri';
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 25.04px;
 
-} */
 /* register section css end */
 /* singnup page css end */
 /* chatbox  css start */
+  .chat-widget {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+  }
 
+  .chat-header {
+    background-color: #ff4d4d;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+    font-family: 'Hind Siliguri';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25.87px;
+  }
 
-.chatbox .card{
-    max-width: 300px;
-    width: 100%;
+  .chat-header i {
+    margin-right: 8px;
+  }
+.chat-box .header i{
+        font-size: 30px;
+        color: #ffc83d;
 }
+  .chat-box {
+    position: absolute;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    padding: 15px;
+    bottom: 60px;
+    right: 0;
+  }
 
-.chatbox .card .message {
+  .chat-box .header {
     text-align: center;
-    background: linear-gradient(90deg, #FF2E2E 0%, #FF5353 100%);
-    padding: 10px 20px 0px 20px;
+    margin-bottom: 10px;
+    font-family: 'Hind Siliguri';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #000000;
+  }
+
+  .chat-box .options button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 14px;
+    border: none;
     border-radius: 5px;
-}
-.chatbox .card .icon i{
-    font-size: 30px;
-    color: #fff;
-}
-.chatbox .card .text p{
-    color: #fff;
-    font-family: "Hind Siliguri";
+    cursor: pointer;
+  }
+
+  .chat-box .options .live-chat {
+    background-color: #ff4d4d;
+    color: white;
+    font-family: 'Hind Siliguri';
     font-size: 18px;
     font-weight: 600;
     line-height: 28px;
     text-align: center;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
+  }
 
-}
+  .chat-box .options .whatsapp {
+    color: #FF3030;
+    background-color: white;
+    font-family: 'Hind Siliguri';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: center;
+    border: 1px solid #d2cfcf;
+  }
 
+  .chat-box .options .call {
+    background-color: #ffffff;
+    color: #FF3232;
+    font-family: 'Hind Siliguri';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: center;
+  }
 
+  .chat-box .footer {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 12px;
+  }
 
+  .chat-box .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 14px;
+    cursor: pointer;
+  }
 
-
+  .floating-btn {
+    background-color: #ff4d4d;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
 
 /* chatbox  css end */
 /* Footer start */
