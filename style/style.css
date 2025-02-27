@@ -298,10 +298,11 @@
     color: #FFFFFF;
     font-family: 'Hind Siliguri';
     font-size: 30px;
-    padding: 5px 8px;
+    padding: 15px 28px;
     font-weight: 500;
     background: linear-gradient(91.25deg, #FF2727 -4.4%, #FF5454 101.68%);
     border: none;
+    border-radius: 8px;
 }
 .search_section .search{
     font-family: 'Hind Siliguri';
@@ -309,6 +310,8 @@
     line-height: 28px;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.5);
+    text-align: start;
+    padding: 30px;
 }
 .search_section .search:focus{
     outline: #FF2727;
@@ -1050,7 +1053,7 @@
 /* stand_intro  section */
 /* inner page hero section css start */
 .inner_page_hero .hero_details{
-    background: #FFEDED80;
+    background: #FFEDED80;  
     padding: 60px 0px;
 }
 .inner_page_hero .title h2{

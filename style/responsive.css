@@ -10,7 +10,9 @@
 
  }
  @media(min-width: 1200px) and (max-width: 1400px){
-
+    .search_section .search{
+        text-align: start;
+    }
  }
  @media(min-width: 992px) and (max-width: 1200px){
     .hero .title h3 {
@@ -25,6 +27,7 @@
     .search_section .text h2{
         font-size: 25px;
     }
+  
     .search_section .btn {
         padding: 10px 14px;
     }
@@ -368,6 +371,7 @@
     }
     .search_section .search {
         margin-bottom: 20px;
+        text-align: center;
     }
     .search_section .btn {
         padding: 5px 100px;
@@ -695,6 +699,7 @@
     }
     .search_section .search {
         margin-bottom: 20px;
+        text-align: center;
     }
     .search_section .me-2{
         margin-right: 0rem !important;
@@ -1132,6 +1137,7 @@
     }
     .search_section .search {
         margin-bottom: 20px;
+        text-align: center;
     }
     .search_section .text h2{
         font-size: 32px;
