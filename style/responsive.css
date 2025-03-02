@@ -1124,6 +1124,9 @@
       .navbar .navbar-toggler{
         padding: 0;
       }
+    .navbar .responsive_menu i{
+        padding-left: 10px;
+    }
     .hero .title p {
         font-size: 18px;
         text-align: center;
@@ -1134,6 +1137,9 @@
     }
     .connected_us .container .section-title {
         font-size: 28px;
+    }
+    .notice .notice_list p{
+        font-size: 14px;
     }
     .search_section .search {
         margin-bottom: 20px;
